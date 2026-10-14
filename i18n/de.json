@@ -93,7 +93,7 @@
   "pages": {
     "home": {
       "title": "Hood Warfare 2 Guide: Waffen, Karten, Modi, Preis & Spieler",
-      "description": "Inoffizieller Hood Warfare 2 Guide: Steam-Preis und Download, alle Waffen und Killstreaks, 5 Karten, 6 Modi, Einsteigertipps, Patch Notes und Spielerzahlen live.",
+      "description": "Inoffizieller Hood Warfare 2 Guide: Steam-Preis, Download, alle Waffen und Killstreaks, 5 Karten, 6 Modi, Einsteigertipps, Patch Notes und Spielerzahlen.",
       "h1": "Hood Warfare 2",
       "lede": "Der Gang-War-Shooter aus Chicago von Trapstar Games, seit dem 8. Oktober 2026 auf Steam. Alles, was du zum Kaufen, Lernen und Gewinnen brauchst: Waffen, Killstreaks, Karten, Modi, Patch Notes und Live-Spielerzahlen, abgeglichen mit dem Steam-Shop und den Notizen des Entwicklers.",
       "cta_guide": "Zum Einsteiger-Guide",
@@ -176,7 +176,7 @@
     },
     "download": {
       "title": "Hood Warfare 2 Download, Preis & Systemanforderungen (Steam)",
-      "description": "So lädst du Hood Warfare 2 sicher über Steam herunter: aktueller Preis in deiner Währung, Kauf Schritt für Schritt, PC-Systemanforderungen, Speicherplatz, Rückgabe.",
+      "description": "So lädst du Hood Warfare 2 sicher über Steam herunter: Preis in deiner Währung, Kauf Schritt für Schritt, PC-Systemanforderungen, Speicherplatz, Rückgabe.",
       "h1": "Hood Warfare 2 Download und Preis",
       "lede": "Hood Warfare 2 gibt es nur auf Steam für Windows-PC. Diese Seite zeigt den heutigen Preis in deiner Währung, wie du das Spiel kaufst und installierst und ob dein PC es schafft.",
       "price_title": "Preis heute",
@@ -437,7 +437,7 @@
     },
     "news": {
       "title": "Hood Warfare 2 Patch Notes, Updates & News",
-      "description": "Aktuelle Hood Warfare 2 Patch Notes und News: private Matches, Anti-Cheat, Sprachchat, Spawn-Schutz und Launch-Berichte, automatisch von Steam aktualisiert.",
+      "description": "Aktuelle Hood Warfare 2 Patch Notes und News: private Matches, Anti-Cheat, Sprachchat, Spawn-Schutz und Launch-Berichte, automatisch von Steam.",
       "h1": "Hood Warfare 2 News und Patch Notes",
       "lede": "Jede offizielle Ankündigung von Trapstar Games in Kurzform, darunter die Pressestimmen der Launch-Woche. Neue Steam-Beiträge erscheinen hier automatisch innerhalb von 3 Stunden.",
       "official_title": "Offizielle Patch Notes",
@@ -628,7 +628,7 @@
       "turf_war": "Gebietskontrolle",
       "gangbang": "Team-Deathmatch",
       "chaos": "Jeder gegen jeden",
-      "hit_a_lick": "Taschenraub",
+      "hit_a_lick": "Tasche stehlen",
       "destroy_the_block": "Block sprengen",
       "chain_snatch": "Ketten sammeln"
     },
