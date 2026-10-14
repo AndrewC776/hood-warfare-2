@@ -17,6 +17,7 @@ ORIGIN = os.environ.get("SITE_ORIGIN", "https://andrewc776.github.io").rstrip("/
 BASE = os.environ.get("SITE_BASE", "/hood-warfare-2").rstrip("/")
 REPO_URL = "https://github.com/AndrewC776/hood-warfare-2"
 PROMO_URL = "https://wasmarcade.net/"
+GOOGLE_SITE_VERIFICATION = "QnmczWnnjzW6xvx_NHH8V4dY-aLuSktO8bFpSdFUC88"
 
 LANG_ORDER = ["en", "zh", "zh-tw", "ja", "ko", "es", "pt-br", "ru", "de", "fr"]
 PAGES = [

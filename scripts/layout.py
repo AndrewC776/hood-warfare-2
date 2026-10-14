@@ -6,6 +6,7 @@ import json
 
 from site_lib import (
     BASE,
+    GOOGLE_SITE_VERIFICATION,
     ORIGIN,
     PAGES,
     PROMO_URL,
@@ -50,6 +51,7 @@ def head(ctx: dict, page: str, extra_ld: list[str]) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(copy['title'])}</title>
 <meta name="description" content="{esc(copy['description'])}">
+<meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
 <link rel="canonical" href="{esc(canonical)}">
 {alternates}
 <meta property="og:type" content="website">
