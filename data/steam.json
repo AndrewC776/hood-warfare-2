@@ -1,0 +1,208 @@
+{
+ "fetched_at": "2026-10-14T14:16:22+00:00",
+ "players": {
+  "count": 2691,
+  "at": "2026-10-14T14:16:22+00:00"
+ },
+ "reviews": {
+  "total": 1641,
+  "positive": 1314,
+  "negative": 327,
+  "score": 8,
+  "desc": "Very Positive",
+  "at": "2026-10-14T14:16:24+00:00"
+ },
+ "details": {
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/73c77dc5efdbffef90c2d32324d518e68a18fc4b/header.jpg?t=1791686243",
+  "screenshots": [
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/fb3bbe1aaeb95f58d94ce04fc2c846eef14eab0e/ss_fb3bbe1aaeb95f58d94ce04fc2c846eef14eab0e.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/fb3bbe1aaeb95f58d94ce04fc2c846eef14eab0e/ss_fb3bbe1aaeb95f58d94ce04fc2c846eef14eab0e.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/3a2e0482831e516554f61d50ebc8e424f0768aaf/ss_3a2e0482831e516554f61d50ebc8e424f0768aaf.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/3a2e0482831e516554f61d50ebc8e424f0768aaf/ss_3a2e0482831e516554f61d50ebc8e424f0768aaf.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/4452474718a1f14e5a4a90876fd771b3df0bd15a/ss_4452474718a1f14e5a4a90876fd771b3df0bd15a.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/4452474718a1f14e5a4a90876fd771b3df0bd15a/ss_4452474718a1f14e5a4a90876fd771b3df0bd15a.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/7f9821ca3035154413304b45333b080932830164/ss_7f9821ca3035154413304b45333b080932830164.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/7f9821ca3035154413304b45333b080932830164/ss_7f9821ca3035154413304b45333b080932830164.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/43f0b1837500b5200327ce996e266f6cc4d93ae5/ss_43f0b1837500b5200327ce996e266f6cc4d93ae5.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/43f0b1837500b5200327ce996e266f6cc4d93ae5/ss_43f0b1837500b5200327ce996e266f6cc4d93ae5.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/8f6b9d8798f23533564e0e88d008d5ec116f40d1/ss_8f6b9d8798f23533564e0e88d008d5ec116f40d1.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/8f6b9d8798f23533564e0e88d008d5ec116f40d1/ss_8f6b9d8798f23533564e0e88d008d5ec116f40d1.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/be62732cc673afb6b5b5eac617ac07241cb925bc/ss_be62732cc673afb6b5b5eac617ac07241cb925bc.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/be62732cc673afb6b5b5eac617ac07241cb925bc/ss_be62732cc673afb6b5b5eac617ac07241cb925bc.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/b6ed7c29d45420bc36ce6695197e2959bb6def96/ss_b6ed7c29d45420bc36ce6695197e2959bb6def96.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/b6ed7c29d45420bc36ce6695197e2959bb6def96/ss_b6ed7c29d45420bc36ce6695197e2959bb6def96.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/1b52eb437bf8f80816d8e4110efd838548b242ff/ss_1b52eb437bf8f80816d8e4110efd838548b242ff.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/1b52eb437bf8f80816d8e4110efd838548b242ff/ss_1b52eb437bf8f80816d8e4110efd838548b242ff.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/2172e2d1a26b39add6dee87d6ea49e3bb9655883/ss_2172e2d1a26b39add6dee87d6ea49e3bb9655883.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/2172e2d1a26b39add6dee87d6ea49e3bb9655883/ss_2172e2d1a26b39add6dee87d6ea49e3bb9655883.1920x1080.jpg?t=1791686243"
+   },
+   {
+    "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/7e74e69dba180206385a246f55f0682d22abb1bf/ss_7e74e69dba180206385a246f55f0682d22abb1bf.600x338.jpg?t=1791686243",
+    "full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/7e74e69dba180206385a246f55f0682d22abb1bf/ss_7e74e69dba180206385a246f55f0682d22abb1bf.1920x1080.jpg?t=1791686243"
+   }
+  ],
+  "trailer": {
+   "name": "Hood Warfare 2 Official Trailer",
+   "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257422345/ab6e710a9a5fdf6eaff3c2cbda229913c631aab6/movie_600x337.jpg?t=1789586064",
+   "hls": "https://video.akamai.steamstatic.com/store_trailers/5155360/384733343/bdbb4dc29e132f1bf7b0baea9d620d20db178e98/1789079353/hls_264_master.m3u8?t=1789586064"
+  },
+  "release": "Oct 8, 2026"
+ },
+ "prices": {
+  "us": {
+   "currency": "USD",
+   "initial": "$5.99",
+   "final": "$5.39",
+   "discount": 10
+  },
+  "gb": {
+   "currency": "GBP",
+   "initial": "£5.29",
+   "final": "£4.76",
+   "discount": 10
+  },
+  "cn": {
+   "currency": "CNY",
+   "initial": "¥ 26.00",
+   "final": "¥ 23.40",
+   "discount": 10
+  },
+  "tw": {
+   "currency": "TWD",
+   "initial": "NT$ 136",
+   "final": "NT$ 122",
+   "discount": 10
+  },
+  "hk": {
+   "currency": "HKD",
+   "initial": "HK$ 36.00",
+   "final": "HK$ 32.40",
+   "discount": 10
+  },
+  "jp": {
+   "currency": "JPY",
+   "initial": "¥ 790",
+   "final": "¥ 711",
+   "discount": 10
+  },
+  "kr": {
+   "currency": "KRW",
+   "initial": "₩ 6,550",
+   "final": "₩ 5,890",
+   "discount": 10
+  },
+  "es": {
+   "currency": "EUR",
+   "initial": "6,15€",
+   "final": "5,53€",
+   "discount": 10
+  },
+  "mx": {
+   "currency": "MXN",
+   "initial": "Mex$ 87.99",
+   "final": "Mex$ 79.19",
+   "discount": 10
+  },
+  "br": {
+   "currency": "BRL",
+   "initial": "R$ 23,49",
+   "final": "R$ 21,14",
+   "discount": 10
+  },
+  "ru": {
+   "currency": "RUB",
+   "initial": "290 руб.",
+   "final": "261 руб.",
+   "discount": 10
+  },
+  "de": {
+   "currency": "EUR",
+   "initial": "6,15€",
+   "final": "5,53€",
+   "discount": 10
+  },
+  "fr": {
+   "currency": "EUR",
+   "initial": "6,15€",
+   "final": "5,53€",
+   "discount": 10
+  }
+ },
+ "news": [
+  {
+   "gid": "1846651706672850",
+   "title": "Patch 1.0.1.4 - Private Matches , Anti Cheat Kick Fix, Audio Issues Fixed",
+   "date": "2026-10-14T01:03:41+00:00",
+   "url": "https://store.steampowered.com/news/app/5155360/view/1846651706672850",
+   "lines": [
+    "Patch 1.0.1.4",
+    "Private Matches now in game, create a private password only lobby with your friends",
+    "Fixed Issues with Anti Cheat kicking players falsely",
+    "Fixed no audio issue - go to settings and select a audio output device",
+    "Fixed various join game issues and crashes",
+    "Stay tuned as many more updates will be coming. Make sure you on the latest version 1.0.1.4 in the bottom right corner of the menu. You may need to fully exit steam (Top left Steam, Exit Steam) to get the update.",
+    "-Trap$tar"
+   ]
+  },
+  {
+   "gid": "1846018067941553",
+   "title": "1.0.10 - Anti Cheat + Voice Chat + Bug Fixes/Spawn Adjustments",
+   "date": "2026-10-12T16:35:55+00:00",
+   "url": "https://store.steampowered.com/news/app/5155360/view/1846018067941553",
+   "lines": [
+    "HOOD WARFARE 2 - PATCH 1.0.10",
+    "VOICE CHAT ADDED",
+    "You can talk to the whole lobby (or just your team) via voice chat. See settings where you can modify some preferences such as push to talk (on by default by pressing T) or open mic",
+    "ANTI CHEAT ADDED",
+    "Many of yall addressed concerns over cheating so we implemented an anti cheat system to hopefully prevent some of it. If you see a cheater, please use the “Report” feature in the pause menu as well. We review the reports often so if a player gets a lot of reports and we deem them to be cheating they will be banned.",
+    "Spawns adjusted + Spawn Protection",
+    "We addressed many of the spawn concerns that were brought up in this update hopefully making it so yall dont die instantly. Some maps are inherently very small, so the TTK will be short on maps like supermarket, but you should notice its overall better.",
+    "10+ Bug Fixes + Quality of Life Improvements",
+    "Fixed tons of minor/major bug fixes, mostly involving loadout presets not saving, progression not properly showing on end of match sometimes, player selection not saving, ping not showing accurately in join match screen, and many more. Also adjusted drive by locations on some maps. If yall see any more bugs be sure to report them in the discord.",
+    "DEVELOPER NOTE",
+    "Thank yall for all the support on launch weekend of Hood Warfare 2. Been hyped to see all the support on the game and we been working hard on making it better. Stay tuned as this is one of many updates to come."
+   ]
+  },
+  {
+   "gid": "1846018067931241",
+   "title": "HOOD WARFARE 2 OUT NOW ON STEAM",
+   "date": "2026-10-08T19:45:15+00:00",
+   "url": "https://store.steampowered.com/news/app/5155360/view/1846018067931241",
+   "lines": [
+    "After nearly 4 years since Hood Warfare, Hood Warfare 2 is now released.",
+    "Stay tuned for updates as many will be comin soon",
+    "-Trap$tar"
+   ]
+  },
+  {
+   "gid": "1845383656392140",
+   "title": "HOOD WARFARE 2 IS DROPPING THIS THURSDAY 10/8",
+   "date": "2026-10-04T22:09:35+00:00",
+   "url": "https://store.steampowered.com/news/app/5155360/view/1845383656392140",
+   "lines": [
+    "Hop in the next chapter of Hood Warfare this Thursday 10/8",
+    "Wishlist now",
+    "HOOD WARFARE 2"
+   ]
+  }
+ ]
+}

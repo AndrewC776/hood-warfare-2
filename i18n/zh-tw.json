@@ -1,0 +1,650 @@
+{
+  "meta": {
+    "lang": "zh-tw",
+    "hreflang": "zh-Hant",
+    "html_lang": "zh-Hant",
+    "name": "繁體中文",
+    "og_locale": "zh_TW",
+    "path": "zh-tw",
+    "price_cc": [
+      "tw",
+      "hk"
+    ],
+    "date_format": "{y}年{mon}月{d}日",
+    "months": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "thousands_sep": ",",
+    "percent_format": "{n}%"
+  },
+  "site": {
+    "name": "Hood Warfare 2 攻略站",
+    "short": "HW2 攻略",
+    "skip": "跳到主要內容",
+    "menu": "選單",
+    "lang_label": "語言",
+    "nav": {
+      "home": "首頁",
+      "download": "下載與價格",
+      "weapons": "武器",
+      "maps": "地圖",
+      "modes": "模式",
+      "guide": "新手攻略",
+      "news": "新聞與更新",
+      "charts": "在線人數"
+    },
+    "badges": {
+      "official": "官方",
+      "community": "社群",
+      "unverified": "未證實"
+    },
+    "badge_legend": "<strong>官方</strong>＝Steam 商店頁面或開發商的更新公告。<strong>社群</strong>＝由多位玩家或攻略從遊戲內選單讀取。<strong>未證實</strong>＝僅有單一來源回報。",
+    "suggest": "本頁面也提供{lang}版本。",
+    "suggest_go": "切換至{lang}",
+    "suggest_close": "維持目前語言",
+    "buy": "前往 Steam 購買",
+    "updated": "Steam 資料更新時間",
+    "sources": "資料來源",
+    "breadcrumb": "導覽路徑",
+    "on_this_page": "本頁內容",
+    "unknown": "尚未公布",
+    "start": "初始",
+    "level": "等級 {n}",
+    "players_now": "人正在遊玩",
+    "footer_about": "獨立的非官方玩家攻略站，與 Trapstar Games 及 Valve 無任何關聯。遊戲名稱、標誌與截圖皆屬於各自的所有者；截圖取自 Steam 官方商店頁面。",
+    "footer_data": "價格、評價、在線人數與更新公告每 3 小時從 Steam Web API 重新整理。",
+    "footer_repo": "GitHub 原始碼",
+    "footer_report": "回報錯誤",
+    "not_found_title": "找不到頁面",
+    "not_found_body": "此頁面不存在。請使用上方選單，或回到首頁。",
+    "not_found_home": "回到首頁"
+  },
+  "classes": {
+    "ar": "突擊步槍",
+    "smg": "衝鋒槍",
+    "sniper": "狙擊槍",
+    "shotgun": "霰彈槍",
+    "dmr": "射手步槍",
+    "pistol": "手槍",
+    "melee": "近戰武器",
+    "lethal": "致命裝備"
+  },
+  "slots": {
+    "secondary": "副武器",
+    "melee": "近戰武器",
+    "lethal": "致命裝備"
+  },
+  "ranges": {
+    "mixed": "混合距離",
+    "mid": "中距離",
+    "close-mid": "中近距離",
+    "close": "近距離戰"
+  },
+  "pages": {
+    "home": {
+      "title": "Hood Warfare 2 攻略：武器、地圖、價格、在線人數",
+      "description": "Hood Warfare 2 非官方攻略：Steam 價格與下載、全武器與連殺獎勵、5 張地圖、6 種模式、新手教學、更新與在線人數。",
+      "h1": "Hood Warfare 2",
+      "lede": "Trapstar Games 開發的芝加哥幫派戰爭射擊遊戲，2026 年 10 月 8 日登陸 Steam。從購買、上手到取勝所需的資訊都在這裡：武器、連殺獎勵、地圖、模式、更新公告與即時在線人數，皆對照 Steam 商店頁面與開發商公告查證。",
+      "cta_guide": "閱讀新手攻略",
+      "reviews_label": "好評（共 {total} 則 Steam 評價）",
+      "release_label": "於 Steam 發售",
+      "streaks_title": "連殺獎勵",
+      "streaks_note": "共有四種連殺獎勵，分別在連續擊殺 3、5、7、9 人時獲得。",
+      "streak_kills": "{n} 連殺",
+      "what_title": "Hood Warfare 2 是什麼遊戲？",
+      "what": [
+        "Hood Warfare 2 是一款低價位的 Windows PC 多人第一人稱射擊遊戲。兩個敵對幫派在芝加哥街頭爭奪地盤，共有六種模式與五張地圖。本作使用 Unreal Engine 5 開發，是 2023 年以底特律為背景的《Hood Warfare》續作。",
+        "玩過 Call of Duty 的人會很快上手：可搭配配件、特性與裝備的自訂配裝、Modern Warfare 風格的 HUD，以及連殺獎勵。遊戲走黑色、粗俗的幽默路線。Snitch 連殺獎勵的運作類似 UAV，而 Drive By 連殺獎勵則會派出一輛載滿幫派兄弟、邊放音樂邊開火的車子駛過街區。",
+        "《Rainbow Six Siege》職業選手 Merc 發布了一段 Drive By 連殺獎勵的影片，讓本作在上市第一個週末爆紅，到 10 月 12 日觀看次數已突破 500 萬。同時在線玩家從上市頭幾天的數千人，在 10 月 13 日增加到超過 15,000 人。"
+      ],
+      "facts_title": "快速資料",
+      "facts": {
+        "release": "發售日期",
+        "developer": "開發商與發行商",
+        "platform": "平台",
+        "platform_value": "Windows PC（Steam）。沒有主機或手機版本。",
+        "price": "價格",
+        "engine": "引擎",
+        "content": "內容",
+        "content_value": "6 種模式、5 張地圖、線上 PvP 與機器人對戰",
+        "anti_cheat": "反作弊",
+        "languages": "語言",
+        "languages_value": "僅有英文",
+        "version": "最新更新"
+      },
+      "sections_title": "攻略索引",
+      "sections": {
+        "download": "以你的貨幣顯示的價格、購買與安裝方式、配備需求，以及應避開的下載網站。",
+        "weapons": "7 把主武器的解鎖等級、副武器、配件、特性、連殺獎勵與三套新手配裝。",
+        "maps": "Downtown、Suburbs、The Trenches、Chicago Mall 與 Supermarket：地圖配置、交戰距離與技巧。",
+        "modes": "Turf War、GangBang、Chaos、Hit A Lick、Destroy The Block 與 Chain Snatch，並附上對應的 Call of Duty 模式。",
+        "guide": "第一個小時的玩法、三條成長路線、操作、設定，以及常見問題的解決方法。",
+        "news": "所有官方更新公告的摘要，以及上市報導。",
+        "charts": "Steam 即時在線人數、追蹤到的高峰與評價分數，每 3 小時更新。"
+      },
+      "news_title": "最新更新",
+      "news_all": "所有新聞與更新公告",
+      "media_title": "預告片與截圖",
+      "trailer_play": "播放官方預告片",
+      "trailer_note": "影片由 Steam 的伺服器串流播放。",
+      "faq_title": "常見問題",
+      "faq": [
+        {
+          "q": "Hood Warfare 2 是免費遊戲嗎？",
+          "a": "不是。在 Steam 上售價 {price}。其他貨幣的價格請見<a href=\"{download}\">下載頁面</a>。"
+        },
+        {
+          "q": "Hood Warfare 2 有 PS5、Xbox 或手機版嗎？",
+          "a": "沒有。截至 {today}，本作僅在 Steam 上架 Windows PC 版。你看到宣傳的主機與手機「版本」都不是 Trapstar Games 推出的。"
+        },
+        {
+          "q": "Hood Warfare 2 什麼時候發售？",
+          "a": "2026 年 10 月 8 日，距離第一代 Hood Warfare 將近四年。"
+        },
+        {
+          "q": "Hood Warfare 2 是誰開發的？",
+          "a": "Trapstar Games，一間自行開發並發行本作的小型獨立工作室。"
+        },
+        {
+          "q": "Hood Warfare 2 可以單人遊玩嗎？",
+          "a": "可以。本作沒有劇情戰役，但所有模式都能對上機器人，而且自 1.0.1.4 補丁起，可以建立設有密碼的私人對戰，邀請朋友一起玩。"
+        },
+        {
+          "q": "有多少人在玩 Hood Warfare 2？",
+          "a": "最新的 Steam 在線人數請見<a href=\"{charts}\">在線人數頁面</a>。目前回報的最高紀錄是 2026 年 10 月 13 日的 15,058 位同時在線玩家。"
+        },
+        {
+          "q": "Hood Warfare 2 支援手把嗎？",
+          "a": "支援。Steam 標示完整手把支援，不過玩家回報輔助瞄準很弱，所以使用滑鼠與鍵盤會更容易上手。"
+        },
+        {
+          "q": "Hood Warfare 2 只是 Call of Duty 的複製品嗎？",
+          "a": "它確實大量借鑑 Call of Duty：自訂配裝、連殺獎勵，以及對應 Domination、Kill Confirmed 與 Search and Destroy 的模式。評論者喜歡它的槍戰手感與幽默，認為以這個價位很划算；最常見的抱怨是出生點被秒殺，以及內容偏少。"
+        }
+      ]
+    },
+    "download": {
+      "title": "Hood Warfare 2 下載、價格與配備需求",
+      "description": "如何在 Steam 安全下載 Hood Warfare 2：以你的貨幣顯示的價格、購買步驟、PC 配備需求、硬碟空間與退款規則。",
+      "h1": "Hood Warfare 2 下載與價格",
+      "lede": "Hood Warfare 2 僅在 Steam 上架 Windows PC 版。本頁顯示今日以你的貨幣計價的價格、購買與安裝方式，以及你的電腦是否跑得動。",
+      "price_title": "今日價格",
+      "price_regular": "原價",
+      "price_now": "目前價格",
+      "price_discount": "{n}% 上市折扣",
+      "price_note": "資料取自 Steam 商店；實際價格依你的 Steam 帳號地區而定。",
+      "steps_title": "購買與安裝方式",
+      "steps": [
+        "從 <a href=\"https://store.steampowered.com/about/\" rel=\"noopener\">store.steampowered.com</a> 安裝 Steam 用戶端，並登入或建立帳號。",
+        "開啟 <a href=\"{steam}\" rel=\"noopener\">Hood Warfare 2 商店頁面</a>，或在 Steam 搜尋「Hood Warfare 2」。",
+        "選擇<em>加入購物車</em>，再以 Steam 在你所在地區支援的任一付款方式付款。",
+        "從遊戲庫安裝。請至少預留 25 GB 可用空間，建議使用 SSD。",
+        "啟動遊戲。遊戲使用 Easy Anti-Cheat；若 Windows 要求授權，請允許，否則無法進行線上遊玩。",
+        "查看主選單右下角的版本號碼。若版本低於 {version}，請完全結束 Steam（Steam 選單中的「結束」）後重新開啟，以強制更新。"
+      ],
+      "safety_title": "請只從 Steam 下載",
+      "safety": [
+        "本作沒有官方免費下載、APK、PS5、Xbox 或手機版本。提供「Hood Warfare 2 免費下載」或破解版的網站都不是官方來源，且常夾帶惡意程式。",
+        "非官方版本收不到更新，而線上遊戲必須透過 Steam，並搭配 Easy Anti-Cheat 與核心層級反作弊機制。"
+      ],
+      "req_title": "PC 配備需求",
+      "req_min": "最低需求",
+      "req_rec": "建議需求",
+      "req_rows": {
+        "os": "作業系統",
+        "cpu": "處理器",
+        "ram": "記憶體",
+        "gpu": "顯示卡",
+        "directx": "DirectX",
+        "storage": "儲存空間",
+        "network": "網路"
+      },
+      "req_note": "取自 Steam 官方商店頁面。不支援 Mac。",
+      "platforms_title": "平台與功能",
+      "platforms": [
+        {
+          "k": "Windows PC（Steam）",
+          "v": "支援",
+          "conf": "official"
+        },
+        {
+          "k": "PS5、Xbox、Switch、手機",
+          "v": "不提供。僅在 Steam 商店上架。",
+          "conf": "official"
+        },
+        {
+          "k": "macOS",
+          "v": "不支援（僅有 Windows 配備需求）",
+          "conf": "official"
+        },
+        {
+          "k": "Steam Deck 與 Linux",
+          "v": "尚未確認。核心層級反作弊常會擋住 Proton。",
+          "conf": "unverified"
+        },
+        {
+          "k": "手把",
+          "v": "完整手把支援",
+          "conf": "official"
+        },
+        {
+          "k": "Steam 家庭共享",
+          "v": "支援",
+          "conf": "official"
+        },
+        {
+          "k": "語音聊天",
+          "v": "於 1.0.10 補丁加入（預設按 T 說話）",
+          "conf": "official"
+        },
+        {
+          "k": "私人對戰",
+          "v": "於 1.0.1.4 補丁加入（可設密碼的房間）",
+          "conf": "official"
+        }
+      ],
+      "regional_title": "各地區購買提醒",
+      "regional": [
+        "Steam 依帳號地區以新台幣或港幣計價，上方價格表每 3 小時自動更新、已含目前折扣。",
+        "遊戲只有英文（介面、語音、字幕皆無中文）。",
+        "Steam 標準退款政策：購買 14 天內且遊玩不足 2 小時可申請退款。"
+      ],
+      "faq_title": "下載常見問題",
+      "faq": [
+        {
+          "q": "Hood Warfare 2 要下載多大？",
+          "a": "Steam 要求至少 25 GB 可用空間，建議預留 30 GB。"
+        },
+        {
+          "q": "我的電腦跑得動 Hood Warfare 2 嗎？",
+          "a": "至少需要 6 核心 CPU（例如 Ryzen 5 3600 或 Core i5-9600K）、8 GB 記憶體，以及支援 DirectX 12、GTX 1660 等級的顯示卡。若要開高畫質，建議使用 RTX 3060 Ti 或 RTX 4060，並搭配 16 GB 記憶體。"
+        },
+        {
+          "q": "為什麼遊戲顯示我的版本不對？",
+          "a": "Steam 有時會等到重新啟動才進行更新。請從左上角選單完全結束 Steam，重新開啟後等待更新完成。"
+        }
+      ]
+    },
+    "weapons": {
+      "title": "Hood Warfare 2 武器、連殺與配裝攻略",
+      "description": "Hood Warfare 2 全武器解鎖等級：Choppa、Uzi、AKM、.308 Sniper 等，另附配件、特性、連殺獎勵與配裝。",
+      "h1": "Hood Warfare 2 武器、連殺獎勵與配裝",
+      "lede": "七把主武器、一把副武器、一把刀與致命裝備，全都靠升級解鎖。Trapstar Games 並未公布傷害或射速數據，因此以下建議來自實際遊玩，而非數據表。",
+      "primary_title": "主武器",
+      "th_weapon": "武器",
+      "th_class": "類型",
+      "th_unlock": "解鎖",
+      "th_status": "狀態",
+      "th_notes": "適合用途",
+      "th_slot": "欄位",
+      "unlock_note": "解鎖等級取自上市首週遊戲內的配裝選單，後續更新可能調整。",
+      "other_title": "副武器、近戰與致命裝備",
+      "attach_title": "配件",
+      "attach": [
+        "每把槍都有專屬的武器挑戰，完成後即可解鎖該槍的配件。Steam 商店頁面提到瞄具、彈匣、握把與消音器，以及其他配件。",
+        "目前玩家見過的配件包括反射式瞄具、全像瞄具、迷你紅點、垂直握把、消音器與手電筒。有些配件的挑戰條件很特別，例如無槍托選項需要完成不開鏡的擊殺。",
+        "每個配件都用來解決一個問題：看得清楚的瞄具、壓不住的後座力、戰鬥中途彈藥耗盡，或是出現在小地圖上。新配件請先在熟悉的地圖上測試。"
+      ],
+      "passives_title": "特性（Perks）",
+      "streaks_title": "連殺獎勵",
+      "th_kills": "擊殺數",
+      "th_effect": "效果",
+      "streak_counter": "如何反制",
+      "loadouts_title": "三套新手配裝",
+      "loadouts_note": "以下是我們針對上市版本的建議，並非官方配裝。",
+      "loadouts": [
+        {
+          "name": "全能型",
+          "kit": "Choppa 或 AKM，迷你紅點、垂直握把，解鎖後加裝消音器。Glock。手榴彈。彈藥特性。",
+          "why": "適用於所有地圖與模式。彈藥特性很重要，因為你很難撿到敵人的槍。"
+        },
+        {
+          "name": "近距離戰",
+          "kit": "Uzi（等級 5）或 Mac-10（等級 28），反射式瞄具，解鎖後加裝加長彈匣。Glock。手榴彈。速度特性。",
+          "why": "適用於 Chicago Mall 與 Supermarket，這兩張地圖的交戰從幾公尺內就開始，擊殺時間很短。"
+        },
+        {
+          "name": "長距離街道",
+          "kit": ".308 Sniper（等級 10）或 Oldhead（等級 20）。Glock 作為備用。Claymore 用來掩護側翼。HP 特性。",
+          "why": "適用於 Downtown 的長街道，以及在 Turf War 與 Destroy The Block 中從遠處守住目標。"
+        }
+      ],
+      "skins_title": "迷彩與外觀",
+      "skins": [
+        "使用某把槍擊殺可解鎖該槍的外觀。這條進度與配件分開計算，因此拿到新迷彩不代表武器挑戰已經完成。",
+        "官方截圖中出現了金色塗裝；玩家回報每把武器都需要大量擊殺才能取得。"
+      ]
+    },
+    "maps": {
+      "title": "Hood Warfare 2 地圖攻略：5 張地圖與技巧",
+      "description": "Hood Warfare 2 五張地圖解說：Downtown、Suburbs、The Trenches 等的交戰距離、配裝與模式技巧。",
+      "h1": "Hood Warfare 2 地圖",
+      "lede": "上市時共有五張地圖，場景都在芝加哥及其周邊。其中四張在 Steam 商店頁面上有列名；Supermarket 則由開發商在 1.0.10 補丁中確認。每張地圖都可用於全部六種模式。",
+      "best_for": "推薦武器",
+      "tips": "技巧",
+      "spawn_title": "出生點與 Drive By",
+      "spawn": [
+        "1.0.10 補丁重新調整了出生點並加入出生保護，起因是上市首週玩家抱怨一出生就被秒殺。開發商提醒，像 Supermarket 這類極小的地圖，擊殺時間仍會很短。",
+        "同一個補丁在部分地圖上調整了 Drive By 連殺獎勵的行進路線，因此舊影片中的路徑可能不同。"
+      ],
+      "routes_title": "每張地圖都要熟悉三條路線",
+      "routes": "針對每張地圖與模式，要知道通往目標的進攻路線、進攻路線被盯防時的施壓路線，以及得分後撤離用的撤退路線。機器人對戰讓你可以在不被擊殺的情況下走一遍。",
+      "unconfirmed": "有些玩家提到一張類似 Call of Duty 的 Nuketown 的小地圖。開發商尚未確認它的名稱，因此這裡暫時沒有列出。"
+    },
+    "modes": {
+      "title": "Hood Warfare 2 模式攻略：6 種遊戲模式",
+      "description": "Hood Warfare 2 六種模式的規則、對應的 Call of Duty 模式與致勝技巧，含 Turf War、GangBang、Chaos 等。",
+      "h1": "Hood Warfare 2 遊戲模式",
+      "lede": "六種模式，都是 Call of Duty 經典模式的改名版本。只有 GangBang 與 Chaos 純靠擊殺取勝；其餘四種模式中，擊殺只是通往目標的敲門磚。",
+      "th_mode": "模式",
+      "th_cod": "對應的 Call of Duty 模式",
+      "th_lives": "生命",
+      "respawn": "可重生",
+      "one_life": "每回合一條命",
+      "rules": "規則",
+      "tips": "致勝技巧",
+      "private_title": "私人對戰與機器人",
+      "private": [
+        "1.0.1.4 補丁加入了私人對戰：建立僅限密碼進入的房間，並把密碼分享給朋友。",
+        "你也可以在任何地圖上以任何模式對戰機器人。機器人對戰的經驗值與挑戰進度可能與線上對戰不同；要刷之前請先查看賽後畫面。"
+      ]
+    },
+    "guide": {
+      "title": "Hood Warfare 2 新手攻略：操作與成長",
+      "description": "剛入坑 Hood Warfare 2？第一小時規劃、等級與武器挑戰、外觀解鎖、操作、語音聊天，以及沒有聲音與更新問題的解法。",
+      "h1": "Hood Warfare 2 新手攻略",
+      "lede": "第一個小時該做什麼、解鎖機制如何運作，以及最能減少挫折的設定與問題排除方法。",
+      "first_hour_title": "第一個小時",
+      "first_hour": [
+        {
+          "step": "用初始的 Choppa 玩 GangBang 或 Chaos。",
+          "why": "可重生的模式能累積最多練習與經驗值。不要每次死亡後就換槍；你需要和同一把武器相處一段時間，才能掌握後座力並推進它的挑戰。"
+        },
+        {
+          "step": "用同一把槍玩一場目標模式，例如 Turf War。",
+          "why": "你會看到戰鬥如何圍繞據點展開，並學會地圖上的主要路線。"
+        },
+        {
+          "step": "在最讓你吃盡苦頭的地圖上打一場機器人對戰。",
+          "why": "走一遍進攻、施壓與撤退路線，不會因此被懲罰。"
+        },
+        {
+          "step": "打開配裝，查看三條成長路線。",
+          "why": "到這時你應該已在等級 5 解鎖 Uzi 與新配件。再設定第二套近距離戰的配裝。"
+        }
+      ],
+      "progression_title": "成長機制",
+      "progression": [
+        {
+          "k": "玩家等級",
+          "v": "對戰經驗值會提升你的等級，進而解鎖新槍與裝備。玩家回報大多數武器在前一兩個小時內就能解鎖。"
+        },
+        {
+          "k": "武器挑戰",
+          "v": "每把槍都有各自的挑戰，用來解鎖它的配件。"
+        },
+        {
+          "k": "外觀",
+          "v": "使用某把槍擊殺可解鎖其迷彩，最高到金色。外觀進度與配件分開計算。"
+        }
+      ],
+      "controls_title": "操作與設定",
+      "controls": [
+        "語音聊天：預設按 <kbd>T</kbd> 說話。可在設定中改為開放麥克風，或僅限隊內聊天。",
+        "第三人稱視角：用來在不暴露自己的情況下探頭看轉角，需要精準瞄準時再切回第一人稱。",
+        "移動：有戰術衝刺、跳躍與探頭。玩家回報沒有滑行取消，也沒有摔落傷害。",
+        "手把：輔助瞄準很弱，請花點時間調整靈敏度，或改用滑鼠與鍵盤。",
+        "可從暫停選單檢舉作弊者。開發商表示，被多次檢舉的玩家會接受審查並遭到封號。"
+      ],
+      "tips_title": "致勝技巧",
+      "tips": [
+        "儘早選擇彈藥特性。你的彈藥很快耗盡，又很難撿到敵人的槍。",
+        "規劃好你的連殺獎勵：3 連殺的 Snitch 會在小地圖上顯示整支敵隊，因此在衝向 5、7、9 連殺之前先使用它。",
+        "出生保護現在會在重生後短暫保護你。趁這個時機移動，而不是站著不動。",
+        "在 Chain Snatch 中，要預想敵人倒下的位置，好讓你或隊友能撿起鍊子。擊殺後沒撿到鍊子就不得分。",
+        "在 Destroy The Block 中，每回合你只有一條命。不要在這裡測試新配裝。"
+      ],
+      "fixes_title": "常見問題的解決方法",
+      "fixes": [
+        {
+          "k": "沒有聲音",
+          "v": "開啟設定並手動選擇音訊輸出裝置（已於 1.0.1.4 補丁修正）。"
+        },
+        {
+          "k": "被反作弊踢出",
+          "v": "誤踢問題已在 1.0.1.4 修正。請更新遊戲；若仍然發生，請在 Steam 驗證檔案完整性（內容 → 已安裝檔案 → 驗證檔案完整性）。"
+        },
+        {
+          "k": "無法加入對戰",
+          "v": "確認你使用的是選單右下角顯示的最新版本。完全結束 Steam 後重新開啟，以強制更新。"
+        },
+        {
+          "k": "配裝預設沒有儲存",
+          "v": "已在 1.0.10 修正，同時修正了對戰後成長進度沒有顯示，以及延遲（ping）數值錯誤的問題。"
+        }
+      ]
+    },
+    "news": {
+      "title": "Hood Warfare 2 新聞、更新與補丁公告",
+      "description": "Hood Warfare 2 最新更新公告與新聞：私人對戰、反作弊、語音聊天、出生保護與上市報導，自動同步 Steam。",
+      "h1": "Hood Warfare 2 新聞與更新公告",
+      "lede": "Trapstar Games 的每一則官方公告都有摘要，下方附上上市首週的媒體報導。Steam 的新貼文會在 3 小時內自動出現在這裡。",
+      "official_title": "官方更新公告",
+      "read_original": "前往 Steam 閱讀原文",
+      "untranslated": "尚未撰寫摘要；以下為官方貼文的開頭幾行：",
+      "press_title": "媒體報導",
+      "viral_title": "爆紅經過",
+      "viral": [
+        "10 月 11 日，《Rainbow Six Siege》職業選手 Merc 發布了一段 Drive By 連殺獎勵的影片，影片中幫派兄弟一邊放音樂一邊從車窗向外開火。隔天觀看次數就突破 500 萬。",
+        "Dexerto 與 Insider Gaming 在 10 月 12 日報導了這款遊戲，兩者都指出它與 Call of Duty 的相似度極高：連殺獎勵、自訂配裝、Modern Warfare 風格的 HUD，以及改名後的模式。"
+      ],
+      "roadmap_title": "接下來",
+      "roadmap": "Trapstar Games 尚未公布更新規劃。到目前為止，每則更新公告的結尾都承諾會有更多更新，錯誤回報則透過官方 Discord 提交。"
+    },
+    "charts": {
+      "title": "Hood Warfare 2 Steam 在線人數與高峰",
+      "description": "Hood Warfare 2 的 Steam 即時在線人數、歷史高峰（回報 15,058 人）、追蹤紀錄與評價分數，每 3 小時更新。",
+      "h1": "Hood Warfare 2 在線人數",
+      "lede": "Steam 上的同時在線玩家數，每 3 小時從 Steam Web API 更新，並列出其他來源回報的最高數字。",
+      "current": "正在遊玩",
+      "at": "截至 {time} UTC",
+      "peak_24h": "過去 24 小時高峰（已追蹤）",
+      "peak_7d": "過去 7 天高峰（已追蹤）",
+      "peak_tracked": "我們記錄到的最高值",
+      "reviews": "Steam 評價",
+      "reviews_value": "{total} 則評價中 {pct} 好評",
+      "chart_title": "在線人數變化",
+      "chart_empty": "追蹤自 2026 年 10 月 14 日開始。每 3 小時新增一筆數據，圖表會逐漸完整。",
+      "chart_aria": "Hood Warfare 2 在 Steam 上同時在線玩家數的折線圖",
+      "reported_title": "回報的高峰",
+      "th_date": "日期",
+      "th_players": "玩家數",
+      "th_source": "來源",
+      "reported_note": {
+        "launch_weekend": "上市週末高峰",
+        "daily_peak": "單日高峰"
+      },
+      "daily_title": "我們追蹤到的單日高峰",
+      "method_title": "數據的運作方式",
+      "method": [
+        "「正在遊玩」是 Steam 回報的、取樣當下正在遊戲中的人數。每 3 小時取樣一次可能漏掉短暫的高峰，因此我們追蹤到的高峰會低於 SteamDB 逐分鐘記錄的高峰。",
+        "Hood Warfare 2 的高峰出現在美國晚間。美國白天的數字可能只有晚間高峰的五分之一甚至更低：10 月 14 日早晨為 2,611 人，前一晚則是 15,058 人。",
+        "作為對照，第一代 Hood Warfare 回報的歷史高峰為 68 位玩家。"
+      ],
+      "more": "逐分鐘歷史紀錄",
+      "more_links": "完整解析度的歷史紀錄請見 SteamDB 與 SteamCharts。"
+    }
+  },
+  "weapons": {
+    "choppa": "AK 風格的初始步槍。各距離都可靠；請優先升級。",
+    "uzi": "衝鋒槍，適合 Chicago Mall 與 Supermarket 的近距離交戰。",
+    "akm": "第二把突擊步槍；打中距離走廊的表現比 Choppa 更好。",
+    "sniper308": "狙擊槍。玩家認為遊戲中的狙擊是一大亮點；在 Downtown 表現強勢。",
+    "pump": "泵動式霰彈槍，適合守轉角、樓梯間，以及在 Hit A Lick 中守住放袋子的房間。",
+    "oldhead": "介於 AKM 與狙擊槍之間的射手步槍，適合從遠處守住據點。",
+    "mac10": "最後解鎖的槍。專為積極的近距離打法打造的衝鋒槍。",
+    "glock": "初始副武器。主武器彈藥耗盡時就換成它。",
+    "nine": "某篇攻略提到的第二把手槍；尚未確認。",
+    "blade": "近戰刀具，適合近距離安靜擊殺。",
+    "grenade": "初始致命裝備。可清空據點與轉角。",
+    "claymore": "感應地雷。可掩護側翼或炸彈點。"
+  },
+  "passives": {
+    "hp": "額外生命值。屬於初始配裝的一部分。",
+    "speed": "移動更快，類似興奮劑。搭配衝鋒槍很好用。",
+    "utility": "效果尚無文件說明。",
+    "ammo": "攜帶更多彈藥。建議儘早選擇，因為你很難撿到敵人的槍。"
+  },
+  "killstreaks": {
+    "snitch": {
+      "effect": "在你隊伍的小地圖上顯示所有敵人，類似 UAV。",
+      "counter": "啟用期間保持移動，避免走固定路線。"
+    },
+    "homies": {
+      "effect": "召喚由三名持 Glock 的 AI 幫派兄弟組成的小隊。每人只有一條命。",
+      "counter": "他們很容易倒下；趁他們繞到側面之前先解決。"
+    },
+    "bomber": {
+      "effect": "一名帶著 C4 的幫派兄弟衝向敵人並引爆。",
+      "counter": "在他靠近你之前先擊倒，且不要聚在一起。"
+    },
+    "driveby": {
+      "effect": "一輛載滿幫派兄弟的車沿街區行駛，從車窗向外開火，持續約 45 秒。",
+      "counter": "躲進室內。車子可以被擊毀。"
+    }
+  },
+  "maps": {
+    "downtown": {
+      "desc": "街道兩旁是密集的建築外牆，各種距離都會交戰。",
+      "best": "AKM, Oldhead, .308 Sniper",
+      "tips": "用步槍從掩體後掌控視線，避免獨自橫越開闊的街道。"
+    },
+    "suburbs": {
+      "desc": "住宅街區，滿是房屋與巷弄。以中距離交戰為主。",
+      "best": "Choppa, AKM",
+      "tips": "逐間清理房屋，並留意庭院；第三人稱視角有助於越過圍欄觀察。"
+    },
+    "trenches": {
+      "desc": "狹窄、如壕溝般的通道，把雙方隊伍擠壓成近距離與中距離的推進。",
+      "best": "Choppa, Pump Shotty, Uzi",
+      "tips": "一起推進。在通道入口放一顆手榴彈或 Claymore，就能擋下整支隊伍。"
+    },
+    "mall": {
+      "desc": "室內購物中心，走廊與店面交錯，適合近距離戰鬥。",
+      "best": "Uzi, Mac-10, Pump Shotty",
+      "tips": "貼著店面行動，並預瞄走廊轉角；速度特性在這裡很划算。"
+    },
+    "supermarket": {
+      "desc": "最小的地圖之一：超市的貨架走道，擊殺時間極短，開發商也在 1.0.10 補丁中提到這點。",
+      "best": "Uzi, Mac-10, Pump Shotty",
+      "tips": "預瞄走道盡頭，並預期會互換擊殺；這是完成武器挑戰最快的地圖。"
+    }
+  },
+  "modes": {
+    "turf_war": {
+      "rules": "各隊靠佔領地盤得分。",
+      "tips": "每場交戰都要判斷它是在奪取、守住還是奪回地盤。穩穩守住兩個據點，勝過三個都在爭奪中。"
+    },
+    "gangbang": {
+      "rules": "團隊死鬥：擊殺數最多的幫派獲勝。",
+      "tips": "靠近隊友並互換擊殺。最適合刷武器挑戰的模式。"
+    },
+    "chaos": {
+      "rules": "沒有隊伍的個人混戰；擊殺數最多的玩家獲勝。",
+      "tips": "待在戰鬥的外圍，收割贏下戰鬥的人。"
+    },
+    "hit_a_lick": {
+      "rules": "偷走敵方的袋子帶回自己的基地，同時守住自己的袋子。",
+      "tips": "護送持袋者：先查看前方轉角、承受第一波接觸，並掩護追兵。"
+    },
+    "destroy_the_block": {
+      "rules": "一方幫派安置炸彈，另一方負責防守或拆除。每回合只有一條命。",
+      "tips": "資訊與存活比早期擊殺更重要。進攻前先使用 Snitch。"
+    },
+    "chain_snatch": {
+      "rules": "擊殺會掉落鍊子。收集敵人的鍊子得分，並撿走隊友的鍊子，讓對手拿不到分數。",
+      "tips": "只有撿起鍊子才算擊殺得分；在你收得到鍊子的地方交戰。"
+    }
+  },
+  "news": {
+    "1846651706672850": {
+      "title": "1.0.1.4 補丁：私人對戰、反作弊誤踢修正、音訊修正",
+      "points": [
+        "私人對戰：為朋友建立僅限密碼進入的房間。",
+        "修正反作弊誤踢玩家的問題。",
+        "修正沒有聲音的問題：請在設定中選擇輸出裝置。",
+        "修正多項加入對戰的問題與當機。請確認選單顯示的版本為 1.0.1.4；若更新沒有下載，請完全結束 Steam。"
+      ]
+    },
+    "1846018067941553": {
+      "title": "1.0.10 補丁：反作弊、語音聊天、出生點調整",
+      "points": [
+        "全房間或僅限隊內的語音聊天；預設按 T 說話，可選擇開放麥克風。",
+        "加入反作弊，並在暫停選單新增檢舉選項。",
+        "重新調整出生點並加入出生保護。像 Supermarket 這類小地圖的擊殺時間仍會很短。",
+        "10 多項修正：配裝預設無法儲存、對戰後成長進度消失、玩家選擇沒有儲存、延遲數值錯誤。部分地圖調整了 Drive By 路線。"
+      ]
+    },
+    "1846018067931241": {
+      "title": "Hood Warfare 2 現已在 Steam 發售",
+      "points": [
+        "距離第一代 Hood Warfare 將近四年後推出，並承諾不久後會有更多更新。"
+      ]
+    },
+    "1845383656392140": {
+      "title": "發售日公布：10 月 8 日星期四",
+      "points": [
+        "Trapstar Games 確認 10 月 8 日上市，並開放願望清單。"
+      ]
+    }
+  },
+  "press": {
+    "dexerto": "報導了爆紅的 Merc 影片、六種改名的 Call of Duty 模式，以及「多半好評」的早期評價。",
+    "insider-gaming": "報導上市週末高峰為 4,491 位玩家、當時好評率為 74%，相較之下第一代的歷史高峰為 68 人。"
+  },
+  "sources": {
+    "steam-store": "Steam 商店頁面",
+    "steam-news": "官方更新公告",
+    "dexerto": "Dexerto",
+    "insider-gaming": "Insider Gaming",
+    "hw2org": "hoodwarfare2.org 玩家攻略",
+    "hw2org-steamdb": "hoodwarfare2.org（引用 SteamDB）",
+    "tpose": "Tpose Gaming",
+    "gamerblurb": "GamerBlurb"
+  },
+  "gloss": {
+    "modes": {
+      "turf_war": "地盤爭奪戰",
+      "gangbang": "團隊死鬥",
+      "chaos": "個人混戰",
+      "hit_a_lick": "奪袋行動",
+      "destroy_the_block": "炸毀街區",
+      "chain_snatch": "奪鍊戰"
+    },
+    "maps": {
+      "downtown": "市中心",
+      "suburbs": "郊區",
+      "trenches": "戰壕",
+      "mall": "芝加哥購物中心",
+      "supermarket": "超市"
+    },
+    "killstreaks": {
+      "snitch": "告密者",
+      "homies": "幫派兄弟",
+      "bomber": "自爆炸彈客",
+      "driveby": "飛車掃射"
+    }
+  }
+}

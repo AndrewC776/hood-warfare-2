@@ -1,0 +1,115 @@
+{
+  "app_id": 5155360,
+  "name": "Hood Warfare 2",
+  "developer": "Trapstar Games",
+  "publisher": "Trapstar Games",
+  "release_date": "2026-10-08",
+  "engine": "Unreal Engine 5",
+  "steam_url": "https://store.steampowered.com/app/5155360/Hood_Warfare_2/",
+  "steam_news_url": "https://store.steampowered.com/news/app/5155360",
+  "steamdb_url": "https://steamdb.info/app/5155360/charts/",
+  "steamcharts_url": "https://steamcharts.com/app/5155360",
+  "predecessor": {
+    "name": "Hood Warfare",
+    "app_id": 2274510,
+    "release_year": 2023,
+    "setting": "Detroit",
+    "reported_peak": 68,
+    "reported_peak_source": "insider-gaming"
+  },
+  "facts": {
+    "modes": 6,
+    "maps": 5,
+    "disk_gb_min": 25,
+    "disk_gb_rec": 30,
+    "languages": "English",
+    "anti_cheat": "Easy Anti-Cheat + kernel-level anti-cheat",
+    "latest_version": "1.0.1.4"
+  },
+  "weapons": {
+    "primary": [
+      {"id": "choppa", "name": "Choppa", "class": "ar", "unlock": 0, "conf": "community"},
+      {"id": "uzi", "name": "Uzi", "class": "smg", "unlock": 5, "conf": "community"},
+      {"id": "akm", "name": "AKM", "class": "ar", "unlock": 8, "conf": "community"},
+      {"id": "sniper308", "name": ".308 Sniper", "class": "sniper", "unlock": 10, "conf": "community"},
+      {"id": "pump", "name": "Pump Shotty", "class": "shotgun", "unlock": 15, "conf": "community"},
+      {"id": "oldhead", "name": "Oldhead", "class": "dmr", "unlock": 20, "conf": "community"},
+      {"id": "mac10", "name": "Mac-10", "class": "smg", "unlock": 28, "conf": "community"}
+    ],
+    "other": [
+      {"id": "glock", "name": "Glock", "class": "pistol", "slot": "secondary", "unlock": 0, "conf": "community"},
+      {"id": "nine", "name": "The Nine", "class": "pistol", "slot": "secondary", "unlock": null, "conf": "unverified"},
+      {"id": "blade", "name": "Blade", "class": "melee", "slot": "melee", "unlock": 0, "conf": "community"},
+      {"id": "grenade", "name": "Grenade", "class": "lethal", "slot": "lethal", "unlock": 0, "conf": "community"},
+      {"id": "claymore", "name": "Claymore", "class": "lethal", "slot": "lethal", "unlock": null, "conf": "community"}
+    ]
+  },
+  "attachment_categories": ["sights", "magazines", "grips", "suppressors"],
+  "attachments_seen": ["Reflex sight", "Holo sight", "Mini red dot", "Vertical grip", "Suppressor", "Flashlight", "No stock"],
+  "passives": [
+    {"id": "hp", "name": "HP", "conf": "community"},
+    {"id": "speed", "name": "Speed", "conf": "community"},
+    {"id": "utility", "name": "Utility", "conf": "unverified"},
+    {"id": "ammo", "name": "Ammo", "conf": "community"}
+  ],
+  "killstreaks": [
+    {"id": "snitch", "name": "Snitch", "kills": 3, "conf": "community"},
+    {"id": "homies", "name": "Homies", "kills": 5, "conf": "community"},
+    {"id": "bomber", "name": "Suicide Bomber", "kills": 7, "conf": "community"},
+    {"id": "driveby", "name": "Drive By", "kills": 9, "conf": "community"}
+  ],
+  "maps": [
+    {"id": "downtown", "name": "Downtown", "conf": "official", "range": "mixed"},
+    {"id": "suburbs", "name": "Suburbs", "conf": "official", "range": "mid"},
+    {"id": "trenches", "name": "The Trenches", "conf": "official", "range": "close-mid"},
+    {"id": "mall", "name": "Chicago Mall", "conf": "official", "range": "close"},
+    {"id": "supermarket", "name": "Supermarket", "conf": "official", "range": "close"}
+  ],
+  "modes": [
+    {"id": "turf_war", "name": "Turf War", "cod": "Domination", "respawn": true, "conf": "official"},
+    {"id": "gangbang", "name": "GangBang", "cod": "Team Deathmatch", "respawn": true, "conf": "official"},
+    {"id": "chaos", "name": "Chaos", "cod": "Free-for-all", "respawn": true, "conf": "official"},
+    {"id": "hit_a_lick", "name": "Hit A Lick", "cod": "Capture the Flag", "respawn": true, "conf": "official"},
+    {"id": "destroy_the_block", "name": "Destroy The Block", "cod": "Search and Destroy", "respawn": false, "conf": "official"},
+    {"id": "chain_snatch", "name": "Chain Snatch", "cod": "Kill Confirmed", "respawn": true, "conf": "official"}
+  ],
+  "sysreq": {
+    "min": {
+      "os": "Windows 10 64-bit (1909+)",
+      "cpu": "Intel Core i5-9600K / AMD Ryzen 5 3600",
+      "ram": "8 GB",
+      "gpu": "NVIDIA GeForce GTX 1660 / AMD Radeon RX 5600 XT 6 GB",
+      "directx": "DirectX 12",
+      "storage": "25 GB",
+      "network": "Broadband"
+    },
+    "rec": {
+      "os": "Windows 11 64-bit",
+      "cpu": "Intel Core i5-12600K / AMD Ryzen 5 7600",
+      "ram": "16 GB",
+      "gpu": "NVIDIA GeForce RTX 3060 Ti / RTX 4060 8 GB",
+      "directx": "DirectX 12",
+      "storage": "30 GB",
+      "network": "Broadband"
+    }
+  },
+  "reported_peaks": [
+    {"date": "2026-10-12", "value": 4491, "source": "insider-gaming", "note": "launch_weekend"},
+    {"date": "2026-10-12", "value": 11742, "source": "hw2org-steamdb", "note": "daily_peak"},
+    {"date": "2026-10-13", "value": 15058, "source": "hw2org", "note": "daily_peak"}
+  ],
+  "press": [
+    {"id": "dexerto", "publisher": "Dexerto", "title": "Hood Warfare 2 Steam game going viral with Call of Duty comparisons", "url": "https://www.dexerto.com/gaming/hood-warfare-2-steam-game-going-viral-with-call-of-duty-comparisons-3418013/", "date": "2026-10-12"},
+    {"id": "insider-gaming", "publisher": "Insider Gaming", "title": "Hood Warfare 2 goes viral as a Call of Duty clone", "url": "https://insider-gaming.com/hood-warfare-2-viral-call-of-duty-clone/", "date": "2026-10-12"}
+  ],
+  "sources": [
+    {"id": "steam-store", "publisher": "Steam", "title": "Hood Warfare 2 store page", "url": "https://store.steampowered.com/app/5155360/Hood_Warfare_2/", "date": "2026-10-14"},
+    {"id": "steam-news", "publisher": "Trapstar Games", "title": "Official announcements and patch notes", "url": "https://store.steampowered.com/news/app/5155360", "date": "2026-10-14"},
+    {"id": "dexerto", "publisher": "Dexerto", "title": "Hood Warfare 2 Steam game going viral with Call of Duty comparisons", "url": "https://www.dexerto.com/gaming/hood-warfare-2-steam-game-going-viral-with-call-of-duty-comparisons-3418013/", "date": "2026-10-12"},
+    {"id": "insider-gaming", "publisher": "Insider Gaming", "title": "Hood Warfare 2 viral Call of Duty clone", "url": "https://insider-gaming.com/hood-warfare-2-viral-call-of-duty-clone/", "date": "2026-10-12"},
+    {"id": "hw2org", "publisher": "hoodwarfare2.org", "title": "Guns, killstreaks and player count (fan guide)", "url": "https://hoodwarfare2.org/guns/", "date": "2026-10-14"},
+    {"id": "hw2org-steamdb", "publisher": "hoodwarfare2.org / SteamDB", "title": "Player count page", "url": "https://hoodwarfare2.org/player-count/", "date": "2026-10-14"},
+    {"id": "tpose", "publisher": "Tpose Gaming", "title": "How to Play Hood Warfare 2", "url": "https://tposegaming.com/how-to-play-hood-warfare-2/", "date": "2026-10-13"},
+    {"id": "gamerblurb", "publisher": "GamerBlurb", "title": "Hood Warfare 2 Tips and Tricks", "url": "https://gamerblurb.com/guides/hood-warfare-2-tips-and-tricks", "date": "2026-10-11"}
+  ]
+}

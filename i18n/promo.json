@@ -1,0 +1,62 @@
+{
+  "en": {
+    "title": "Free games while it downloads",
+    "body": "Hood Warfare 2 is a 25 GB download. Wasm Arcade lets you play the official Minecraft Classic and more than 1,000 other games right in your browser, with nothing to install.",
+    "cta": "Play free on Wasm Arcade",
+    "footer": "More free browser games: Wasm Arcade"
+  },
+  "zh": {
+    "title": "下载等待时，先玩点免费小游戏",
+    "body": "Hood Warfare 2 需要下载 25 GB。Wasm Arcade 可以直接在浏览器里玩官方 Minecraft Classic 以及 1,000 多款游戏，无需安装。",
+    "cta": "去 Wasm Arcade 免费玩",
+    "footer": "更多免费网页游戏：Wasm Arcade"
+  },
+  "zh-tw": {
+    "title": "下載等待時，先玩免費小遊戲",
+    "body": "Hood Warfare 2 需要下載 25 GB。Wasm Arcade 可以直接在瀏覽器裡玩官方 Minecraft Classic 以及 1,000 多款遊戲，不用安裝。",
+    "cta": "到 Wasm Arcade 免費玩",
+    "footer": "更多免費網頁遊戲：Wasm Arcade"
+  },
+  "ja": {
+    "title": "ダウンロード中に無料ゲームを",
+    "body": "Hood Warfare 2 のダウンロードは 25 GB。Wasm Arcade なら公式の Minecraft Classic をはじめ 1,000 本以上のゲームを、インストールなしでブラウザから遊べます。",
+    "cta": "Wasm Arcade で無料で遊ぶ",
+    "footer": "無料ブラウザゲーム：Wasm Arcade"
+  },
+  "ko": {
+    "title": "다운로드하는 동안 무료 게임 한 판",
+    "body": "Hood Warfare 2는 25 GB를 내려받아야 합니다. Wasm Arcade에서는 공식 Minecraft Classic을 비롯해 1,000개가 넘는 게임을 설치 없이 브라우저에서 바로 즐길 수 있습니다.",
+    "cta": "Wasm Arcade에서 무료로 플레이",
+    "footer": "무료 브라우저 게임: Wasm Arcade"
+  },
+  "es": {
+    "title": "Juegos gratis mientras se descarga",
+    "body": "Hood Warfare 2 pesa 25 GB. En Wasm Arcade puedes jugar al Minecraft Classic oficial y a más de 1.000 juegos más desde el navegador, sin instalar nada.",
+    "cta": "Jugar gratis en Wasm Arcade",
+    "footer": "Más juegos gratis en el navegador: Wasm Arcade"
+  },
+  "pt-br": {
+    "title": "Jogos grátis enquanto baixa",
+    "body": "Hood Warfare 2 tem 25 GB de download. No Wasm Arcade você joga o Minecraft Classic oficial e mais de 1.000 outros jogos direto no navegador, sem instalar nada.",
+    "cta": "Jogar grátis no Wasm Arcade",
+    "footer": "Mais jogos grátis no navegador: Wasm Arcade"
+  },
+  "ru": {
+    "title": "Бесплатные игры, пока идёт загрузка",
+    "body": "Hood Warfare 2 весит 25 ГБ. На Wasm Arcade можно играть в официальную Minecraft Classic и ещё более 1000 игр прямо в браузере, ничего не устанавливая.",
+    "cta": "Играть бесплатно на Wasm Arcade",
+    "footer": "Бесплатные браузерные игры: Wasm Arcade"
+  },
+  "de": {
+    "title": "Gratis spielen, während es lädt",
+    "body": "Hood Warfare 2 ist 25 GB groß. Auf Wasm Arcade spielst du das offizielle Minecraft Classic und über 1.000 weitere Spiele direkt im Browser, ohne Installation.",
+    "cta": "Gratis auf Wasm Arcade spielen",
+    "footer": "Mehr kostenlose Browserspiele: Wasm Arcade"
+  },
+  "fr": {
+    "title": "Des jeux gratuits pendant le téléchargement",
+    "body": "Hood Warfare 2 pèse 25 Go. Sur Wasm Arcade, tu peux jouer au Minecraft Classic officiel et à plus de 1 000 autres jeux directement dans ton navigateur, sans rien installer.",
+    "cta": "Jouer gratuitement sur Wasm Arcade",
+    "footer": "Plus de jeux gratuits dans le navigateur : Wasm Arcade"
+  }
+}

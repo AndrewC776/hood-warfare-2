@@ -1,0 +1,649 @@
+{
+  "meta": {
+    "lang": "pt-br",
+    "hreflang": "pt-BR",
+    "html_lang": "pt-BR",
+    "name": "Português (Brasil)",
+    "og_locale": "pt_BR",
+    "path": "pt-br",
+    "price_cc": [
+      "br"
+    ],
+    "date_format": "{d} de {mon} de {y}",
+    "months": [
+      "jan.",
+      "fev.",
+      "mar.",
+      "abr.",
+      "mai.",
+      "jun.",
+      "jul.",
+      "ago.",
+      "set.",
+      "out.",
+      "nov.",
+      "dez."
+    ],
+    "thousands_sep": ".",
+    "percent_format": "{n}%"
+  },
+  "site": {
+    "name": "Guia de Hood Warfare 2",
+    "short": "Guia HW2",
+    "skip": "Pular para o conteúdo",
+    "menu": "Menu",
+    "lang_label": "Idioma",
+    "nav": {
+      "home": "Início",
+      "download": "Baixar e preço",
+      "weapons": "Armas",
+      "maps": "Mapas",
+      "modes": "Modos",
+      "guide": "Guia para iniciantes",
+      "news": "Notícias e atualizações",
+      "charts": "Número de jogadores"
+    },
+    "badges": {
+      "official": "Oficial",
+      "community": "Comunidade",
+      "unverified": "Não verificado"
+    },
+    "badge_legend": "<strong>Oficial</strong> = página da loja da Steam ou notas de atualização do desenvolvedor. <strong>Comunidade</strong> = lido no menu do jogo por vários jogadores ou guias. <strong>Não verificado</strong> = informado por uma única fonte.",
+    "suggest": "Esta página também está disponível em {lang}.",
+    "suggest_go": "Mudar para {lang}",
+    "suggest_close": "Manter este idioma",
+    "buy": "Comprar na Steam",
+    "updated": "Dados da Steam atualizados",
+    "sources": "Fontes",
+    "breadcrumb": "Trilha de navegação",
+    "on_this_page": "Nesta página",
+    "unknown": "Não divulgado",
+    "start": "Inicial",
+    "level": "Nível {n}",
+    "players_now": "jogando agora",
+    "footer_about": "Um guia de fãs independente e não oficial. Sem relação com a Trapstar Games nem com a Valve. Os nomes do jogo, os logotipos e as capturas de tela pertencem aos seus donos; as capturas são carregadas da página oficial da loja da Steam.",
+    "footer_data": "Preços, avaliações, número de jogadores e notas de atualização são renovados pela Steam Web API a cada 3 horas.",
+    "footer_repo": "Código-fonte no GitHub",
+    "footer_report": "Relatar um erro",
+    "not_found_title": "Página não encontrada",
+    "not_found_body": "Essa página não existe. Use o menu acima ou vá para a página inicial.",
+    "not_found_home": "Ir para a página inicial"
+  },
+  "classes": {
+    "ar": "Fuzil de assalto",
+    "smg": "Submetralhadora",
+    "sniper": "Rifle de sniper",
+    "shotgun": "Escopeta",
+    "dmr": "Fuzil de precisão",
+    "pistol": "Pistola",
+    "melee": "Corpo a corpo",
+    "lethal": "Letal"
+  },
+  "slots": {
+    "secondary": "Secundária",
+    "melee": "Corpo a corpo",
+    "lethal": "Letal"
+  },
+  "ranges": {
+    "mixed": "Alcance misto",
+    "mid": "Média distância",
+    "close-mid": "Curta a média distância",
+    "close": "Combate próximo"
+  },
+  "pages": {
+    "home": {
+      "title": "Hood Warfare 2: guia, armas, mapas, modos, preço e jogadores",
+      "description": "Guia não oficial de Hood Warfare 2: preço e download na Steam, todas as armas e killstreaks, 5 mapas, 6 modos, dicas, atualizações e jogadores ao vivo.",
+      "h1": "Hood Warfare 2",
+      "lede": "O shooter de guerra de gangues de Chicago da Trapstar Games, na Steam desde 8 de outubro de 2026. Tudo o que você precisa para comprar, aprender e vencer: armas, killstreaks, mapas, modos, notas de atualização e número de jogadores ao vivo, conferidos com a loja da Steam e com as notas do próprio desenvolvedor.",
+      "cta_guide": "Leia o guia para iniciantes",
+      "reviews_label": "de {total} avaliações da Steam são positivas",
+      "release_label": "lançado na Steam",
+      "streaks_title": "Killstreaks",
+      "streaks_note": "Quatro killstreaks, conquistadas com 3, 5, 7 e 9 abates seguidos.",
+      "streak_kills": "{n} abates",
+      "what_title": "O que é Hood Warfare 2?",
+      "what": [
+        "Hood Warfare 2 é um jogo de tiro em primeira pessoa multiplayer, de preço baixo, para PC com Windows. Duas gangues rivais disputam as ruas de Chicago em seis modos e cinco mapas. Foi feito na Unreal Engine 5 e é a sequência de Hood Warfare (2023), que se passava em Detroit.",
+        "Se você já jogou Call of Duty, vai se sentir em casa: classes personalizadas com acessórios, vantagens e equipamentos, uma HUD no estilo Modern Warfare e killstreaks. O jogo aposta num humor sombrio e grosseiro. A killstreak Snitch funciona como um UAV, e a Drive By manda um carro cheio de parças pelo quarteirão com a música a todo volume.",
+        "O jogo viralizou no primeiro fim de semana, depois que Merc, pro de Rainbow Six Siege, postou um clipe da killstreak Drive By que já tinha passado de cinco milhões de visualizações em 12 de outubro. O número de jogadores simultâneos subiu de alguns milhares nos primeiros dias para mais de 15.000 em 13 de outubro."
+      ],
+      "facts_title": "Dados rápidos",
+      "facts": {
+        "release": "Data de lançamento",
+        "developer": "Desenvolvedora e publicadora",
+        "platform": "Plataforma",
+        "platform_value": "PC com Windows (Steam). Sem versão para console nem para celular.",
+        "price": "Preço",
+        "engine": "Engine",
+        "content": "Conteúdo",
+        "content_value": "6 modos, 5 mapas, PvP online e partidas contra bots",
+        "anti_cheat": "Anticheat",
+        "languages": "Idiomas",
+        "languages_value": "Apenas em inglês",
+        "version": "Último patch"
+      },
+      "sections_title": "Guias",
+      "sections": {
+        "download": "Preço na sua moeda, como comprar e instalar, requisitos de sistema e quais sites de download evitar.",
+        "weapons": "As 7 armas primárias com níveis de desbloqueio, secundárias, acessórios, passivas, killstreaks e três classes iniciais.",
+        "maps": "Downtown, Suburbs, The Trenches, Chicago Mall e Supermarket: layout, distância de combate e dicas.",
+        "modes": "Turf War, GangBang, Chaos, Hit A Lick, Destroy The Block e Chain Snatch, com seus equivalentes em Call of Duty.",
+        "guide": "Sua primeira hora, as três trilhas de progressão, controles, configurações e soluções para problemas comuns.",
+        "news": "Todas as notas de atualização oficiais resumidas, mais a cobertura da imprensa no lançamento.",
+        "charts": "Número de jogadores da Steam ao vivo, picos registrados e nota das avaliações, atualizados a cada 3 horas."
+      },
+      "news_title": "Últimas atualizações",
+      "news_all": "Todas as notícias e notas de atualização",
+      "media_title": "Trailer e capturas de tela",
+      "trailer_play": "Assistir ao trailer oficial",
+      "trailer_note": "O vídeo é transmitido dos servidores da Steam.",
+      "faq_title": "Perguntas frequentes",
+      "faq": [
+        {
+          "q": "Hood Warfare 2 é grátis?",
+          "a": "Não. Custa {price} na Steam. Os preços em outras moedas estão na <a href=\"{download}\">página de download</a>."
+        },
+        {
+          "q": "Hood Warfare 2 tem versão para PS5, Xbox ou celular?",
+          "a": "Não. Em {today}, ele só é vendido na Steam para PC com Windows. As \"versões\" para console e celular que você vê anunciadas não são da Trapstar Games."
+        },
+        {
+          "q": "Quando Hood Warfare 2 foi lançado?",
+          "a": "Em 8 de outubro de 2026, quase quatro anos depois do primeiro Hood Warfare."
+        },
+        {
+          "q": "Quem faz Hood Warfare 2?",
+          "a": "A Trapstar Games, um pequeno estúdio independente que desenvolve e publica o jogo por conta própria."
+        },
+        {
+          "q": "Dá para jogar Hood Warfare 2 sozinho?",
+          "a": "Dá. Não há campanha, mas você pode jogar qualquer modo contra bots e, desde o patch 1.0.1.4, criar partidas privadas protegidas por senha para jogar com amigos."
+        },
+        {
+          "q": "Quantas pessoas jogam Hood Warfare 2?",
+          "a": "O número mais recente da Steam está na <a href=\"{charts}\">página do número de jogadores</a>. O maior valor registrado até agora é de 15.058 jogadores simultâneos em 13 de outubro de 2026."
+        },
+        {
+          "q": "Hood Warfare 2 tem suporte a controle?",
+          "a": "Tem. A Steam lista suporte completo a controle, embora os jogadores relatem que a assistência de mira é muito fraca, então o mouse e teclado perdoa mais."
+        },
+        {
+          "q": "Hood Warfare 2 é só um clone de Call of Duty?",
+          "a": "Ele pega muita coisa emprestada de Call of Duty: classes personalizadas, killstreaks e modos que espelham Domination, Kill Confirmed e Search and Destroy. Quem avaliou o jogo gosta da jogabilidade de tiro e do humor pelo preço; as reclamações mais comuns são morrer logo ao renascer e a pouca quantidade de conteúdo."
+        }
+      ]
+    },
+    "download": {
+      "title": "Hood Warfare 2: baixar, preço na Steam e requisitos",
+      "description": "Como baixar Hood Warfare 2 com segurança na Steam: preço atual na sua moeda, compra passo a passo, requisitos do PC, espaço em disco e regras de reembolso.",
+      "h1": "Download e preço de Hood Warfare 2",
+      "lede": "Hood Warfare 2 é vendido apenas na Steam para PC com Windows. Esta página mostra o preço de hoje na sua moeda, como comprar e instalar e se o seu PC consegue rodá-lo.",
+      "price_title": "Preço hoje",
+      "price_regular": "Preço normal",
+      "price_now": "Preço atual",
+      "price_discount": "{n}% de desconto de lançamento",
+      "price_note": "Obtido da loja da Steam; o preço final depende da região da sua conta Steam.",
+      "steps_title": "Como comprar e instalar",
+      "steps": [
+        "Instale o cliente da Steam em <a href=\"https://store.steampowered.com/about/\" rel=\"noopener\">store.steampowered.com</a> e entre ou crie uma conta.",
+        "Abra a <a href=\"{steam}\" rel=\"noopener\">página de Hood Warfare 2 na loja</a> ou pesquise por \"Hood Warfare 2\" na Steam.",
+        "Selecione <em>Adicionar ao carrinho</em> e pague com qualquer forma de pagamento que a Steam aceite na sua região.",
+        "Instale pela sua Biblioteca. Reserve pelo menos 25 GB de espaço livre; recomenda-se um SSD.",
+        "Abra o jogo. Ele roda com o Easy Anti-Cheat; se o Windows pedir permissão, autorize, ou o jogo online não vai funcionar.",
+        "Confira o número da versão no canto inferior direito do menu principal. Se for anterior a {version}, feche a Steam por completo (menu Steam, depois Sair) e abra de novo para forçar a atualização."
+      ],
+      "safety_title": "Baixe somente pela Steam",
+      "safety": [
+        "Não existe download gratuito oficial, nem APK, nem versão para PS5, Xbox ou celular. Sites que oferecem \"Hood Warfare 2 download grátis\" ou uma cópia pirata não são oficiais e muitas vezes trazem malware.",
+        "Cópias não oficiais não recebem atualizações, e o jogo online roda pela Steam com o Easy Anti-Cheat e um anticheat em nível de kernel."
+      ],
+      "req_title": "Requisitos de sistema para PC",
+      "req_min": "Mínimos",
+      "req_rec": "Recomendados",
+      "req_rows": {
+        "os": "Sistema operacional",
+        "cpu": "Processador",
+        "ram": "Memória",
+        "gpu": "Placa de vídeo",
+        "directx": "DirectX",
+        "storage": "Armazenamento",
+        "network": "Rede"
+      },
+      "req_note": "Da página oficial da loja da Steam. O Mac não é compatível.",
+      "platforms_title": "Plataformas e recursos",
+      "platforms": [
+        {
+          "k": "PC com Windows (Steam)",
+          "v": "Compatível",
+          "conf": "official"
+        },
+        {
+          "k": "PS5, Xbox, Switch, celular",
+          "v": "Indisponível. A Steam é a única loja com página do jogo.",
+          "conf": "official"
+        },
+        {
+          "k": "macOS",
+          "v": "Não compatível (requisitos apenas para Windows)",
+          "conf": "official"
+        },
+        {
+          "k": "Steam Deck e Linux",
+          "v": "Não confirmado. O anticheat em nível de kernel costuma bloquear o Proton.",
+          "conf": "unverified"
+        },
+        {
+          "k": "Controle",
+          "v": "Suporte completo a controle",
+          "conf": "official"
+        },
+        {
+          "k": "Steam Family Sharing",
+          "v": "Compatível",
+          "conf": "official"
+        },
+        {
+          "k": "Chat de voz",
+          "v": "Adicionado no patch 1.0.10 (apertar para falar na tecla T por padrão)",
+          "conf": "official"
+        },
+        {
+          "k": "Partidas privadas",
+          "v": "Adicionado no patch 1.0.1.4 (salas protegidas por senha)",
+          "conf": "official"
+        }
+      ],
+      "regional_title": "Dicas para a sua região",
+      "regional": [
+        "A Steam cobra na moeda local da sua conta (reais). A tabela de preços acima é atualizada pela Steam a cada 3 horas, então já inclui qualquer desconto em vigor.",
+        "O jogo está apenas em inglês: não há menus, vozes nem legendas em português.",
+        "Vale a política de reembolso padrão da Steam: peça o reembolso em até 14 dias após a compra e com menos de 2 horas jogadas."
+      ],
+      "faq_title": "Perguntas sobre o download",
+      "faq": [
+        {
+          "q": "Qual é o tamanho do download de Hood Warfare 2?",
+          "a": "A Steam pede no mínimo 25 GB de espaço livre e recomenda 30 GB."
+        },
+        {
+          "q": "Meu PC roda Hood Warfare 2?",
+          "a": "Você precisa de, no mínimo, uma CPU de 6 núcleos, como um Ryzen 5 3600 ou um Core i5-9600K, 8 GB de RAM e uma placa de vídeo da faixa da GTX 1660 com DirectX 12. Para configurações altas, mire numa RTX 3060 Ti ou RTX 4060 e 16 GB de RAM."
+        },
+        {
+          "q": "Por que o jogo diz que estou na versão errada?",
+          "a": "Às vezes a Steam segura as atualizações até ser reiniciada. Saia da Steam por completo pelo menu no canto superior esquerdo, abra de novo e deixe a atualização terminar."
+        }
+      ]
+    },
+    "weapons": {
+      "title": "Hood Warfare 2: armas, killstreaks e melhores classes",
+      "description": "Todas as armas de Hood Warfare 2 com nível de desbloqueio: Choppa, Uzi, AKM, .308 Sniper, Pump Shotty, Oldhead, Mac-10. Acessórios, passivas e killstreaks.",
+      "h1": "Armas, killstreaks e classes de Hood Warfare 2",
+      "lede": "Sete armas primárias, uma secundária, uma arma branca e equipamento letal, tudo desbloqueado ao subir de nível. A Trapstar Games não publicou estatísticas de dano nem de cadência de tiro, então os conselhos abaixo vêm de jogar, não de planilhas.",
+      "primary_title": "Armas primárias",
+      "th_weapon": "Arma",
+      "th_class": "Tipo",
+      "th_unlock": "Desbloqueio",
+      "th_status": "Status",
+      "th_notes": "Para que serve",
+      "th_slot": "Slot",
+      "unlock_note": "Os níveis de desbloqueio foram lidos no menu de classes do jogo na semana de lançamento e podem mudar em patches futuros.",
+      "other_title": "Secundária, corpo a corpo e letal",
+      "attach_title": "Acessórios",
+      "attach": [
+        "Cada arma tem seus próprios desafios; ao completá-los, você desbloqueia acessórios para ela. A loja da Steam cita miras, pentes, empunhaduras e supressores, além de outros acessórios.",
+        "Entre os acessórios que os jogadores já viram estão a mira reflex, a mira holográfica, o mini red dot, a empunhadura vertical, o supressor e a lanterna. Alguns exigem desafios incomuns: a opção sem coronha, por exemplo, pede abates sem usar a mira.",
+        "Escolha cada acessório para resolver um problema: uma mira pela qual você enxergue bem, um recuo que você não consegue segurar, ficar sem munição no meio do combate ou aparecer no minimapa. Teste as peças novas num mapa que você conhece."
+      ],
+      "passives_title": "Passivas (vantagens)",
+      "streaks_title": "Killstreaks",
+      "th_kills": "Abates",
+      "th_effect": "Efeito",
+      "streak_counter": "Como neutralizar",
+      "loadouts_title": "Três classes iniciais",
+      "loadouts_note": "São sugestões nossas para a versão de lançamento, não classes oficiais.",
+      "loadouts": [
+        {
+          "name": "Versátil",
+          "kit": "Choppa ou AKM, mini red dot, empunhadura vertical, supressor quando desbloquear. Glock. Granada. Passiva Ammo.",
+          "why": "Funciona em todos os mapas e em todos os modos. Munição importa porque não é fácil pegar as armas dos inimigos."
+        },
+        {
+          "name": "Combate próximo",
+          "kit": "Uzi (nível 5) ou Mac-10 (nível 28), mira reflex, pente estendido quando desbloquear. Glock. Granada. Passiva Speed.",
+          "why": "Para Chicago Mall e Supermarket, onde os combates começam a poucos metros e o tempo para matar é curto."
+        },
+        {
+          "name": "Longa distância",
+          "kit": ".308 Sniper (nível 10) ou Oldhead (nível 20). Glock de reserva. Claymore para cobrir seu flanco. Passiva HP.",
+          "why": "Para as ruas longas de Downtown e para segurar objetivos à distância em Turf War e Destroy The Block."
+        }
+      ],
+      "skins_title": "Camuflagens e skins",
+      "skins": [
+        "Abates com uma arma desbloqueiam as skins dela. Essa trilha é separada dos acessórios, então uma camuflagem nova não significa que você terminou os desafios da arma.",
+        "Acabamentos dourados aparecem nas capturas de tela oficiais; os jogadores relatam que exigem uma longa maratona de abates com cada arma."
+      ]
+    },
+    "maps": {
+      "title": "Hood Warfare 2: mapas, os 5 de Chicago e dicas",
+      "description": "Todos os mapas de Hood Warfare 2: Downtown, Suburbs, The Trenches, Chicago Mall e Supermarket, com distâncias de combate, melhores armas e dicas por modo.",
+      "h1": "Mapas de Hood Warfare 2",
+      "lede": "Cinco mapas no lançamento, todos em Chicago e arredores. Quatro aparecem na página da loja da Steam; o Supermarket foi confirmado pelo desenvolvedor no patch 1.0.10. Todos os mapas são usados nos seis modos.",
+      "best_for": "Melhores armas",
+      "tips": "Dicas",
+      "spawn_title": "Spawns e Drive By",
+      "spawn": [
+        "O patch 1.0.10 refez os pontos de spawn e adicionou proteção de spawn depois das reclamações da semana de lançamento sobre morrer na hora. O desenvolvedor avisou que mapas muito pequenos, como o Supermarket, ainda terão um tempo para matar curto.",
+        "O mesmo patch mudou a rota da killstreak Drive By em alguns mapas, então clipes antigos podem mostrar um trajeto diferente."
+      ],
+      "routes_title": "Aprenda três rotas em cada mapa",
+      "routes": "Para cada mapa e modo, conheça uma rota de aproximação ao objetivo, uma rota de pressão para quando essa estiver vigiada e uma rota de saída para ir embora depois de pontuar. As partidas contra bots deixam você percorrê-las sem levar tiro.",
+      "unconfirmed": "Alguns jogadores mencionam um mapa pequeno que lembra a Nuketown de Call of Duty. O desenvolvedor não confirmou o nome, então ele ainda não está listado aqui."
+    },
+    "modes": {
+      "title": "Hood Warfare 2: modos de jogo, os 6 explicados",
+      "description": "Modos de Hood Warfare 2: Turf War, GangBang, Chaos, Hit A Lick, Destroy The Block e Chain Snatch, com regras, equivalentes em Call of Duty e dicas.",
+      "h1": "Modos de jogo de Hood Warfare 2",
+      "lede": "Seis modos, versões renomeadas de clássicos de Call of Duty. Só GangBang e Chaos se vencem apenas com abates; nos outros quatro, um abate só abre a porta para o objetivo.",
+      "th_mode": "Modo",
+      "th_cod": "Equivalente em Call of Duty",
+      "th_lives": "Vidas",
+      "respawn": "Com respawn",
+      "one_life": "Uma vida por rodada",
+      "rules": "Regras",
+      "tips": "Como vencer",
+      "private_title": "Partidas privadas e bots",
+      "private": [
+        "O patch 1.0.1.4 adicionou as partidas privadas: crie uma sala protegida só por senha e compartilhe a senha com seus amigos.",
+        "Você também pode jogar qualquer modo em qualquer mapa contra bots. As partidas com bots podem não dar a mesma XP nem o mesmo progresso de desafios que as partidas online; confira a tela pós-partida antes de farmar nelas."
+      ]
+    },
+    "guide": {
+      "title": "Hood Warfare 2: guia para iniciantes, controles e progressão",
+      "description": "Novo em Hood Warfare 2? Plano para a primeira hora, desbloqueios, controles, chat de voz, configurações e soluções para falta de áudio e de atualização.",
+      "h1": "Guia para iniciantes de Hood Warfare 2",
+      "lede": "O que fazer na sua primeira hora, como funcionam os desbloqueios e as configurações e soluções que mais poupam frustração.",
+      "first_hour_title": "Sua primeira hora",
+      "first_hour": [
+        {
+          "step": "Jogue GangBang ou Chaos com a Choppa inicial.",
+          "why": "Modos com respawn dão mais prática e mais XP. Não troque de arma a cada morte; você precisa de tempo com uma só para aprender o recuo dela e avançar nos desafios."
+        },
+        {
+          "step": "Jogue um modo de objetivo, como Turf War, com a mesma arma.",
+          "why": "Você vai ver como os combates fluem em torno das bandeiras e aprender as principais rotas de um mapa."
+        },
+        {
+          "step": "Faça uma partida contra bots no mapa que mais deu trabalho.",
+          "why": "Percorra as rotas de aproximação, pressão e saída sem ser punido por isso."
+        },
+        {
+          "step": "Abra sua classe e confira as três trilhas de progressão.",
+          "why": "A essa altura você já terá desbloqueado a Uzi no nível 5 e novos acessórios. Monte uma segunda classe para combate próximo."
+        }
+      ],
+      "progression_title": "Como funciona a progressão",
+      "progression": [
+        {
+          "k": "Nível do jogador",
+          "v": "A XP das partidas aumenta seu nível, que desbloqueia novas armas e equipamentos. Os jogadores relatam que a maioria das armas é liberada na primeira hora ou nas duas primeiras."
+        },
+        {
+          "k": "Desafios de arma",
+          "v": "Cada arma tem seus próprios desafios, que desbloqueiam os acessórios dela."
+        },
+        {
+          "k": "Skins",
+          "v": "Abates com uma arma desbloqueiam as camuflagens dela, até a dourada. O progresso das skins é contado à parte dos acessórios."
+        }
+      ],
+      "controls_title": "Controles e configurações",
+      "controls": [
+        "Chat de voz: apertar para falar fica na tecla <kbd>T</kbd> por padrão. Mude para microfone aberto, ou para chat só da equipe, em Settings (Configurações).",
+        "Visão em terceira pessoa: use para espiar os cantos sem se expor e volte à primeira pessoa para mirar com precisão.",
+        "Movimentação: há corrida tática, pulo e inclinação lateral. Os jogadores relatam que não há slide-cancel nem dano de queda.",
+        "Controle: a assistência de mira é fraca, então reserve um tempo para ajustar a sensibilidade ou tente mouse e teclado.",
+        "Denuncie um trapaceiro pelo menu de pausa. O desenvolvedor diz que jogadores com muitas denúncias são analisados e banidos."
+      ],
+      "tips_title": "Dicas que ganham combates",
+      "tips": [
+        "Pegue a passiva Ammo cedo. A munição acaba rápido e não é fácil pegar as armas dos inimigos.",
+        "Organize suas killstreaks: a Snitch, com 3 abates, mostra a equipe inimiga inteira no minimapa, então use-a antes de buscar as de 5, 7 e 9.",
+        "A proteção de spawn agora cobre você por pouco tempo depois de renascer. Use esse momento para se mover, não para ficar parado.",
+        "Em Chain Snatch, planeje onde o inimigo vai cair para que você ou um colega de equipe possa pegar a corrente. Um abate sem pegar a corrente não pontua nada.",
+        "Em Destroy The Block você tem uma vida por rodada. Não teste classes novas lá."
+      ],
+      "fixes_title": "Soluções para problemas comuns",
+      "fixes": [
+        {
+          "k": "Sem som",
+          "v": "Abra Settings (Configurações) e escolha manualmente seu dispositivo de saída de áudio (corrigido no patch 1.0.1.4)."
+        },
+        {
+          "k": "Expulso pelo anticheat",
+          "v": "As expulsões indevidas foram corrigidas no 1.0.1.4. Atualize o jogo; se continuar, verifique os arquivos na Steam (Propriedades, Arquivos instalados, Verificar a integridade dos arquivos do jogo)."
+        },
+        {
+          "k": "Não consigo entrar em partidas",
+          "v": "Confira se você está na versão mais recente, mostrada no canto inferior direito do menu. Feche a Steam por completo e abra de novo para forçar a atualização."
+        },
+        {
+          "k": "Presets de classe não salvam",
+          "v": "Corrigido no 1.0.10, junto com o progresso que não aparecia depois das partidas e os valores de ping errados."
+        }
+      ]
+    },
+    "news": {
+      "title": "Hood Warfare 2: notícias, atualizações e notas de patch",
+      "description": "Últimas notas de atualização e notícias de Hood Warfare 2: partidas privadas, anticheat, chat de voz, proteção de spawn e imprensa, atualizadas pela Steam.",
+      "h1": "Notícias e notas de atualização de Hood Warfare 2",
+      "lede": "Todos os anúncios oficiais da Trapstar Games, resumidos, com a cobertura da imprensa da semana de lançamento logo abaixo. Novas publicações da Steam aparecem aqui automaticamente em até 3 horas.",
+      "official_title": "Notas de atualização oficiais",
+      "read_original": "Ler o original na Steam",
+      "untranslated": "Resumo ainda não escrito; primeiras linhas da publicação oficial:",
+      "press_title": "Cobertura da imprensa",
+      "viral_title": "Como o jogo viralizou",
+      "viral": [
+        "Em 11 de outubro, Merc, pro de Rainbow Six Siege, postou um clipe da killstreak Drive By, com os parças tocando música enquanto atiram pela janela do carro. No dia seguinte, o clipe já tinha passado de cinco milhões de visualizações.",
+        "Dexerto e Insider Gaming cobriram o jogo em 12 de outubro, ambos apontando o quanto ele segue Call of Duty: killstreaks, classes personalizadas, uma HUD no estilo Modern Warfare e modos renomeados."
+      ],
+      "roadmap_title": "O que vem por aí",
+      "roadmap": "A Trapstar Games não publicou um roadmap. Todas as notas de atualização até agora terminam prometendo mais atualizações, e os relatos de bugs vão pelo Discord oficial."
+    },
+    "charts": {
+      "title": "Hood Warfare 2: jogadores na Steam ao vivo e pico máximo",
+      "description": "Número de jogadores de Hood Warfare 2 na Steam ao vivo, pico histórico (15.058 relatados), histórico registrado e nota das avaliações, a cada 3 horas.",
+      "h1": "Número de jogadores de Hood Warfare 2",
+      "lede": "Jogadores simultâneos na Steam, atualizados a cada 3 horas pela Steam Web API, ao lado dos maiores valores relatados em outros lugares.",
+      "current": "Jogando agora",
+      "at": "em {time} UTC",
+      "peak_24h": "Pico nas últimas 24 h (registrado)",
+      "peak_7d": "Pico nos últimos 7 dias (registrado)",
+      "peak_tracked": "O maior valor que registramos",
+      "reviews": "Avaliações da Steam",
+      "reviews_value": "{pct} positivas de {total}",
+      "chart_title": "Jogadores ao longo do tempo",
+      "chart_empty": "O monitoramento começou em 14 de outubro de 2026. O gráfico vai sendo preenchido conforme uma nova leitura é adicionada a cada 3 horas.",
+      "chart_aria": "Gráfico de linhas dos jogadores simultâneos de Hood Warfare 2 na Steam",
+      "reported_title": "Picos relatados",
+      "th_date": "Data",
+      "th_players": "Jogadores",
+      "th_source": "Fonte",
+      "reported_note": {
+        "launch_weekend": "pico do fim de semana de lançamento",
+        "daily_peak": "pico diário"
+      },
+      "daily_title": "Picos diários que registramos",
+      "method_title": "Como esses números funcionam",
+      "method": [
+        "\"Jogando agora\" é o número de pessoas no jogo no momento da leitura, segundo a Steam. Uma leitura a cada 3 horas pode perder picos curtos, então nossos picos registrados serão menores que os do SteamDB, que mede minuto a minuto.",
+        "Hood Warfare 2 tem pico à noite nos EUA. As leituras de dia nos EUA podem ser um quinto do pico noturno ou menos: 2.611 na manhã de 14 de outubro contra 15.058 na noite anterior.",
+        "Para comparação, o primeiro Hood Warfare teve um pico histórico relatado de 68 jogadores."
+      ],
+      "more": "Histórico minuto a minuto",
+      "more_links": "Veja o SteamDB e o SteamCharts para o histórico em resolução completa."
+    }
+  },
+  "weapons": {
+    "choppa": "Fuzil inicial estilo AK. Confiável em qualquer distância; é o primeiro que vale a pena evoluir.",
+    "uzi": "Submetralhadora para combates próximos no Chicago Mall e no Supermarket.",
+    "akm": "Segundo fuzil de assalto; um passo acima da Choppa para ruas de média distância.",
+    "sniper308": "Rifle de sniper. Os jogadores apontam o sniper do jogo como um destaque; forte em Downtown.",
+    "pump": "Escopeta pump para cantos, escadarias e para segurar a sala da bolsa em Hit A Lick.",
+    "oldhead": "Fuzil de precisão entre o AKM e o sniper, bom para segurar bandeiras à distância.",
+    "mac10": "Última arma a ser desbloqueada. Uma submetralhadora feita para jogo agressivo de curta distância.",
+    "glock": "Pistola inicial. Troque para ela quando a primária ficar sem munição.",
+    "nine": "Uma segunda pistola citada por um guia; ainda não confirmada.",
+    "blade": "Faca corpo a corpo para abates silenciosos de curta distância.",
+    "grenade": "Letal inicial. Limpa bandeiras e cantos.",
+    "claymore": "Mina de proximidade. Cobre um flanco ou o local da bomba."
+  },
+  "passives": {
+    "hp": "Vida extra. Faz parte da classe inicial.",
+    "speed": "Movimentação mais rápida, parecida com um stim. Boa com submetralhadoras.",
+    "utility": "Efeito ainda não documentado.",
+    "ammo": "Leva mais munição. Recomendada no começo porque não é fácil pegar as armas dos inimigos."
+  },
+  "killstreaks": {
+    "snitch": {
+      "effect": "Mostra todos os inimigos no minimapa da sua equipe, como um UAV.",
+      "counter": "Continue se movendo e evite rotas previsíveis enquanto ela estiver ativa."
+    },
+    "homies": {
+      "effect": "Chama um esquadrão de três parças controlados por IA com Glocks. Cada um tem uma única vida.",
+      "counter": "Eles morrem rápido; elimine-os antes que flanqueiem."
+    },
+    "bomber": {
+      "effect": "Um parça com C4 que corre até o inimigo e detona.",
+      "counter": "Acerte-o antes que chegue até você e não fique agrupado."
+    },
+    "driveby": {
+      "effect": "Um carro cheio de parças percorre o quarteirão atirando pelas janelas por cerca de 45 segundos.",
+      "counter": "Entre em algum lugar fechado. O carro pode ser alvejado e destruído."
+    }
+  },
+  "maps": {
+    "downtown": {
+      "desc": "Ruas da cidade ladeadas por fachadas de prédios densas, com combates em todas as distâncias.",
+      "best": "AKM, Oldhead, .308 Sniper",
+      "tips": "Segure linhas de visão a partir da cobertura com um fuzil e evite atravessar ruas abertas sozinho."
+    },
+    "suburbs": {
+      "desc": "Quarteirões residenciais de casas e becos. Principalmente combates de média distância.",
+      "best": "Choppa, AKM",
+      "tips": "Limpe as casas cômodo por cômodo e vigie os quintais; a visão em terceira pessoa ajuda a olhar por cima das cercas."
+    },
+    "trenches": {
+      "desc": "Corredores estreitos, como trincheiras, que empurram as duas equipes para avanços de curta e média distância.",
+      "best": "Choppa, Pump Shotty, Uzi",
+      "tips": "Avancem juntos. Uma granada ou uma Claymore na entrada de um corredor segura uma equipe inteira."
+    },
+    "mall": {
+      "desc": "Um shopping fechado, de corredores e lojas, que favorece o combate próximo.",
+      "best": "Uzi, Mac-10, Pump Shotty",
+      "tips": "Cole nas lojas e faça pré-mira nas quinas dos corredores; a passiva Speed compensa aqui."
+    },
+    "supermarket": {
+      "desc": "Um dos menores mapas: corredores de supermercado em que o tempo para matar é muito curto, como o desenvolvedor aponta no patch 1.0.10.",
+      "best": "Uzi, Mac-10, Pump Shotty",
+      "tips": "Faça pré-mira nas pontas dos corredores e espere trocar abates; é o mapa mais rápido para os desafios de arma."
+    }
+  },
+  "modes": {
+    "turf_war": {
+      "rules": "As equipes marcam pontos por manter território.",
+      "tips": "Avalie cada combate pelo que ele faz: toma, mantém ou retoma território. Duas bandeiras mantidas valem mais que três em disputa."
+    },
+    "gangbang": {
+      "rules": "Mata-mata em equipe: vence a gangue com mais abates.",
+      "tips": "Fique perto dos colegas de equipe e troque abates. O melhor modo para os desafios de arma."
+    },
+    "chaos": {
+      "rules": "Todos contra todos, sem equipes; vence o jogador com mais abates.",
+      "tips": "Fique nas bordas dos combates e elimine quem vencê-los."
+    },
+    "hit_a_lick": {
+      "rules": "Roube a bolsa do inimigo e leve de volta para a sua base enquanto defende a sua.",
+      "tips": "Escolte quem carrega a bolsa: confira os cantos à frente, receba o primeiro contato e cubra quem persegue."
+    },
+    "destroy_the_block": {
+      "rules": "Uma gangue planta uma bomba e a outra defende ou desarma. Uma vida por rodada.",
+      "tips": "Informação e sobrevivência valem mais que abates no começo. Use a Snitch antes de avançar."
+    },
+    "chain_snatch": {
+      "rules": "Abates derrubam correntes. Pegue as correntes dos inimigos para pontuar e as dos seus colegas para negar pontos.",
+      "tips": "Um abate só conta quando a corrente é recolhida; lute onde você consiga recolhê-la."
+    }
+  },
+  "news": {
+    "1846651706672850": {
+      "title": "Patch 1.0.1.4: partidas privadas, correção das expulsões do anticheat e do áudio",
+      "points": [
+        "Partidas privadas: crie uma sala só com senha para os seus amigos.",
+        "Corrigido o anticheat expulsando jogadores por engano.",
+        "Corrigida a falta de áudio: escolha um dispositivo de saída em Settings.",
+        "Corrigidos vários problemas para entrar em partidas e travamentos. Confira se o menu mostra a versão 1.0.1.4; feche a Steam por completo se a atualização não baixar."
+      ]
+    },
+    "1846018067941553": {
+      "title": "Patch 1.0.10: anticheat, chat de voz e mudanças de spawn",
+      "points": [
+        "Chat de voz para todo o lobby ou só para a sua equipe; apertar para falar na tecla T por padrão, microfone aberto opcional.",
+        "Anticheat adicionado, além de uma opção Report no menu de pausa.",
+        "Spawns refeitos e proteção de spawn adicionada. Mapas pequenos como o Supermarket ainda terão um tempo para matar curto.",
+        "Mais de 10 correções: presets de classe que não salvavam, progresso que não aparecia depois das partidas, seleção de jogador que não salvava, ping errado. Rotas do Drive By ajustadas em alguns mapas."
+      ]
+    },
+    "1846018067931241": {
+      "title": "Hood Warfare 2 já está disponível na Steam",
+      "points": [
+        "Lançado quase quatro anos depois do primeiro Hood Warfare, com mais atualizações prometidas em breve."
+      ]
+    },
+    "1845383656392140": {
+      "title": "Data de lançamento anunciada: quinta-feira, 8 de outubro",
+      "points": [
+        "A Trapstar Games confirmou o lançamento em 8 de outubro e abriu as listas de desejos."
+      ]
+    }
+  },
+  "press": {
+    "dexerto": "Cobre o clipe viral de Merc, os seis modos renomeados de Call of Duty e as primeiras avaliações \"Majoritariamente positivas\".",
+    "insider-gaming": "Relata um pico de 4.491 jogadores no fim de semana de lançamento e 74% de avaliações positivas na época, contra o pico histórico de 68 do primeiro jogo."
+  },
+  "sources": {
+    "steam-store": "Página da loja da Steam",
+    "steam-news": "Notas de atualização oficiais",
+    "dexerto": "Dexerto",
+    "insider-gaming": "Insider Gaming",
+    "hw2org": "Guia de fãs do hoodwarfare2.org",
+    "hw2org-steamdb": "hoodwarfare2.org citando o SteamDB",
+    "tpose": "Tpose Gaming",
+    "gamerblurb": "GamerBlurb"
+  },
+  "gloss": {
+    "modes": {
+      "turf_war": "Guerra de território",
+      "gangbang": "Mata-mata em equipe",
+      "chaos": "Todos contra todos",
+      "hit_a_lick": "Roubo da bolsa",
+      "destroy_the_block": "Destruir o quarteirão",
+      "chain_snatch": "Roubo de correntes"
+    },
+    "maps": {
+      "downtown": "Centro",
+      "suburbs": "Subúrbios",
+      "trenches": "As trincheiras",
+      "mall": "Shopping",
+      "supermarket": "Supermercado"
+    },
+    "killstreaks": {
+      "snitch": "Dedo-duro",
+      "homies": "Parças",
+      "bomber": "Kamikaze",
+      "driveby": "Tiroteio de carro"
+    }
+  }
+}
