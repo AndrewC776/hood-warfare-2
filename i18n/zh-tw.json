@@ -68,7 +68,11 @@
     "footer_report": "回報錯誤",
     "not_found_title": "找不到頁面",
     "not_found_body": "此頁面不存在。請使用上方選單，或回到首頁。",
-    "not_found_home": "回到首頁"
+    "not_found_home": "回到首頁",
+    "sources_checked": "資料來源（查核於 {date}）",
+    "status_default": "狀態：除另有標示外，皆為{badge}。",
+    "price_with_discount": "{regular}（目前 {n}% 折扣後為 {final}）",
+    "shot_fallback": "遊戲畫面截圖"
   },
   "classes": {
     "ar": "突擊步槍",
@@ -93,23 +97,23 @@
   },
   "pages": {
     "home": {
-      "title": "Hood Warfare 2 攻略：武器、地圖、價格、在線人數",
+      "title": "Hood Warfare 2 中文攻略：有中文嗎？武器、地圖、模式與價格",
       "description": "Hood Warfare 2 非官方攻略：Steam 價格與下載、全武器與連殺獎勵、5 張地圖、6 種模式、新手教學、更新與在線人數。",
       "h1": "Hood Warfare 2",
       "lede": "Trapstar Games 開發的芝加哥幫派戰爭射擊遊戲，2026 年 10 月 8 日登陸 Steam。從購買、上手到取勝所需的資訊都在這裡：武器、連殺獎勵、地圖、模式、更新公告與即時在線人數，皆對照 Steam 商店頁面與開發商公告查證。",
       "cta_guide": "閱讀新手攻略",
       "reviews_label": "好評（共 {total} 則 Steam 評價）",
       "release_label": "於 Steam 發售",
-      "streaks_title": "連殺獎勵",
+      "streaks_title": "Hood Warfare 2 連殺獎勵",
       "streaks_note": "共有四種連殺獎勵，分別在連續擊殺 3、5、7、9 人時獲得。",
       "streak_kills": "{n} 連殺",
       "what_title": "Hood Warfare 2 是什麼遊戲？",
       "what": [
         "Hood Warfare 2 是一款低價位的 Windows PC 多人第一人稱射擊遊戲。兩個敵對幫派在芝加哥街頭爭奪地盤，共有六種模式與五張地圖。本作使用 Unreal Engine 5 開發，是 2023 年以底特律為背景的《Hood Warfare》續作。",
         "玩過 Call of Duty 的人會很快上手：可搭配配件、特性與裝備的自訂配裝、Modern Warfare 風格的 HUD，以及連殺獎勵。遊戲走黑色、粗俗的幽默路線。Snitch 連殺獎勵的運作類似 UAV，而 Drive By 連殺獎勵則會派出一輛載滿幫派兄弟、邊放音樂邊開火的車子駛過街區。",
-        "《Rainbow Six Siege》職業選手 Merc 發布了一段 Drive By 連殺獎勵的影片，讓本作在上市第一個週末爆紅，到 10 月 12 日觀看次數已突破 500 萬。同時在線玩家從上市頭幾天的數千人，在 10 月 13 日增加到超過 15,000 人。"
+        "《Rainbow Six Siege》職業選手 Merc 發布了一段展示本作連殺獎勵的影片，從 Snitch UAV 到邊放音樂邊掃射的 Drive By 都有入鏡，讓本作在上市第一個週末爆紅，到 10 月 12 日觀看次數已突破 500 萬。同時在線玩家從上市頭幾天的數千人，在 10 月 13 日增加到超過 15,000 人。"
       ],
-      "facts_title": "快速資料",
+      "facts_title": "Hood Warfare 2 快速資料：價格、發售日與平台",
       "facts": {
         "release": "發售日期",
         "developer": "開發商與發行商",
@@ -134,12 +138,12 @@
         "news": "所有官方更新公告的摘要，以及上市報導。",
         "charts": "Steam 即時在線人數、追蹤到的高峰與評價分數，每 3 小時更新。"
       },
-      "news_title": "最新更新",
+      "news_title": "Hood Warfare 2 更新公告",
       "news_all": "所有新聞與更新公告",
       "media_title": "預告片與截圖",
       "trailer_play": "播放官方預告片",
       "trailer_note": "影片由 Steam 的伺服器串流播放。",
-      "faq_title": "常見問題",
+      "faq_title": "Hood Warfare 2 常見問題",
       "faq": [
         {
           "q": "Hood Warfare 2 是免費遊戲嗎？",
@@ -163,23 +167,56 @@
         },
         {
           "q": "有多少人在玩 Hood Warfare 2？",
-          "a": "最新的 Steam 在線人數請見<a href=\"{charts}\">在線人數頁面</a>。目前回報的最高紀錄是 2026 年 10 月 13 日的 15,058 位同時在線玩家。"
+          "a": "最新的 Steam 在線人數請見<a href=\"{charts}\">Hood Warfare 2 在線人數與 Steam Charts</a>頁面。目前回報的最高數字是上市首週的 {peak} 位同時在線玩家。"
         },
         {
           "q": "Hood Warfare 2 支援手把嗎？",
           "a": "支援。Steam 標示完整手把支援，不過玩家回報輔助瞄準很弱，所以使用滑鼠與鍵盤會更容易上手。"
         },
         {
+          "q": "Hood Warfare 2 有中文嗎？",
+          "a": "沒有，只有英文。選單、語音與字幕都是英文，Steam 商店頁面也只列出英文，繁體與簡體中文皆不支援。截至 2026 年 10 月 14 日，官方沒有推出任何翻譯。"
+        },
+        {
           "q": "Hood Warfare 2 只是 Call of Duty 的複製品嗎？",
           "a": "它確實大量借鑑 Call of Duty：自訂配裝、連殺獎勵，以及對應 Domination、Kill Confirmed 與 Search and Destroy 的模式。評論者喜歡它的槍戰手感與幽默，認為以這個價位很划算；最常見的抱怨是出生點被秒殺，以及內容偏少。"
         }
-      ]
+      ],
+      "charts_card": "在線人數與 Steam Charts",
+      "vs_title": "Hood Warfare 還是 Hood Warfare 2：爆紅的是哪一款？",
+      "vs_intro": "有兩款遊戲共用這個名字。2026 年 10 月爆紅的是 Hood Warfare 2。第一代 Hood Warfare 是同一間工作室在 2023 年推出、規模較小的搶先體驗作品，搜尋時若沒加上「2」，只打「Hood Warfare」，常常會跑到這款遊戲。",
+      "vs_cols": {
+        "hw1": "Hood Warfare（2023）",
+        "hw2": "Hood Warfare 2（2026）"
+      },
+      "vs_rows": {
+        "release": "發售日期",
+        "setting": "背景舞台",
+        "app": "Steam 商店頁面",
+        "price": "價格",
+        "players": "目前遊玩人數",
+        "peak": "最高在線人數"
+      },
+      "vs_values": {
+        "early_access": "搶先體驗",
+        "full_release": "正式版",
+        "detroit": "底特律",
+        "chicago": "芝加哥",
+        "reported": "據回報"
+      },
+      "vs_note": "本站介紹的是 Hood Warfare 2。購買前請確認你開啟的 Steam 頁面是 App ID 5155360。",
+      "glossary_title": "Hood Warfare 2 中文名詞對照",
+      "glossary_intro": "「Hood」是美國俚語，意思是「街區、社區」，所以遊戲名稱大致可理解為「街區戰爭」。本作只有英文版；下表把遊戲內的英文名稱與它們的中文意思對照列出。",
+      "glossary_cols": {
+        "en": "遊戲內名稱",
+        "local": "中文意思"
+      }
     },
     "download": {
       "title": "Hood Warfare 2 下載、價格與配備需求",
       "description": "如何在 Steam 安全下載 Hood Warfare 2：以你的貨幣顯示的價格、購買步驟、PC 配備需求、硬碟空間與退款規則。",
       "h1": "Hood Warfare 2 下載與價格",
-      "lede": "Hood Warfare 2 僅在 Steam 上架 Windows PC 版。本頁顯示今日以你的貨幣計價的價格、購買與安裝方式，以及你的電腦是否跑得動。",
+      "lede": "Hood Warfare 2 在 Steam 上售價 {price}，而且只能在 Steam 購買。本頁顯示今日以你的貨幣計價的價格、購買與安裝方式，以及你的電腦是否跑得動。",
       "price_title": "今日價格",
       "price_regular": "原價",
       "price_now": "目前價格",
@@ -275,14 +312,16 @@
           "q": "為什麼遊戲顯示我的版本不對？",
           "a": "Steam 有時會等到重新啟動才進行更新。請從左上角選單完全結束 Steam，重新開啟後等待更新完成。"
         }
-      ]
+      ],
+      "hw1_title": "別買錯 Hood Warfare",
+      "hw1_note": "第一代 <a href=\"{hw1_url}\" rel=\"noopener\">Hood Warfare</a>（2023 年，Steam App ID 2274510，底特律，搶先體驗）是同一間工作室的另一款遊戲。2026 年爆紅的是 <a href=\"{steam}\" rel=\"noopener\">Hood Warfare 2</a>，Steam App ID 5155360。"
     },
     "weapons": {
       "title": "Hood Warfare 2 武器、連殺與配裝攻略",
       "description": "Hood Warfare 2 全武器解鎖等級：Choppa、Uzi、AKM、.308 Sniper 等，另附配件、特性、連殺獎勵與配裝。",
       "h1": "Hood Warfare 2 武器、連殺獎勵與配裝",
-      "lede": "七把主武器、一把副武器、一把刀與致命裝備，全都靠升級解鎖。Trapstar Games 並未公布傷害或射速數據，因此以下建議來自實際遊玩，而非數據表。",
-      "primary_title": "主武器",
+      "lede": "Hood Warfare 2 有七把主武器、一把副武器、一把刀與致命裝備，全都靠升級解鎖。Trapstar Games 並未公布傷害或射速數據，因此以下建議來自實際遊玩，而非數據表。",
+      "primary_title": "Hood Warfare 2 主武器與解鎖等級",
       "th_weapon": "武器",
       "th_class": "類型",
       "th_unlock": "解鎖",
@@ -298,11 +337,11 @@
         "每個配件都用來解決一個問題：看得清楚的瞄具、壓不住的後座力、戰鬥中途彈藥耗盡，或是出現在小地圖上。新配件請先在熟悉的地圖上測試。"
       ],
       "passives_title": "特性（Perks）",
-      "streaks_title": "連殺獎勵",
+      "streaks_title": "Hood Warfare 2 連殺獎勵",
       "th_kills": "擊殺數",
       "th_effect": "效果",
       "streak_counter": "如何反制",
-      "loadouts_title": "三套新手配裝",
+      "loadouts_title": "Hood Warfare 2 新手最佳配裝",
       "loadouts_note": "以下是我們針對上市版本的建議，並非官方配裝。",
       "loadouts": [
         {
@@ -331,10 +370,10 @@
       "title": "Hood Warfare 2 地圖攻略：5 張地圖與技巧",
       "description": "Hood Warfare 2 五張地圖解說：Downtown、Suburbs、The Trenches 等的交戰距離、配裝與模式技巧。",
       "h1": "Hood Warfare 2 地圖",
-      "lede": "上市時共有五張地圖，場景都在芝加哥及其周邊。其中四張在 Steam 商店頁面上有列名；Supermarket 則由開發商在 1.0.10 補丁中確認。每張地圖都可用於全部六種模式。",
+      "lede": "Hood Warfare 2 上市時共有五張地圖，場景都在芝加哥及其周邊。其中四張在 Steam 商店頁面上有列名；Supermarket 則由開發商在 1.0.10 補丁中確認。每張地圖都可用於全部六種模式。",
       "best_for": "推薦武器",
       "tips": "技巧",
-      "spawn_title": "出生點與 Drive By",
+      "spawn_title": "Hood Warfare 2 地圖技巧：出生點與 Drive By",
       "spawn": [
         "1.0.10 補丁重新調整了出生點並加入出生保護，起因是上市首週玩家抱怨一出生就被秒殺。開發商提醒，像 Supermarket 這類極小的地圖，擊殺時間仍會很短。",
         "同一個補丁在部分地圖上調整了 Drive By 連殺獎勵的行進路線，因此舊影片中的路徑可能不同。"
@@ -347,7 +386,7 @@
       "title": "Hood Warfare 2 模式攻略：6 種遊戲模式",
       "description": "Hood Warfare 2 六種模式的規則、對應的 Call of Duty 模式與致勝技巧，含 Turf War、GangBang、Chaos 等。",
       "h1": "Hood Warfare 2 遊戲模式",
-      "lede": "六種模式，都是 Call of Duty 經典模式的改名版本。只有 GangBang 與 Chaos 純靠擊殺取勝；其餘四種模式中，擊殺只是通往目標的敲門磚。",
+      "lede": "Hood Warfare 2 有六種模式，都是 Call of Duty 經典模式的改名版本。只有 GangBang 與 Chaos 純靠擊殺取勝；其餘四種模式中，擊殺只是通往目標的敲門磚。",
       "th_mode": "模式",
       "th_cod": "對應的 Call of Duty 模式",
       "th_lives": "生命",
@@ -359,14 +398,15 @@
       "private": [
         "1.0.1.4 補丁加入了私人對戰：建立僅限密碼進入的房間，並把密碼分享給朋友。",
         "你也可以在任何地圖上以任何模式對戰機器人。機器人對戰的經驗值與挑戰進度可能與線上對戰不同；要刷之前請先查看賽後畫面。"
-      ]
+      ],
+      "table_title": "Hood Warfare 2 全遊戲模式一覽"
     },
     "guide": {
       "title": "Hood Warfare 2 新手攻略：操作與成長",
       "description": "剛入坑 Hood Warfare 2？第一小時規劃、等級與武器挑戰、外觀解鎖、操作、語音聊天，以及沒有聲音與更新問題的解法。",
       "h1": "Hood Warfare 2 新手攻略",
-      "lede": "第一個小時該做什麼、解鎖機制如何運作，以及最能減少挫折的設定與問題排除方法。",
-      "first_hour_title": "第一個小時",
+      "lede": "剛入坑 Hood Warfare 2？以下告訴你第一個小時該做什麼、解鎖機制如何運作，以及最能減少挫折的設定與問題排除方法。",
+      "first_hour_title": "Hood Warfare 2 的第一個小時",
       "first_hour": [
         {
           "step": "用初始的 Choppa 玩 GangBang 或 Chaos。",
@@ -441,23 +481,23 @@
       "description": "Hood Warfare 2 最新更新公告與新聞：私人對戰、反作弊、語音聊天、出生保護與上市報導，自動同步 Steam。",
       "h1": "Hood Warfare 2 新聞與更新公告",
       "lede": "Trapstar Games 的每一則官方公告都有摘要，下方附上上市首週的媒體報導。Steam 的新貼文會在 3 小時內自動出現在這裡。",
-      "official_title": "官方更新公告",
-      "read_original": "前往 Steam 閱讀原文",
+      "official_title": "Hood Warfare 2 更新公告",
+      "read_original": "前往 Steam 閱讀更新公告",
       "untranslated": "尚未撰寫摘要；以下為官方貼文的開頭幾行：",
       "press_title": "媒體報導",
       "viral_title": "爆紅經過",
       "viral": [
-        "10 月 11 日，《Rainbow Six Siege》職業選手 Merc 發布了一段 Drive By 連殺獎勵的影片，影片中幫派兄弟一邊放音樂一邊從車窗向外開火。隔天觀看次數就突破 500 萬。",
+        "10 月 11 日，《Rainbow Six Siege》職業選手 Merc 發布了一段本作連殺獎勵的影片，其中包括 Snitch UAV；他在貼文中拿 Drive By 開玩笑，也就是幫派兄弟一邊放音樂、一邊從車窗向外開火的那個連殺獎勵。隔天觀看次數就突破 500 萬。",
         "Dexerto 與 Insider Gaming 在 10 月 12 日報導了這款遊戲，兩者都指出它與 Call of Duty 的相似度極高：連殺獎勵、自訂配裝、Modern Warfare 風格的 HUD，以及改名後的模式。"
       ],
       "roadmap_title": "接下來",
       "roadmap": "Trapstar Games 尚未公布更新規劃。到目前為止，每則更新公告的結尾都承諾會有更多更新，錯誤回報則透過官方 Discord 提交。"
     },
     "charts": {
-      "title": "Hood Warfare 2 Steam 在線人數與高峰",
-      "description": "Hood Warfare 2 的 Steam 即時在線人數、歷史高峰（回報 15,058 人）、追蹤紀錄與評價分數，每 3 小時更新。",
-      "h1": "Hood Warfare 2 在線人數",
-      "lede": "Steam 上的同時在線玩家數，每 3 小時從 Steam Web API 更新，並列出其他來源回報的最高數字。",
+      "title": "Hood Warfare 2 Steam Charts 即時在線人數",
+      "description": "Hood Warfare 2 的 Steam 即時在線人數、歷史高峰（回報 {peak} 人）、追蹤紀錄與評價分數，每 3 小時更新。",
+      "h1": "Hood Warfare 2 在線人數與 Steam Charts",
+      "lede": "Steam 上的即時同時在線玩家數，每 3 小時從 Steam Web API 更新，並列出其他來源回報的最高數字，以及與第一代 Hood Warfare 的比較。",
       "current": "正在遊玩",
       "at": "截至 {time} UTC",
       "peak_24h": "過去 24 小時高峰（已追蹤）",
@@ -465,7 +505,7 @@
       "peak_tracked": "我們記錄到的最高值",
       "reviews": "Steam 評價",
       "reviews_value": "{total} 則評價中 {pct} 好評",
-      "chart_title": "在線人數變化",
+      "chart_title": "Hood Warfare 2 Steam Charts：在線人數變化",
       "chart_empty": "追蹤自 2026 年 10 月 14 日開始。每 3 小時新增一筆數據，圖表會逐漸完整。",
       "chart_aria": "Hood Warfare 2 在 Steam 上同時在線玩家數的折線圖",
       "reported_title": "回報的高峰",
@@ -474,7 +514,8 @@
       "th_source": "來源",
       "reported_note": {
         "launch_weekend": "上市週末高峰",
-        "daily_peak": "單日高峰"
+        "daily_peak": "單日高峰",
+        "first_week_peak": "上市首週高峰"
       },
       "daily_title": "我們追蹤到的單日高峰",
       "method_title": "數據的運作方式",
@@ -484,7 +525,17 @@
         "作為對照，第一代 Hood Warfare 回報的歷史高峰為 68 位玩家。"
       ],
       "more": "逐分鐘歷史紀錄",
-      "more_links": "完整解析度的歷史紀錄請見 SteamDB 與 SteamCharts。"
+      "more_links": "逐分鐘歷史紀錄：",
+      "answer_title": "現在有多少人在玩 Hood Warfare 2？",
+      "answer": "{time} UTC 時，Steam 上有 {count} 人正在玩 Hood Warfare 2。目前回報的最高在線人數是 {peak}，出現在 2026 年 10 月 8 日上市後的第一週。人數會在美國晚間達到高峰，美國早上則會下滑。",
+      "dead_title": "Hood Warfare 2 已經沒人玩了嗎？",
+      "dead": "還沒。最新一次讀數 {count} 人是回報高峰的 {pct}，對於爆紅上市一週後的新遊戲來說相當正常，而且 Steam 評價中有 {reviews} 為好評。請留意上方圖表：如果每日高峰一週接一週持續下滑，才代表遊戲真的陷入危機。",
+      "vs_title": "Hood Warfare 與 Hood Warfare 2 的 Steam Charts 比較",
+      "vs": "SteamCharts 與其他幾個追蹤網站只收錄第一代 Hood Warfare（2023 年，Steam App ID 2274510），其歷史最高在線人數為 {hw1_peak} 人。所以搜尋 Hood Warfare 在線人數時，可能會看到只有幾十人的圖表：那是舊作。Hood Warfare 2 的 Steam App ID 是 5155360。",
+      "vs_now": "第一代 Hood Warfare 目前在線人數：{count}。",
+      "link_steamdb_hw2": "SteamDB（Hood Warfare 2）",
+      "link_steamdb_hw1": "SteamDB（第一代 Hood Warfare）",
+      "link_steamcharts_hw1": "SteamCharts（僅收錄第一代 Hood Warfare）"
     }
   },
   "weapons": {
@@ -622,7 +673,9 @@
     "hw2org": "hoodwarfare2.org 玩家攻略",
     "hw2org-steamdb": "hoodwarfare2.org（引用 SteamDB）",
     "tpose": "Tpose Gaming",
-    "gamerblurb": "GamerBlurb"
+    "gamerblurb": "GamerBlurb",
+    "itad": "IsThereAnyDeal（追蹤自 Steam）",
+    "steam-hw1": "Steam 商店頁面：Hood Warfare（2023）"
   },
   "gloss": {
     "modes": {
@@ -646,5 +699,15 @@
       "bomber": "自爆炸彈客",
       "driveby": "飛車掃射"
     }
+  },
+  "shots": {
+    "3a2e0482831e516554f61d50ebc8e424f0768aaf": "Hood Warfare 2 第一人稱視角：黃昏時分在城市街頭手持紅色手槍",
+    "4452474718a1f14e5a4a90876fd771b3df0bd15a": "身穿紅色帽 T 的玩家在路邊商場的停車場裡，躲在一輛藍色小貨卡後方掩護",
+    "7f9821ca3035154413304b45333b080932830164": "身穿藍衣的隊伍穿過木造房屋之間雜草叢生的院子向前推進",
+    "43f0b1837500b5200327ce996e266f6cc4d93ae5": "用裝有瞄準鏡的狙擊槍瞄向空曠停車場的另一端",
+    "8f6b9d8798f23533564e0e88d008d5ec116f40d1": "Hood Warfare 2 在明亮的購物中心中庭爆發槍戰",
+    "be62732cc673afb6b5b5eac617ac07241cb925bc": "戴紅色帽子的玩家在停放的車子旁，越過樹叢用裝有消音器的金色手槍瞄準",
+    "b6ed7c29d45420bc36ce6695197e2959bb6def96": "第一人稱視角：在超市裡手持手槍，旁邊的棧板上堆著一疊疊現金",
+    "1b52eb437bf8f80816d8e4110efd838548b242ff": "Hood Warfare 2 中的金色塗裝步槍，從購物中心樓上瞄準下方的敵人"
   }
 }

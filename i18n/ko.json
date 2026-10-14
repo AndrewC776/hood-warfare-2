@@ -6,9 +6,24 @@
     "name": "한국어",
     "og_locale": "ko_KR",
     "path": "ko",
-    "price_cc": ["kr"],
+    "price_cc": [
+      "kr"
+    ],
     "date_format": "{y}년 {mon}월 {d}일",
-    "months": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "months": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
     "thousands_sep": ",",
     "percent_format": "{n}%"
   },
@@ -52,7 +67,11 @@
     "footer_report": "오류 제보",
     "not_found_title": "페이지를 찾을 수 없습니다",
     "not_found_body": "해당 페이지는 존재하지 않습니다. 위의 메뉴를 이용하거나 홈으로 이동하세요.",
-    "not_found_home": "홈으로 이동"
+    "not_found_home": "홈으로 이동",
+    "sources_checked": "출처 ({date} 확인)",
+    "status_default": "따로 표시하지 않은 항목의 상태: {badge}",
+    "price_with_discount": "{regular} (현재 {n}% 할인 적용 시 {final})",
+    "shot_fallback": "게임 플레이 스크린샷"
   },
   "classes": {
     "ar": "돌격소총",
@@ -77,23 +96,23 @@
   },
   "pages": {
     "home": {
-      "title": "Hood Warfare 2 공략: 무기·맵·모드·가격·동접",
+      "title": "Hood Warfare 2 공략: 가격·무기·맵·모드·팁",
       "description": "Hood Warfare 2 비공식 공략 가이드. Steam 가격, 전체 무기와 킬스트릭, 맵 5종, 모드 6종, 초보자 팁, 패치 노트, 실시간 동접자 수.",
       "h1": "Hood Warfare 2",
       "lede": "Trapstar Games가 만든 시카고 갱 전쟁 슈터로, 2026년 10월 8일 Steam에 출시되었습니다. 구매부터 입문, 승리까지 필요한 모든 정보(무기, 킬스트릭, 맵, 모드, 패치 노트, 실시간 동접자 수)를 Steam 상점과 개발사의 공식 노트로 확인해 정리했습니다.",
       "cta_guide": "초보자 가이드 읽기",
       "reviews_label": "Steam 리뷰 {total}개 중 긍정적",
       "release_label": "Steam 출시",
-      "streaks_title": "킬스트릭",
+      "streaks_title": "Hood Warfare 2 킬스트릭",
       "streaks_note": "킬스트릭은 4종이며, 연속 3, 5, 7, 9킬로 획득합니다.",
       "streak_kills": "{n}킬",
       "what_title": "Hood Warfare 2는 어떤 게임인가요?",
       "what": [
         "Hood Warfare 2는 Windows PC용 저가 멀티플레이 1인칭 슈팅 게임입니다. 두 라이벌 갱단이 6개 모드, 5개 맵에 걸쳐 시카고의 거리를 두고 싸웁니다. Unreal Engine 5로 제작되었으며, 디트로이트를 배경으로 한 2023년작 Hood Warfare의 후속작입니다.",
         "콜 오브 듀티를 해봤다면 금방 적응할 수 있습니다. 부착물, 퍽, 장비를 고르는 클래스 편성, Modern Warfare 스타일의 HUD, 킬스트릭이 있습니다. 게임은 어둡고 거친 유머가 특징입니다. Snitch 킬스트릭은 UAV처럼 작동하고, Drive By 킬스트릭은 동료들이 가득 탄 차가 음악을 틀고 거리를 돌며 총을 쏩니다.",
-        "출시 첫 주말에 화제가 되었습니다. Rainbow Six Siege 프로 선수 Merc이 올린 Drive By 킬스트릭 클립이 10월 12일까지 조회수 500만 회를 넘겼기 때문입니다. 동시 접속자 수는 출시 후 며칠간 수천 명에서 10월 13일에는 15,000명 이상으로 늘었습니다."
+        "출시 첫 주말에 화제가 되었습니다. Rainbow Six Siege 프로 선수 Merc이 Snitch UAV부터 음악을 크게 틀고 달리는 Drive By까지 킬스트릭을 보여 주는 클립을 올렸고, 이 클립은 10월 12일까지 조회수 500만 회를 넘겼습니다. 동시 접속자 수는 출시 후 며칠간 수천 명에서 10월 13일에는 15,000명 이상으로 늘었습니다."
       ],
-      "facts_title": "핵심 정보",
+      "facts_title": "Hood Warfare 2 핵심 정보: 가격, 출시일, 플랫폼",
       "facts": {
         "release": "출시일",
         "developer": "개발사 및 배급사",
@@ -118,12 +137,12 @@
         "news": "공식 패치 노트 전체 요약과 출시 관련 언론 보도.",
         "charts": "실시간 Steam 동접자 수, 기록한 최고치, 리뷰 평가를 3시간마다 갱신."
       },
-      "news_title": "최신 패치",
+      "news_title": "Hood Warfare 2 패치 노트",
       "news_all": "모든 뉴스와 패치 노트",
       "media_title": "트레일러 및 스크린샷",
       "trailer_play": "공식 트레일러 재생",
       "trailer_note": "영상은 Steam 서버에서 스트리밍됩니다.",
-      "faq_title": "자주 묻는 질문",
+      "faq_title": "Hood Warfare 2 자주 묻는 질문",
       "faq": [
         {
           "q": "Hood Warfare 2는 무료인가요?",
@@ -147,23 +166,56 @@
         },
         {
           "q": "Hood Warfare 2는 몇 명이 플레이하나요?",
-          "a": "최신 Steam 집계는 <a href=\"{charts}\">동접자 수 페이지</a>에서 볼 수 있습니다. 지금까지 보고된 최고 기록은 2026년 10월 13일의 동시 접속자 15,058명입니다."
+          "a": "최신 Steam 집계는 <a href=\"{charts}\">Hood Warfare 2 동접자 수 및 Steam 차트</a> 페이지에서 볼 수 있습니다. 지금까지 보고된 최고 기록은 출시 첫 주의 동시 접속자 {peak}명입니다."
         },
         {
           "q": "Hood Warfare 2는 컨트롤러를 지원하나요?",
           "a": "네. Steam에는 컨트롤러 완전 지원으로 표기되어 있습니다. 다만 에임 어시스트가 매우 약하다는 보고가 있어, 마우스와 키보드가 더 편합니다."
         },
         {
+          "q": "Hood Warfare 2는 한국어를 지원하나요?",
+          "a": "아니요. 2026년 10월 14일 기준으로 영어만 지원합니다. 메뉴, 음성, 자막이 모두 영어이며, Steam에도 영어 외의 언어는 표기되어 있지 않습니다. 공식 한국어 번역도 없습니다."
+        },
+        {
           "q": "Hood Warfare 2는 콜 오브 듀티 복제품인가요?",
           "a": "콜 오브 듀티의 요소를 많이 가져왔습니다. 클래스 편성, 킬스트릭, 그리고 도미네이션, 킬 컨펌드, 서치 앤 디스트로이를 닮은 모드가 그렇습니다. 리뷰에서는 가격 대비 총기 조작감과 유머가 호평받고, 불만은 주로 스폰 킬과 적은 콘텐츠 양입니다."
         }
-      ]
+      ],
+      "charts_card": "동접자 수 및 Steam 차트",
+      "vs_title": "Hood Warfare vs Hood Warfare 2: 화제의 게임은 어느 쪽?",
+      "vs_intro": "이름이 같은 게임이 두 개 있습니다. 2026년 10월에 화제가 된 게임은 Hood Warfare 2입니다. 첫 Hood Warfare는 같은 스튜디오가 2023년에 앞서 해보기로 내놓은 소규모 게임으로, 숫자 2 없이 \"Hood Warfare\"를 검색하면 이 게임이 나오는 경우가 많습니다.",
+      "vs_cols": {
+        "hw1": "Hood Warfare (2023)",
+        "hw2": "Hood Warfare 2 (2026)"
+      },
+      "vs_rows": {
+        "release": "출시",
+        "setting": "배경",
+        "app": "Steam 상점 페이지",
+        "price": "가격",
+        "players": "현재 플레이 중",
+        "peak": "최고 동접자 수"
+      },
+      "vs_values": {
+        "early_access": "앞서 해보기",
+        "full_release": "정식 출시",
+        "detroit": "디트로이트",
+        "chicago": "시카고",
+        "reported": "보고 기준"
+      },
+      "vs_note": "이 사이트는 Hood Warfare 2를 다룹니다. 구매하기 전에 열린 Steam 페이지가 앱 5155360인지 꼭 확인하세요.",
+      "glossary_title": "Hood Warfare 2 용어 한국어 풀이",
+      "glossary_intro": "\"Hood\"는 동네를 뜻하는 미국 속어라서, 제목은 대략 \"동네 전쟁\"이라는 뜻입니다. 게임은 영어만 지원하므로, 아래 표에 게임 내 이름과 그 의미를 함께 정리했습니다.",
+      "glossary_cols": {
+        "en": "게임 내 이름",
+        "local": "의미"
+      }
     },
     "download": {
       "title": "Hood Warfare 2 다운로드·가격·사양 (Steam)",
       "description": "Hood Warfare 2를 Steam에서 안전하게 받는 방법: 원화 가격, 구매 순서, PC 사양, 용량, 환불 규정을 정리했습니다.",
       "h1": "Hood Warfare 2 다운로드 및 가격",
-      "lede": "Hood Warfare 2는 Windows PC용으로 Steam에서만 판매됩니다. 이 페이지에서 오늘의 가격, 구매와 설치 방법, 내 PC에서 실행 가능한지 확인할 수 있습니다.",
+      "lede": "Hood Warfare 2의 Steam 가격은 {price}이며, 구매할 수 있는 곳은 Steam뿐입니다. 이 페이지에서 내 통화 기준 오늘의 가격, 구매와 설치 방법, 내 PC에서 실행 가능한지 확인할 수 있습니다.",
       "price_title": "오늘의 가격",
       "price_regular": "정가",
       "price_now": "현재 가격",
@@ -259,14 +311,16 @@
           "q": "게임에서 버전이 맞지 않는다고 나오는 이유는 무엇인가요?",
           "a": "Steam이 재시작될 때까지 업데이트를 보류하는 경우가 있습니다. 왼쪽 위 메뉴에서 Steam을 완전히 종료한 뒤 다시 실행하고, 업데이트가 끝날 때까지 기다리세요."
         }
-      ]
+      ],
+      "hw1_title": "다른 Hood Warfare를 잘못 사지 마세요",
+      "hw1_note": "첫 <a href=\"{hw1_url}\" rel=\"noopener\">Hood Warfare</a>(2023년, Steam 앱 2274510, 디트로이트 배경, 앞서 해보기)는 같은 스튜디오가 만든 다른 게임입니다. 2026년에 화제가 된 게임은 Steam 앱 5155360인 <a href=\"{steam}\" rel=\"noopener\">Hood Warfare 2</a>입니다."
     },
     "weapons": {
       "title": "Hood Warfare 2 무기·킬스트릭·추천 로드아웃",
       "description": "Hood Warfare 2 전체 무기와 해금 레벨: Choppa, Uzi, AKM, .308 Sniper 등. 부착물, 패시브, 킬스트릭, 로드아웃.",
       "h1": "Hood Warfare 2 무기, 킬스트릭, 로드아웃",
-      "lede": "주무기 7종, 보조 무기, 블레이드, 치명 장비가 있으며 모두 레벨업으로 해금됩니다. Trapstar Games는 대미지나 연사 속도 같은 수치를 공개하지 않았으므로, 아래 조언은 스펙표가 아니라 실제 플레이를 바탕으로 합니다.",
-      "primary_title": "주무기",
+      "lede": "Hood Warfare 2에는 주무기 7종, 보조 무기, 블레이드, 치명 장비가 있으며 모두 레벨업으로 해금됩니다. Trapstar Games는 대미지나 연사 속도 같은 수치를 공개하지 않았으므로, 아래 조언은 스펙표가 아니라 실제 플레이를 바탕으로 합니다.",
+      "primary_title": "Hood Warfare 2 주무기와 해금 레벨",
       "th_weapon": "무기",
       "th_class": "분류",
       "th_unlock": "해금",
@@ -282,11 +336,11 @@
         "부착물은 문제 하나를 해결하는 용도로 고르세요. 잘 보이는 조준경, 제어되지 않는 반동, 교전 중 탄약 부족, 미니맵에 노출되는 것 등입니다. 새 부품은 익숙한 맵에서 시험해 보세요."
       ],
       "passives_title": "패시브 (퍽)",
-      "streaks_title": "킬스트릭",
+      "streaks_title": "Hood Warfare 2 킬스트릭",
       "th_kills": "킬 수",
       "th_effect": "효과",
       "streak_counter": "대처법",
-      "loadouts_title": "초보자용 로드아웃 3종",
+      "loadouts_title": "Hood Warfare 2 초보자 추천 로드아웃",
       "loadouts_note": "출시 버전 기준으로 저희가 추천하는 구성이며, 공식 빌드가 아닙니다.",
       "loadouts": [
         {
@@ -315,10 +369,10 @@
       "title": "Hood Warfare 2 맵 공략: 시카고 맵 5종 총정리",
       "description": "Hood Warfare 2 맵 5종: Downtown, Suburbs, The Trenches, Chicago Mall, Supermarket의 교전 거리와 팁.",
       "h1": "Hood Warfare 2 맵",
-      "lede": "출시 시점에 맵 5개가 있으며 모두 시카고와 그 주변이 배경입니다. 4개는 Steam 상점 페이지에 이름이 나와 있고, Supermarket은 패치 1.0.10에서 개발사가 확인했습니다. 모든 맵은 6개 모드에서 모두 사용됩니다.",
+      "lede": "Hood Warfare 2에는 출시 시점에 맵 5개가 있으며 모두 시카고와 그 주변이 배경입니다. 4개는 Steam 상점 페이지에 이름이 나와 있고, Supermarket은 패치 1.0.10에서 개발사가 확인했습니다. 모든 맵은 6개 모드에서 모두 사용됩니다.",
       "best_for": "추천 무기",
       "tips": "팁",
-      "spawn_title": "스폰과 Drive By",
+      "spawn_title": "Hood Warfare 2 맵 팁: 스폰과 Drive By",
       "spawn": [
         "패치 1.0.10에서는 출시 첫 주에 나온 스폰 직후 즉사 불만을 반영해 스폰 지점을 개편하고 스폰 보호를 추가했습니다. 개발사는 Supermarket 같은 아주 작은 맵에서는 여전히 처치까지 걸리는 시간이 짧을 것이라고 밝혔습니다.",
         "같은 패치에서 일부 맵의 Drive By 킬스트릭 이동 경로가 바뀌었으므로, 예전 클립과 경로가 다를 수 있습니다."
@@ -331,7 +385,7 @@
       "title": "Hood Warfare 2 모드 총정리: 6가지 모드 공략",
       "description": "Hood Warfare 2 모드 6종 해설. Turf War부터 Chain Snatch까지 규칙, 콜 오브 듀티 대응 모드, 공략 팁.",
       "h1": "Hood Warfare 2 게임 모드",
-      "lede": "6가지 모드는 콜 오브 듀티의 고전 모드 이름을 바꾼 것입니다. 처치 수만으로 승부가 나는 모드는 GangBang과 Chaos뿐이며, 나머지 네 모드에서 처치는 목표로 가는 문을 여는 수단일 뿐입니다.",
+      "lede": "Hood Warfare 2의 6가지 모드는 콜 오브 듀티의 고전 모드 이름을 바꾼 것입니다. 처치 수만으로 승부가 나는 모드는 GangBang과 Chaos뿐이며, 나머지 네 모드에서 처치는 목표로 가는 문을 여는 수단일 뿐입니다.",
       "th_mode": "모드",
       "th_cod": "콜 오브 듀티 대응 모드",
       "th_lives": "목숨",
@@ -343,14 +397,15 @@
       "private": [
         "패치 1.0.1.4에서 비공개 매치가 추가되었습니다. 비밀번호 전용 로비를 만들고 친구들에게 비밀번호를 알려 주세요.",
         "모든 맵에서 어떤 모드든 봇과 플레이할 수도 있습니다. 봇 대전은 온라인 게임과 같은 XP와 챌린지 진행도를 주지 않을 수 있으니, 반복하기 전에 경기 후 화면을 확인하세요."
-      ]
+      ],
+      "table_title": "Hood Warfare 2 게임 모드 한눈에 보기"
     },
     "guide": {
       "title": "Hood Warfare 2 초보 공략: 팁·조작·문제 해결",
       "description": "Hood Warfare 2 입문: 첫 1시간 플레이, 레벨·무기 챌린지·스킨 해금, 조작법, 음성 채팅, 설정, 소리 안 남·업데이트 문제 해결.",
       "h1": "Hood Warfare 2 초보자 가이드",
-      "lede": "첫 1시간에 할 일, 해금 방식, 스트레스를 가장 많이 줄여 주는 설정과 문제 해결법을 정리했습니다.",
-      "first_hour_title": "첫 1시간",
+      "lede": "Hood Warfare 2가 처음인가요? 첫 1시간에 할 일, 해금 방식, 스트레스를 가장 많이 줄여 주는 설정과 문제 해결법을 정리했습니다.",
+      "first_hour_title": "Hood Warfare 2 첫 1시간",
       "first_hour": [
         {
           "step": "기본 지급 Choppa로 GangBang이나 Chaos를 플레이하세요.",
@@ -425,23 +480,23 @@
       "description": "Hood Warfare 2 최신 패치 노트와 뉴스: 비공개 매치, 안티치트, 음성 채팅, 스폰 보호, 출시 보도를 Steam에서 자동 갱신.",
       "h1": "Hood Warfare 2 뉴스와 패치 노트",
       "lede": "Trapstar Games의 모든 공식 발표를 요약했고, 출시 주간의 언론 보도를 아래에 정리했습니다. Steam의 새 게시물은 3시간 이내에 자동으로 여기에 표시됩니다.",
-      "official_title": "공식 패치 노트",
-      "read_original": "Steam에서 원문 보기",
+      "official_title": "Hood Warfare 2 패치 노트",
+      "read_original": "Steam에서 패치 노트 보기",
       "untranslated": "요약이 아직 작성되지 않았습니다. 공식 게시물의 첫 부분:",
       "press_title": "언론 보도",
       "viral_title": "화제가 된 과정",
       "viral": [
-        "10월 11일, Rainbow Six Siege 프로 선수 Merc이 Drive By 킬스트릭 클립을 올렸습니다. 동료들이 음악을 틀면서 차 창문 밖으로 총을 쏘는 장면입니다. 다음 날까지 조회수가 500만 회를 넘었습니다.",
+        "10월 11일, Rainbow Six Siege 프로 선수 Merc이 Snitch UAV를 비롯한 이 게임의 킬스트릭 클립을 올렸습니다. 게시글에서는 동료들이 음악을 틀어 놓고 차 창문 밖으로 총을 쏘는 Drive By를 두고 농담을 던졌습니다. 다음 날까지 조회수가 500만 회를 넘었습니다.",
         "10월 12일 Dexerto와 Insider Gaming이 이 게임을 다루며, 킬스트릭, 클래스 편성, Modern Warfare 스타일 HUD, 이름만 바꾼 모드 등 콜 오브 듀티를 얼마나 닮았는지 지적했습니다."
       ],
       "roadmap_title": "앞으로의 계획",
       "roadmap": "Trapstar Games는 로드맵을 공개하지 않았습니다. 지금까지의 패치 노트는 모두 추가 업데이트를 약속하며 끝나고, 버그 제보는 공식 Discord에서 받습니다."
     },
     "charts": {
-      "title": "Hood Warfare 2 동접자 수: Steam 실시간 차트",
-      "description": "Hood Warfare 2의 Steam 실시간 동접자 수, 역대 최고(15,058명 보고), 집계 기록, 리뷰 평가를 3시간마다 갱신합니다.",
-      "h1": "Hood Warfare 2 동접자 수",
-      "lede": "Steam 동시 접속자 수를 Steam Web API에서 3시간마다 갱신해 보여 주며, 다른 곳에서 보고된 최고치도 함께 정리했습니다.",
+      "title": "Hood Warfare 2 실시간 동접·Steam Charts",
+      "description": "Hood Warfare 2의 Steam 실시간 동접자 수, 역대 최고({peak}명 보고), 집계 기록, 리뷰 평가를 3시간마다 갱신합니다.",
+      "h1": "Hood Warfare 2 동접자 수·Steam Charts",
+      "lede": "Steam 동시 접속자 수를 Steam Web API에서 3시간마다 갱신해 보여 주며, 다른 곳에서 보고된 최고치와 첫 Hood Warfare와의 비교도 함께 정리했습니다.",
       "current": "현재 플레이 중",
       "at": "{time} UTC 기준",
       "peak_24h": "최근 24시간 최고치 (집계)",
@@ -449,7 +504,7 @@
       "peak_tracked": "저희가 기록한 최고치",
       "reviews": "Steam 리뷰",
       "reviews_value": "{total}개 중 {pct} 긍정적",
-      "chart_title": "시간대별 플레이어 수",
+      "chart_title": "Hood Warfare 2 Steam 차트: 플레이어 수 추이",
       "chart_empty": "집계는 2026년 10월 14일에 시작되었습니다. 3시간마다 새 수치가 추가되며 차트가 채워집니다.",
       "chart_aria": "Steam에서 Hood Warfare 2 동시 접속자 수의 꺾은선 그래프",
       "reported_title": "보고된 최고치",
@@ -458,7 +513,8 @@
       "th_source": "출처",
       "reported_note": {
         "launch_weekend": "출시 주말 최고치",
-        "daily_peak": "일일 최고치"
+        "daily_peak": "일일 최고치",
+        "first_week_peak": "출시 첫 주 최고치"
       },
       "daily_title": "집계한 일일 최고치",
       "method_title": "수치 해석 방법",
@@ -468,7 +524,17 @@
         "참고로 첫 Hood Warfare의 보고된 역대 최고치는 68명이었습니다."
       ],
       "more": "분 단위 기록",
-      "more_links": "전체 해상도 기록은 SteamDB와 SteamCharts에서 확인하세요."
+      "more_links": "분 단위 기록:",
+      "answer_title": "지금 Hood Warfare 2를 몇 명이 플레이하나요?",
+      "answer": "{time} UTC 기준 Steam에서 Hood Warfare 2를 플레이 중인 인원은 {count}명이었습니다. 지금까지 보고된 최고 동접자 수는 2026년 10월 8일 출시 후 첫 주에 기록한 {peak}명입니다. 수치는 미국 저녁 시간대에 정점을 찍고 미국 오전에는 떨어집니다.",
+      "dead_title": "Hood Warfare 2는 망했나요?",
+      "dead": "아니요. 최근 집계된 {count}명은 보고된 최고치의 {pct} 수준으로, 화제 속에 출시된 신작이 일주일쯤 지났을 때 흔히 보이는 수치입니다. Steam 리뷰도 {reviews}가 긍정적입니다. 위 차트를 지켜보세요. 일일 최고치가 몇 주 연속으로 계속 떨어진다면 그때가 위험 신호입니다.",
+      "vs_title": "Hood Warfare Steam 차트 vs Hood Warfare 2",
+      "vs": "SteamCharts를 비롯한 여러 집계 사이트에는 첫 Hood Warfare(2023년, Steam 앱 2274510)만 등록되어 있으며, 이 게임의 역대 최고치는 {hw1_peak}명이었습니다. 그래서 Hood Warfare 동접자 수를 검색하면 수십 명 수준의 차트가 나올 수 있는데, 그건 예전 게임입니다. Hood Warfare 2는 Steam 앱 5155360입니다.",
+      "vs_now": "지금 첫 Hood Warfare를 플레이 중인 인원: {count}명",
+      "link_steamdb_hw2": "SteamDB (Hood Warfare 2)",
+      "link_steamdb_hw1": "SteamDB (첫 Hood Warfare)",
+      "link_steamcharts_hw1": "SteamCharts (첫 Hood Warfare만)"
     }
   },
   "weapons": {
@@ -606,7 +672,9 @@
     "hw2org": "hoodwarfare2.org 팬 가이드",
     "hw2org-steamdb": "hoodwarfare2.org (SteamDB 인용)",
     "tpose": "Tpose Gaming",
-    "gamerblurb": "GamerBlurb"
+    "gamerblurb": "GamerBlurb",
+    "itad": "IsThereAnyDeal (Steam 기준 추적)",
+    "steam-hw1": "Steam 상점 페이지: Hood Warfare (2023)"
   },
   "gloss": {
     "modes": {
@@ -630,5 +698,15 @@
       "bomber": "자폭병",
       "driveby": "드라이브 바이"
     }
+  },
+  "shots": {
+    "3a2e0482831e516554f61d50ebc8e424f0768aaf": "Hood Warfare 2 1인칭 시점: 해 질 녘 도시 거리에서 빨간 권총을 든 모습",
+    "4452474718a1f14e5a4a90876fd771b3df0bd15a": "상가 주차장에서 파란 픽업트럭 뒤에 엄폐한 빨간 후드티 차림의 플레이어",
+    "7f9821ca3035154413304b45333b080932830164": "목조 주택 사이의 풀이 무성한 마당을 돌파하는 파란 옷의 팀",
+    "43f0b1837500b5200327ce996e266f6cc4d93ae5": "텅 빈 주차장 너머로 스코프를 단 저격총을 겨누는 모습",
+    "8f6b9d8798f23533564e0e88d008d5ec116f40d1": "밝은 쇼핑몰 아트리움에서 벌어지는 Hood Warfare 2 총격전",
+    "be62732cc673afb6b5b5eac617ac07241cb925bc": "주차된 차 옆 덤불 너머로 소음기를 단 금색 권총을 겨누는 빨간 모자의 플레이어",
+    "b6ed7c29d45420bc36ce6695197e2959bb6def96": "슈퍼마켓의 팔레트 위 현금 더미 옆에서 권총을 든 1인칭 시점",
+    "1b52eb437bf8f80816d8e4110efd838548b242ff": "쇼핑몰 위층에서 아래층의 적을 겨누는 Hood Warfare 2의 금색 소총"
   }
 }

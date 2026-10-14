@@ -17,7 +17,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-APP_ID = json.loads((DATA / "game.json").read_text())["app_id"]
+GAME = json.loads((DATA / "game.json").read_text())
+APP_ID = GAME["app_id"]
+HW1_APP_ID = GAME["predecessor"]["app_id"]
 PRICE_REGIONS = ["us", "gb", "cn", "tw", "hk", "jp", "kr", "es", "mx", "br", "ru", "de", "fr"]
 HISTORY_CAP = 4000
 UA = "hw2-guide-bot/1.0 (+https://github.com/AndrewC776/hood-warfare-2)"
@@ -46,9 +48,9 @@ def load(path: Path, default):
         return default
 
 
-def fetch_players() -> dict | None:
+def fetch_players(app_id: int = APP_ID) -> dict | None:
     data = get_json(
-        f"https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid={APP_ID}"
+        f"https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid={app_id}"
     )
     resp = (data or {}).get("response", {})
     if resp.get("result") != 1:
@@ -162,6 +164,7 @@ def main() -> int:
     snapshot = {
         "fetched_at": now_iso(),
         "players": players or previous.get("players"),
+        "players_hw1": safe(lambda: fetch_players(HW1_APP_ID)) or previous.get("players_hw1"),
         "reviews": safe(fetch_reviews) or previous.get("reviews"),
         "details": safe(fetch_details) or previous.get("details"),
         "prices": {**previous.get("prices", {}), **(safe(fetch_prices) or {})},

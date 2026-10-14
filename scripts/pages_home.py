@@ -2,10 +2,13 @@
 
 from __future__ import annotations
 
+import re
+
 from blocks import (
-    buy_button,
     bullets,
+    buy_button,
     common_values,
+    exception_badge,
     faq,
     faq_ld,
     gloss,
@@ -14,6 +17,8 @@ from blocks import (
     paras,
     section,
     sources,
+    status_line,
+    top_peak,
 )
 from news_util import news_entries
 from site_lib import (
@@ -89,9 +94,9 @@ def flag_band(ctx: dict) -> str:
   <div class="flag-stripe" aria-hidden="true"></div>
   <div class="flag-white">
     <div class="wrap">
-      <h2 id="streaks-h" class="flag-title">{esc(copy['streaks_title'])} {badge('community', lang)}</h2>
+      <h2 id="streaks-h" class="flag-title">{esc(copy['streaks_title'])}</h2>
       <ol class="flag-stars">{stars}</ol>
-      <p class="flag-note">{esc(copy['streaks_note'])} <a href="{esc(page_url(lang, 'weapons'))}#streaks">{esc(lang['site']['nav']['weapons'])}</a></p>
+      <p class="flag-note">{badge('community', lang)} {esc(copy['streaks_note'])} <a href="{esc(page_url(lang, 'weapons'))}#streaks">{esc(lang['site']['nav']['weapons'])}</a></p>
     </div>
   </div>
   <div class="flag-stripe" aria-hidden="true"></div>
@@ -121,8 +126,9 @@ def quick_facts(ctx: dict) -> str:
 def guide_index(ctx: dict) -> str:
     lang = ctx["lang"]
     blurbs = lang["pages"]["home"]["sections"]
+    titles = {**lang["site"]["nav"], "charts": lang["pages"]["home"]["charts_card"]}
     items = "".join(
-        f'<li><a href="{esc(page_url(lang, p))}"><span class="gi-title">{esc(lang["site"]["nav"][p])}</span>'
+        f'<li><a href="{esc(page_url(lang, p))}"><span class="gi-title">{esc(titles[p])}</span>'
         f'<span class="gi-text">{esc(blurbs[p])}</span></a></li>'
         for p in ["download", "weapons", "maps", "modes", "guide", "news", "charts"]
     )
@@ -153,12 +159,68 @@ def media(ctx: dict) -> str:
             f'<span>{esc(copy["trailer_play"])}</span></button></div>'
             f'<p class="muted small">{esc(copy["trailer_note"])}</p>'
         )
+    alts = ctx["lang"].get("shots", {})
+    fallback = ctx["lang"]["site"]["shot_fallback"]
+    usable = [s for s in details.get("screenshots") or [] if s.get("thumb") and s.get("full")][1:9]
     shots = "".join(
-        f'<li><a href="{esc(s["full"])}" rel="noopener"><img src="{esc(s["thumb"])}" alt="Hood Warfare 2 screenshot {i + 1}" '
+        f'<li><a href="{esc(s["full"])}" rel="noopener"><img src="{esc(s["thumb"])}" alt="{esc(alts.get(shot_id(s), fallback))}" '
         f'width="600" height="338" loading="lazy"></a></li>'
-        for i, s in enumerate([s for s in details.get("screenshots") or [] if s.get("thumb") and s.get("full")][1:9])
+        for s in usable
     )
     return f'{player}<ul class="shots">{shots}</ul>'
+
+
+def shot_id(shot: dict) -> str:
+    match = re.search(r"ss_([0-9a-f]+)", shot.get("thumb") or "")
+    return match.group(1) if match else ""
+
+
+def vs_table(ctx: dict) -> str:
+    lang, game, steam = ctx["lang"], ctx["game"], ctx["steam"]
+    copy = lang["pages"]["home"]
+    vals, rows_l, cols = copy["vs_values"], copy["vs_rows"], copy["vs_cols"]
+    hw1 = game["predecessor"]
+    hw1_now = (steam.get("players_hw1") or {}).get("count")
+    hw2_now = (steam.get("players") or {}).get("count")
+    peak = top_peak(ctx)
+    rows = [
+        (rows_l["release"], f'{esc(fmt_date(hw1["release_date"], lang))} ({esc(vals["early_access"])})',
+         f'{esc(fmt_date(game["release_date"], lang))} ({esc(vals["full_release"])})'),
+        (rows_l["setting"], esc(vals["detroit"]), esc(vals["chicago"])),
+        (rows_l["app"], f'<a href="{esc(hw1["store_url"])}" rel="noopener">{hw1["app_id"]}</a>',
+         f'<a href="{esc(game["steam_url"])}" rel="noopener">{game["app_id"]}</a>'),
+        (rows_l["price"], esc(hw1["price"]), esc((steam.get("prices", {}).get("us") or {}).get("initial", "$5.99"))),
+        (rows_l["players"], fmt_int(hw1_now, lang), fmt_int(hw2_now, lang)),
+        (rows_l["peak"], fmt_int(hw1["reported_peak"], lang),
+         f'{fmt_int(peak["value"], lang)} ({esc(vals["reported"])})' if peak else "-"),
+    ]
+    body = "".join(f'<tr><th scope="row">{esc(k)}</th><td>{a}</td><td>{b}</td></tr>' for k, a, b in rows)
+    return (
+        f'<p>{esc(copy["vs_intro"])}</p><div class="tbl-wrap"><table class="tbl"><thead><tr><td></td>'
+        f'<th scope="col">{esc(cols["hw1"])}</th><th scope="col">{esc(cols["hw2"])}</th></tr></thead><tbody>{body}</tbody></table></div>'
+        f'<p class="note">{esc(copy["vs_note"])}</p>'
+    )
+
+
+def glossary(ctx: dict) -> str:
+    """English in-game names next to their local meaning; skipped for English pages."""
+    lang, game = ctx["lang"], ctx["game"]
+    gl = lang.get("gloss") or {}
+    if lang["meta"]["lang"] == "en" or not gl:
+        return ""
+    copy = lang["pages"]["home"]
+    pairs = [
+        (item["name"], gl.get(group, {}).get(item["id"]))
+        for group, items in (("modes", game["modes"]), ("maps", game["maps"]), ("killstreaks", game["killstreaks"]))
+        for item in items
+    ]
+    rows = "".join(f'<tr><th scope="row">{esc(en)}</th><td>{esc(local)}</td></tr>' for en, local in pairs if local)
+    table = (
+        f'<p>{esc(copy["glossary_intro"])}</p><div class="tbl-wrap"><table class="tbl"><thead><tr>'
+        f'<th scope="col">{esc(copy["glossary_cols"]["en"])}</th><th scope="col">{esc(copy["glossary_cols"]["local"])}</th>'
+        f"</tr></thead><tbody>{rows}</tbody></table></div>"
+    )
+    return section("glossary", copy["glossary_title"], table)
 
 
 def promo(ctx: dict) -> str:
@@ -219,6 +281,7 @@ def render_home(ctx: dict) -> tuple[str, list[str]]:
   {section('facts', copy['facts_title'], quick_facts(ctx))}
 </div>
 <div class="wrap">
+  {section('vs', copy['vs_title'], vs_table(ctx))}
   {section('guides', copy['sections_title'], guide_index(ctx))}
   <div class="cols">
     {section('latest', copy['news_title'], latest_news(ctx))}
@@ -226,8 +289,8 @@ def render_home(ctx: dict) -> tuple[str, list[str]]:
   </div>
 </div>
 {promo(ctx)}
-<div class="wrap narrow">{section('faq', copy['faq_title'], faq(ctx, copy['faq'], values))}</div>
-{sources(ctx, ['steam-store', 'steam-news', 'dexerto', 'insider-gaming', 'hw2org-steamdb'])}"""
+<div class="wrap narrow">{glossary(ctx)}{section('faq', copy['faq_title'], faq(ctx, copy['faq'], values))}</div>
+{sources(ctx, ['steam-store', 'steam-hw1', 'steam-news', 'itad', 'dexerto', 'insider-gaming'])}"""
     return body, [video_game_ld(ctx), json_ld(faq_ld(copy["faq"], values))]
 
 
@@ -263,10 +326,10 @@ def req_table(ctx: dict) -> str:
 
 def platforms(ctx: dict) -> str:
     rows = "".join(
-        f'<tr><th scope="row">{esc(p["k"])}</th><td>{esc(p["v"])}</td><td>{badge(p["conf"], ctx["lang"])}</td></tr>'
+        f'<tr><th scope="row">{esc(p["k"])}</th><td>{esc(p["v"])}{exception_badge(ctx, p["conf"], "official")}</td></tr>'
         for p in ctx["lang"]["pages"]["download"]["platforms"]
     )
-    return f'<div class="tbl-wrap"><table class="tbl"><tbody>{rows}</tbody></table></div>'
+    return f'<div class="tbl-wrap"><table class="tbl"><tbody>{rows}</tbody></table></div>{status_line(ctx, "official")}'
 
 
 def render_download(ctx: dict, crumbs: str) -> tuple[str, list[str]]:
@@ -279,6 +342,7 @@ def render_download(ctx: dict, crumbs: str) -> tuple[str, list[str]]:
   {section('steps', copy['steps_title'], steps)}
 </div>
 <div class="wrap">
+  {section('hw1', copy['hw1_title'], f"<p>{fill(copy['hw1_note'], **values)}</p>", 'callout')}
   {section('safety', copy['safety_title'], paras(copy['safety']), 'callout')}
   {section('requirements', copy['req_title'], req_table(ctx))}
   {section('platforms', copy['platforms_title'], platforms(ctx))}

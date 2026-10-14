@@ -67,7 +67,11 @@
     "footer_report": "Fehler melden",
     "not_found_title": "Seite nicht gefunden",
     "not_found_body": "Diese Seite gibt es nicht. Nutze das Menü oben oder geh zurück zur Startseite.",
-    "not_found_home": "Zur Startseite"
+    "not_found_home": "Zur Startseite",
+    "sources_checked": "Quellen (geprüft am {date})",
+    "status_default": "Status: {badge}, sofern nicht anders angegeben.",
+    "price_with_discount": "{regular} ({final} mit dem aktuellen Rabatt von {n} %)",
+    "shot_fallback": "Gameplay-Screenshot"
   },
   "classes": {
     "ar": "Sturmgewehr",
@@ -92,23 +96,23 @@
   },
   "pages": {
     "home": {
-      "title": "Hood Warfare 2 Guide: Waffen, Karten, Modi, Preis & Spieler",
+      "title": "Hood Warfare 2 Guide: Preis, Waffen, Karten, Modi & Tipps",
       "description": "Inoffizieller Hood Warfare 2 Guide: Steam-Preis, Download, alle Waffen und Killstreaks, 5 Karten, 6 Modi, Einsteigertipps, Patch Notes und Spielerzahlen.",
       "h1": "Hood Warfare 2",
       "lede": "Der Gang-War-Shooter aus Chicago von Trapstar Games, seit dem 8. Oktober 2026 auf Steam. Alles, was du zum Kaufen, Lernen und Gewinnen brauchst: Waffen, Killstreaks, Karten, Modi, Patch Notes und Live-Spielerzahlen, abgeglichen mit dem Steam-Shop und den Notizen des Entwicklers.",
       "cta_guide": "Zum Einsteiger-Guide",
       "reviews_label": "der {total} Steam-Reviews sind positiv",
       "release_label": "auf Steam erschienen",
-      "streaks_title": "Killstreaks",
+      "streaks_title": "Hood Warfare 2 Killstreaks",
       "streaks_note": "Vier Killstreaks, die du mit 3, 5, 7 und 9 Kills in Folge verdienst.",
       "streak_kills": "{n} Kills",
       "what_title": "Was ist Hood Warfare 2?",
       "what": [
         "Hood Warfare 2 ist ein günstiger Multiplayer-Ego-Shooter für Windows-PC. Zwei verfeindete Gangs kämpfen in sechs Modi auf fünf Karten um die Straßen von Chicago. Das Spiel basiert auf der Unreal Engine 5 und ist der Nachfolger von Hood Warfare aus dem Jahr 2023, das in Detroit spielte.",
         "Wenn du schon Call of Duty gespielt hast, fühlst du dich sofort zu Hause: Klassen-Loadouts mit Aufsätzen, Perks und Ausrüstung, ein HUD im Modern-Warfare-Stil und Killstreaks. Das Spiel setzt auf dunklen, derben Humor. Die Snitch-Killstreak funktioniert wie ein UAV, und die Drive-By-Serie schickt ein Auto voller Kumpels mit dröhnender Musik durch den Block.",
-        "Am ersten Wochenende wurde es viral, nachdem der Rainbow-Six-Siege-Profi Merc einen Clip der Drive-By-Killstreak gepostet hatte, der bis zum 12. Oktober mehr als fünf Millionen Aufrufe erreichte. Die gleichzeitigen Spielerzahlen stiegen von ein paar Tausend in den ersten Tagen auf mehr als 15.000 am 13. Oktober."
+        "Am ersten Wochenende wurde es viral: Der Rainbow-Six-Siege-Profi Merc postete einen Clip mit den Killstreaks des Spiels, vom Snitch-UAV bis zum Drive By mit dröhnender Musik, und bis zum 12. Oktober hatte der Clip mehr als fünf Millionen Aufrufe. Die gleichzeitigen Spielerzahlen stiegen von ein paar Tausend in den ersten Tagen auf mehr als 15.000 am 13. Oktober."
       ],
-      "facts_title": "Auf einen Blick",
+      "facts_title": "Hood Warfare 2 auf einen Blick: Preis, Release, Plattformen",
       "facts": {
         "release": "Erscheinungsdatum",
         "developer": "Entwickler und Publisher",
@@ -133,12 +137,12 @@
         "news": "Alle offiziellen Patch Notes zusammengefasst, plus Pressestimmen zum Launch.",
         "charts": "Live-Spielerzahlen auf Steam, erfasste Peaks und Review-Wertung, alle 3 Stunden aktualisiert."
       },
-      "news_title": "Neueste Patches",
+      "news_title": "Hood Warfare 2 Patch Notes",
       "news_all": "Alle News und Patch Notes",
       "media_title": "Trailer und Screenshots",
       "trailer_play": "Offiziellen Trailer abspielen",
       "trailer_note": "Das Video wird von den Servern von Steam gestreamt.",
-      "faq_title": "Häufig gestellte Fragen",
+      "faq_title": "Hood Warfare 2 FAQ",
       "faq": [
         {
           "q": "Ist Hood Warfare 2 kostenlos?",
@@ -162,23 +166,56 @@
         },
         {
           "q": "Wie viele Leute spielen Hood Warfare 2?",
-          "a": "Die aktuelle Steam-Zahl findest du auf der <a href=\"{charts}\">Seite mit den Spielerzahlen</a>. Der bisher höchste gemeldete Wert sind 15.058 gleichzeitige Spieler am 13. Oktober 2026."
+          "a": "Die aktuelle Steam-Zahl findest du auf unserer Seite <a href=\"{charts}\">Hood Warfare 2 Spielerzahlen und Steam Charts</a>. Der bisher höchste gemeldete Wert sind {peak} gleichzeitige Spieler in der ersten Woche."
         },
         {
           "q": "Unterstützt Hood Warfare 2 Controller?",
           "a": "Ja. Steam führt volle Controller-Unterstützung auf, allerdings berichten Spieler, dass die Zielhilfe sehr schwach ist, daher verzeiht Maus und Tastatur mehr."
         },
         {
+          "q": "Gibt es Hood Warfare 2 auf Deutsch?",
+          "a": "Nein, nur auf Englisch. Menüs, Sprachausgabe und Untertitel sind englisch, und Steam führt keine andere Sprache auf. Eine offizielle Übersetzung gibt es nicht (Stand: 14. Oktober 2026)."
+        },
+        {
           "q": "Ist Hood Warfare 2 nur ein Call-of-Duty-Klon?",
           "a": "Es bedient sich stark bei Call of Duty: Klassen-Editor, Killstreaks und Modi, die Domination, Kill Confirmed und Search and Destroy nachempfunden sind. Tester loben Gunplay und Humor für den Preis; am häufigsten kritisiert werden Spawn-Tode und der geringe Umfang."
         }
-      ]
+      ],
+      "charts_card": "Spielerzahlen & Steam Charts",
+      "vs_title": "Hood Warfare vs. Hood Warfare 2: Welches ist das virale Spiel?",
+      "vs_intro": "Zwei Spiele tragen diesen Namen. Das Spiel, das im Oktober 2026 viral ging, ist Hood Warfare 2. Das erste Hood Warfare ist ein kleinerer Early-Access-Titel aus dem Jahr 2023 vom selben Studio, und wer nach „Hood Warfare“ ohne die 2 sucht, landet oft dort.",
+      "vs_cols": {
+        "hw1": "Hood Warfare (2023)",
+        "hw2": "Hood Warfare 2 (2026)"
+      },
+      "vs_rows": {
+        "release": "Erschienen",
+        "setting": "Schauplatz",
+        "app": "Steam-Shopseite",
+        "price": "Preis",
+        "players": "Spielen gerade",
+        "peak": "Höchste Spielerzahl"
+      },
+      "vs_values": {
+        "early_access": "Early Access",
+        "full_release": "Vollversion",
+        "detroit": "Detroit",
+        "chicago": "Chicago",
+        "reported": "gemeldet"
+      },
+      "vs_note": "Diese Seite behandelt Hood Warfare 2. Prüfe vor dem Kauf, ob die geöffnete Steam-Seite zur App 5155360 gehört.",
+      "glossary_title": "Hood Warfare 2: Begriffe auf Deutsch erklärt",
+      "glossary_intro": "„Hood“ ist amerikanischer Slang für das Viertel oder die Nachbarschaft, der Titel bedeutet also ungefähr „Krieg im Viertel“. Das Spiel gibt es nur auf Englisch; diese Tabelle stellt die Namen im Spiel ihrer Bedeutung gegenüber.",
+      "glossary_cols": {
+        "en": "Name im Spiel",
+        "local": "Bedeutung"
+      }
     },
     "download": {
       "title": "Hood Warfare 2 Download, Preis & Systemanforderungen (Steam)",
       "description": "So lädst du Hood Warfare 2 sicher über Steam herunter: Preis in deiner Währung, Kauf Schritt für Schritt, PC-Systemanforderungen, Speicherplatz, Rückgabe.",
       "h1": "Hood Warfare 2 Download und Preis",
-      "lede": "Hood Warfare 2 gibt es nur auf Steam für Windows-PC. Diese Seite zeigt den heutigen Preis in deiner Währung, wie du das Spiel kaufst und installierst und ob dein PC es schafft.",
+      "lede": "Hood Warfare 2 kostet auf Steam {price}, und nur auf Steam kannst du es kaufen. Diese Seite zeigt den heutigen Preis in deiner Währung, wie du das Spiel kaufst und installierst und ob dein PC es schafft.",
       "price_title": "Preis heute",
       "price_regular": "Regulärer Preis",
       "price_now": "Aktueller Preis",
@@ -274,14 +311,16 @@
           "q": "Warum meldet das Spiel, dass ich die falsche Version habe?",
           "a": "Steam hält Updates manchmal bis zum Neustart zurück. Beende Steam komplett über das Menü oben links, starte es neu und lass das Update fertig laufen."
         }
-      ]
+      ],
+      "hw1_title": "Kauf nicht das falsche Hood Warfare",
+      "hw1_note": "Das erste <a href=\"{hw1_url}\" rel=\"noopener\">Hood Warfare</a> (2023, Steam-App 2274510, Detroit, Early Access) ist ein anderes Spiel vom selben Studio. Das virale Spiel von 2026 ist <a href=\"{steam}\" rel=\"noopener\">Hood Warfare 2</a>, Steam-App 5155360."
     },
     "weapons": {
       "title": "Hood Warfare 2 Waffen, Killstreaks & beste Loadouts",
       "description": "Jede Hood Warfare 2 Waffe mit Freischalt-Level: Choppa, Uzi, AKM, .308 Sniper, Pump Shotty, Oldhead, Mac-10. Dazu Aufsätze, Passive, Killstreaks, Loadouts.",
       "h1": "Hood Warfare 2 Waffen, Killstreaks und Loadouts",
-      "lede": "Sieben Primärwaffen, eine Pistole, ein Messer und tödliche Ausrüstung, alles durch Levelaufstiege freigeschaltet. Trapstar Games hat keine Schadens- oder Feuerraten-Werte veröffentlicht, deshalb stammen die Tipps unten aus dem Spielgefühl, nicht aus Tabellen.",
-      "primary_title": "Primärwaffen",
+      "lede": "Hood Warfare 2 hat sieben Primärwaffen, eine Pistole, ein Messer und tödliche Ausrüstung, alles durch Levelaufstiege freigeschaltet. Trapstar Games hat keine Schadens- oder Feuerraten-Werte veröffentlicht, deshalb stammen die Tipps unten aus dem Spielgefühl, nicht aus Tabellen.",
+      "primary_title": "Hood Warfare 2 Primärwaffen und Freischalt-Level",
       "th_weapon": "Waffe",
       "th_class": "Klasse",
       "th_unlock": "Freischaltung",
@@ -297,11 +336,11 @@
         "Wähle jeden Aufsatz, um ein Problem zu lösen: ein Visier, durch das du gut siehst, Rückstoß, den du halten kannst, nicht mitten im Gefecht leerzuschießen oder auf der Minimap aufzutauchen. Teste neue Teile auf einer Karte, die du kennst."
       ],
       "passives_title": "Passive (Perks)",
-      "streaks_title": "Killstreaks",
+      "streaks_title": "Hood Warfare 2 Killstreaks",
       "th_kills": "Kills",
       "th_effect": "Wirkung",
       "streak_counter": "So kontern",
-      "loadouts_title": "Drei Start-Loadouts",
+      "loadouts_title": "Die besten Hood Warfare 2 Loadouts für Einsteiger",
       "loadouts_note": "Das sind unsere Vorschläge für die Launch-Version, keine offiziellen Builds.",
       "loadouts": [
         {
@@ -330,10 +369,10 @@
       "title": "Hood Warfare 2 Karten: alle 5 Maps in Chicago & Tipps",
       "description": "Alle Hood Warfare 2 Karten erklärt: Downtown, Suburbs, The Trenches, Chicago Mall und Supermarket, mit Kampfdistanzen, besten Loadouts und Modus-Tipps.",
       "h1": "Hood Warfare 2 Karten",
-      "lede": "Fünf Karten zum Launch, alle in und um Chicago. Vier davon nennt die Steam-Shopseite; Supermarket wurde vom Entwickler in Patch 1.0.10 bestätigt. Jede Karte wird in allen sechs Modi genutzt.",
+      "lede": "Hood Warfare 2 hat zum Launch fünf Karten, alle in und um Chicago. Vier davon nennt die Steam-Shopseite; Supermarket wurde vom Entwickler in Patch 1.0.10 bestätigt. Jede Karte wird in allen sechs Modi genutzt.",
       "best_for": "Beste Waffen",
       "tips": "Tipps",
-      "spawn_title": "Spawns und Drive By",
+      "spawn_title": "Hood Warfare 2 Karten-Tipps: Spawns und Drive-Bys",
       "spawn": [
         "Patch 1.0.10 hat die Spawnpunkte überarbeitet und Spawn-Schutz hinzugefügt, nachdem es in der Launch-Woche Beschwerden über sofortige Tode gab. Der Entwickler warnte, dass sehr kleine Karten wie Supermarket weiterhin eine kurze Time-to-Kill haben werden.",
         "Derselbe Patch hat die Route der Drive-By-Killstreak auf einigen Karten verlegt, alte Clips zeigen daher womöglich einen anderen Weg."
@@ -346,7 +385,7 @@
       "title": "Hood Warfare 2 Modi: alle 6 Spielmodi erklärt",
       "description": "Hood Warfare 2 Modi erklärt: Turf War, GangBang, Chaos, Hit A Lick, Destroy The Block und Chain Snatch, mit Regeln, Call-of-Duty-Entsprechungen und Tipps.",
       "h1": "Hood Warfare 2 Spielmodi",
-      "lede": "Sechs Modi, umbenannte Versionen von Call-of-Duty-Klassikern. Nur GangBang und Chaos werden allein über Kills gewonnen; in den anderen vier öffnet ein Kill nur die Tür zum Ziel.",
+      "lede": "Hood Warfare 2 hat sechs Modi, umbenannte Versionen von Call-of-Duty-Klassikern. Nur GangBang und Chaos werden allein über Kills gewonnen; in den anderen vier öffnet ein Kill nur die Tür zum Ziel.",
       "th_mode": "Modus",
       "th_cod": "Call-of-Duty-Entsprechung",
       "th_lives": "Leben",
@@ -358,14 +397,15 @@
       "private": [
         "Patch 1.0.1.4 hat private Matches hinzugefügt: Erstelle eine Lobby nur mit Passwort und teile das Passwort mit deinen Freunden.",
         "Du kannst außerdem jeden Modus auf jeder Karte gegen Bots spielen. Bot-Matches geben womöglich nicht denselben XP- und Challenge-Fortschritt wie Online-Spiele; prüfe den Bildschirm nach dem Match, bevor du sie grindest."
-      ]
+      ],
+      "table_title": "Alle Hood Warfare 2 Spielmodi auf einen Blick"
     },
     "guide": {
       "title": "Hood Warfare 2 Guide für Einsteiger: Tipps, Steuerung & Fixes",
       "description": "Neu in Hood Warfare 2? Plan für die erste Stunde, Freischaltung von Leveln, Waffen-Challenges und Skins, Steuerung, Sprachchat, Einstellungen und Fixes.",
       "h1": "Hood Warfare 2 Einsteiger-Guide",
-      "lede": "Was du in deiner ersten Stunde tun solltest, wie Freischaltungen funktionieren und welche Einstellungen und Lösungen dir am meisten Frust ersparen.",
-      "first_hour_title": "Deine erste Stunde",
+      "lede": "Neu in Hood Warfare 2? Hier erfährst du, was du in deiner ersten Stunde tun solltest, wie Freischaltungen funktionieren und welche Einstellungen und Lösungen dir am meisten Frust ersparen.",
+      "first_hour_title": "Deine erste Stunde in Hood Warfare 2",
       "first_hour": [
         {
           "step": "Spiele GangBang oder Chaos mit der Start-Choppa.",
@@ -440,23 +480,23 @@
       "description": "Aktuelle Hood Warfare 2 Patch Notes und News: private Matches, Anti-Cheat, Sprachchat, Spawn-Schutz und Launch-Berichte, automatisch von Steam.",
       "h1": "Hood Warfare 2 News und Patch Notes",
       "lede": "Jede offizielle Ankündigung von Trapstar Games in Kurzform, darunter die Pressestimmen der Launch-Woche. Neue Steam-Beiträge erscheinen hier automatisch innerhalb von 3 Stunden.",
-      "official_title": "Offizielle Patch Notes",
-      "read_original": "Original auf Steam lesen",
+      "official_title": "Hood Warfare 2 Patch Notes",
+      "read_original": "Patch Notes auf Steam lesen",
       "untranslated": "Zusammenfassung noch nicht geschrieben; erste Zeilen des offiziellen Beitrags:",
       "press_title": "Pressestimmen",
       "viral_title": "So wurde es viral",
       "viral": [
-        "Am 11. Oktober postete der Rainbow-Six-Siege-Profi Merc einen Clip der Drive-By-Killstreak, in dem die Kumpels Musik spielen und aus dem Autofenster schießen. Bis zum nächsten Tag hatte er mehr als fünf Millionen Aufrufe.",
+        "Am 11. Oktober postete der Rainbow-Six-Siege-Profi Merc einen Clip mit den Killstreaks des Spiels, darunter das Snitch-UAV; in seinem Post witzelte er über den Drive By, bei dem die Kumpels Musik spielen und aus dem Autofenster schießen. Bis zum nächsten Tag hatte der Clip mehr als fünf Millionen Aufrufe.",
         "Dexerto und Insider Gaming berichteten am 12. Oktober über das Spiel und wiesen beide darauf hin, wie eng es sich an Call of Duty orientiert: Killstreaks, Klassen-Editor, ein HUD im Modern-Warfare-Stil und umbenannte Modi."
       ],
       "roadmap_title": "Wie geht es weiter?",
       "roadmap": "Trapstar Games hat keine Roadmap veröffentlicht. Jede bisherige Patch Note endet mit dem Versprechen weiterer Updates, und Fehlerberichte laufen über den offiziellen Discord."
     },
     "charts": {
-      "title": "Hood Warfare 2 Spielerzahlen: Live-Count & Peak auf Steam",
-      "description": "Hood Warfare 2 Spielerzahlen live auf Steam, Allzeit-Peak (15.058 gemeldet), erfasster Verlauf und Review-Wertung, alle 3 Stunden aktualisiert.",
-      "h1": "Hood Warfare 2 Spielerzahlen",
-      "lede": "Gleichzeitige Spieler auf Steam, alle 3 Stunden über die Steam Web API aktualisiert, neben den höchsten Werten, die anderswo gemeldet wurden.",
+      "title": "Hood Warfare 2 Spielerzahlen & Steam Charts (Live)",
+      "description": "Hood Warfare 2 Spielerzahlen live auf Steam, Allzeit-Peak ({peak} gemeldet), erfasster Verlauf und Review-Wertung, alle 3 Stunden aktualisiert.",
+      "h1": "Hood Warfare 2 Spielerzahlen & Steam Charts",
+      "lede": "Gleichzeitige Spieler auf Steam live, alle 3 Stunden über die Steam Web API aktualisiert, dazu die höchsten anderswo gemeldeten Werte und ein Vergleich mit dem ersten Hood Warfare.",
       "current": "Spielen gerade",
       "at": "Stand: {time} UTC",
       "peak_24h": "Peak der letzten 24 Std. (erfasst)",
@@ -464,7 +504,7 @@
       "peak_tracked": "Höchster Wert, den wir erfasst haben",
       "reviews": "Steam-Reviews",
       "reviews_value": "{pct} positiv von {total}",
-      "chart_title": "Spieler im Zeitverlauf",
+      "chart_title": "Hood Warfare 2 Steam Charts: Spieler im Zeitverlauf",
       "chart_empty": "Die Erfassung begann am 14. Oktober 2026. Das Diagramm füllt sich, da alle 3 Stunden ein neuer Messwert hinzukommt.",
       "chart_aria": "Liniendiagramm der gleichzeitigen Spieler von Hood Warfare 2 auf Steam",
       "reported_title": "Gemeldete Peaks",
@@ -473,7 +513,8 @@
       "th_source": "Quelle",
       "reported_note": {
         "launch_weekend": "Peak am Launch-Wochenende",
-        "daily_peak": "Tages-Peak"
+        "daily_peak": "Tages-Peak",
+        "first_week_peak": "Peak in der ersten Woche"
       },
       "daily_title": "Tages-Peaks, die wir erfasst haben",
       "method_title": "So entstehen diese Zahlen",
@@ -483,7 +524,17 @@
         "Zum Vergleich: Das erste Hood Warfare hatte einen gemeldeten Allzeit-Peak von 68 Spielern."
       ],
       "more": "Minutengenauer Verlauf",
-      "more_links": "Den vollständigen Verlauf findest du bei SteamDB und SteamCharts."
+      "more_links": "Minutengenauer Verlauf:",
+      "answer_title": "Wie viele Leute spielen Hood Warfare 2 gerade?",
+      "answer": "Stand {time} UTC spielten {count} Leute Hood Warfare 2 auf Steam. Die höchste bisher gemeldete Spielerzahl liegt bei {peak}, erreicht in der ersten Woche nach dem Launch am 8. Oktober 2026. Die Zahlen erreichen am US-Abend ihren Höhepunkt und sinken am US-Vormittag.",
+      "dead_title": "Ist Hood Warfare 2 tot?",
+      "dead": "Nein. Der letzte Messwert von {count} Spielern entspricht {pct} des gemeldeten Peaks, was für ein neues Spiel eine Woche nach einem viralen Launch normal ist, und {reviews} der Steam-Reviews sind positiv. Behalte das Diagramm oben im Blick: Ein Spiel steckt in Schwierigkeiten, wenn seine Tages-Peaks Woche für Woche weiter fallen.",
+      "vs_title": "Hood Warfare Steam Charts vs. Hood Warfare 2",
+      "vs": "SteamCharts und einige andere Tracker führen nur das erste Hood Warfare (2023, Steam-App 2274510), dessen Allzeit-Peak bei {hw1_peak} Spielern lag. Deshalb zeigt eine Suche nach den Spielerzahlen von Hood Warfare manchmal ein Diagramm mit ein paar Dutzend Spielern: Das ist das alte Spiel. Hood Warfare 2 ist Steam-App 5155360.",
+      "vs_now": "Spielen gerade das erste Hood Warfare: {count}.",
+      "link_steamdb_hw2": "SteamDB (Hood Warfare 2)",
+      "link_steamdb_hw1": "SteamDB (erstes Hood Warfare)",
+      "link_steamcharts_hw1": "SteamCharts (nur erstes Hood Warfare)"
     }
   },
   "weapons": {
@@ -621,7 +672,9 @@
     "hw2org": "hoodwarfare2.org Fan-Guide",
     "hw2org-steamdb": "hoodwarfare2.org mit Verweis auf SteamDB",
     "tpose": "Tpose Gaming",
-    "gamerblurb": "GamerBlurb"
+    "gamerblurb": "GamerBlurb",
+    "itad": "IsThereAnyDeal (aus Steam-Daten)",
+    "steam-hw1": "Steam-Shopseite: Hood Warfare (2023)"
   },
   "gloss": {
     "modes": {
@@ -645,5 +698,15 @@
       "bomber": "Bombenträger",
       "driveby": "Beschuss aus dem Auto"
     }
+  },
+  "shots": {
+    "3a2e0482831e516554f61d50ebc8e424f0768aaf": "Hood Warfare 2 in der Ego-Perspektive: mit roter Pistole in der Abenddämmerung auf einer Stadtstraße",
+    "4452474718a1f14e5a4a90876fd771b3df0bd15a": "Spieler im roten Hoodie geht hinter einem blauen Pick-up auf dem Parkplatz einer Einkaufszeile in Deckung",
+    "7f9821ca3035154413304b45333b080932830164": "Team in Blau rückt durch einen verwilderten Garten zwischen Holzhäusern vor",
+    "43f0b1837500b5200327ce996e266f6cc4d93ae5": "Zielen mit einem Scharfschützengewehr mit Zielfernrohr über einen leeren Parkplatz",
+    "8f6b9d8798f23533564e0e88d008d5ec116f40d1": "Feuergefecht in Hood Warfare 2 im hellen Atrium eines Einkaufszentrums",
+    "be62732cc673afb6b5b5eac617ac07241cb925bc": "Spieler mit roter Cap zielt mit einer goldenen Pistole mit Schalldämpfer über Büsche neben einem geparkten Auto",
+    "b6ed7c29d45420bc36ce6695197e2959bb6def96": "Ego-Perspektive mit Pistole in einem Supermarkt neben einem Stapel Bargeld auf Paletten",
+    "1b52eb437bf8f80816d8e4110efd838548b242ff": "Gewehr mit Gold-Finish in Hood Warfare 2, vom Obergeschoss eines Einkaufszentrums auf einen Gegner darunter gerichtet"
   }
 }

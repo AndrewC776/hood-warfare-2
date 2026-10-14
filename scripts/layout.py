@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 
+from blocks import common_values
 from site_lib import (
     BASE,
     GOOGLE_SITE_VERIFICATION,
@@ -12,6 +13,7 @@ from site_lib import (
     PROMO_URL,
     REPO_URL,
     esc,
+    fill,
     fmt_time_utc,
     json_ld,
     page_url,
@@ -31,6 +33,7 @@ GLOBE = (
 def head(ctx: dict, page: str, extra_ld: list[str]) -> str:
     lang, langs = ctx["lang"], ctx["langs"]
     copy = lang["pages"][page]
+    description = fill(copy["description"], **common_values(ctx))
     canonical = page_url(lang, page, absolute=True)
     alternates = "".join(
         f'<link rel="alternate" hreflang="{esc(l["meta"]["hreflang"])}" href="{esc(page_url(l, page, True))}">'
@@ -50,14 +53,14 @@ def head(ctx: dict, page: str, extra_ld: list[str]) -> str:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(copy['title'])}</title>
-<meta name="description" content="{esc(copy['description'])}">
+<meta name="description" content="{esc(description)}">
 <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
 <link rel="canonical" href="{esc(canonical)}">
 {alternates}
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{esc(lang['site']['name'])}">
 <meta property="og:title" content="{esc(copy['title'])}">
-<meta property="og:description" content="{esc(copy['description'])}">
+<meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="{esc(canonical)}">
 {f'<meta property="og:image" content="{esc(image)}">' if image else ""}
 <meta property="og:locale" content="{esc(lang['meta']['og_locale'])}">

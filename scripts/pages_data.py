@@ -4,11 +4,13 @@ from __future__ import annotations
 
 from datetime import timedelta
 
-from blocks import page_intro, paras, section, sources
+from blocks import page_intro, paras, section, source_rel, sources, top_peak
 from news_util import news_entries
-from site_lib import badge, esc, fill, fmt_date, fmt_int, fmt_pct, fmt_time_utc, parse_time
+from site_lib import esc, fill, fmt_date, fmt_int, fmt_pct, fmt_time_utc, parse_time
 
 CHART_W, CHART_H, PAD_L, PAD_B, PAD_T = 720, 260, 56, 28, 12
+# Below this share of the reported peak, the page stops claiming the game is "not dead".
+DEAD_THRESHOLD = 0.10
 
 
 def render_news(ctx: dict, crumbs: str) -> tuple[str, list[str]]:
@@ -20,7 +22,7 @@ def render_news(ctx: dict, crumbs: str) -> tuple[str, list[str]]:
         points = "".join(f"<li>{esc(p)}</li>" for p in n["points"])
         items += f"""<li class="post" id="n{esc(n['gid'])}">
   <time datetime="{esc(n['date'])}">{esc(fmt_date(n['date'], lang))}</time>
-  <div><h3>{esc(n['title'])} {badge('official', lang)}</h3>{note}<ul class="ticks">{points}</ul>
+  <div><h3>{esc(n['title'])}</h3>{note}<ul class="ticks">{points}</ul>
   <p><a href="{esc(n['url'])}" rel="noopener">{esc(copy['read_original'])}</a></p></div>
 </li>"""
     press = "".join(
@@ -110,12 +112,14 @@ def render_charts(ctx: dict, crumbs: str) -> tuple[str, list[str]]:
     if players:
         when = f'<time datetime="{esc(players["at"])}">{esc(fill(copy["at"], time=fmt_time_utc(players["at"], lang)))}</time>'
         tiles += stat(copy["current"], f'<span class="dot" aria-hidden="true"></span>{fmt_int(players["count"], lang)}', when)
-    windows = ((copy["peak_24h"], 24), (copy["peak_7d"], 24 * 7), (copy["peak_tracked"], 24 * 3650))
-    for label, hours in windows if len(points) >= 2 else ():
-        peak = peak_since(points, hours)
+    span_hours = (points[-1][0] - points[0][0]).total_seconds() / 3600 if len(points) >= 2 else 0
+    # Only show a tracked peak once the history actually covers that window.
+    windows = ((copy["peak_24h"], 24, 24), (copy["peak_7d"], 24 * 7, 24 * 7), (copy["peak_tracked"], 24 * 3650, 24))
+    for label, hours, needed in windows:
+        peak = peak_since(points, hours) if span_hours >= needed else None
         if peak:
             tiles += stat(label, fmt_int(peak[1], lang), esc(fmt_time_utc(peak[0].isoformat(), lang)) + " UTC")
-    top_reported = max(game["reported_peaks"], key=lambda r: r["value"], default=None)
+    top_reported = top_peak(ctx)
     if top_reported:
         tiles += stat(
             copy["reported_title"],
@@ -129,7 +133,7 @@ def render_charts(ctx: dict, crumbs: str) -> tuple[str, list[str]]:
     by_source = {s["id"]: s for s in game["sources"]}
     reported = "".join(
         f'<tr><td>{esc(fmt_date(r["date"], lang))}</td><td class="num">{fmt_int(r["value"], lang)}</td>'
-        f'<td><a href="{esc(by_source[r["source"]]["url"])}" rel="noopener">{esc(lang["sources"][r["source"]])}</a>'
+        f'<td><a href="{esc(by_source[r["source"]]["url"])}" rel="{source_rel(by_source[r["source"]])}">{esc(lang["sources"][r["source"]])}</a>'
         f' <span class="muted">({esc(copy["reported_note"][r["note"]])})</span></td></tr>'
         for r in sorted(game["reported_peaks"], key=lambda r: r["value"], reverse=True)
     )
@@ -146,12 +150,15 @@ def render_charts(ctx: dict, crumbs: str) -> tuple[str, list[str]]:
         f'<th scope="col">{esc(copy["th_players"])}</th></tr></thead><tbody>{daily}</tbody></table></div>'
     )
     more = (
-        f'<p>{esc(copy["more_links"])} <a href="{esc(game["steamdb_url"])}" rel="noopener">SteamDB</a>, '
-        f'<a href="{esc(game["steamcharts_url"])}" rel="noopener">SteamCharts</a></p>'
+        f'<p>{esc(copy["more_links"])} <a href="{esc(game["steamdb_url"])}" rel="noopener">{esc(copy["link_steamdb_hw2"])}</a>, '
+        f'<a href="{esc(game["steamdb_hw1_url"])}" rel="noopener">{esc(copy["link_steamdb_hw1"])}</a>, '
+        f'<a href="{esc(game["steamcharts_hw1_url"])}" rel="noopener">{esc(copy["link_steamcharts_hw1"])}</a></p>'
     )
+    answers = qa_sections(ctx, players, reviews, top_reported)
     body = f"""{page_intro(ctx, 'charts', crumbs)}
 <div class="wrap">
   <div class="stats">{tiles}</div>
+  {answers}
   {section('chart', copy['chart_title'], chart_svg(ctx, points))}
   <div class="cols">
     {section('reported', copy['reported_title'], reported_tbl)}
@@ -159,5 +166,32 @@ def render_charts(ctx: dict, crumbs: str) -> tuple[str, list[str]]:
   </div>
   {section('method', copy['method_title'], paras(copy['method']) + more)}
 </div>
-{sources(ctx, ['steam-store', 'hw2org-steamdb', 'insider-gaming'])}"""
+{sources(ctx, ['steam-store', 'itad', 'steam-hw1', 'insider-gaming', 'hw2org-steamdb'])}"""
     return body, []
+
+
+def qa_sections(ctx: dict, players, reviews, peak) -> str:
+    """Direct answers for "how many people play" / "is it dead" / first-game confusion."""
+    lang, steam, game = ctx["lang"], ctx["steam"], ctx["game"]
+    copy = lang["pages"]["charts"]
+    out = ""
+    if players and peak:
+        values = {
+            "count": fmt_int(players["count"], lang),
+            "time": fmt_time_utc(players["at"], lang),
+            "peak": fmt_int(peak["value"], lang),
+        }
+        out += section("now", copy["answer_title"], f"<p>{esc(fill(copy['answer'], **values))}</p>")
+        ratio = players["count"] / peak["value"]
+        if reviews and reviews.get("total") and ratio >= DEAD_THRESHOLD:
+            share = fmt_pct(round(100 * ratio), lang)
+            positive = fmt_pct(round(100 * reviews["positive"] / reviews["total"]), lang)
+            dead = fill(copy["dead"], count=values["count"], pct=share, reviews=positive)
+            out += section("dead", copy["dead_title"], f"<p>{esc(dead)}</p>")
+    hw1 = game["predecessor"]
+    vs = f"<p>{esc(fill(copy['vs'], hw1_peak=fmt_int(hw1['reported_peak'], lang)))}</p>"
+    hw1_now = steam.get("players_hw1")
+    fresh = hw1_now and players and abs((parse_time(hw1_now["at"]) - parse_time(players["at"])).total_seconds()) < 6 * 3600
+    if fresh:
+        vs += f"<p>{esc(fill(copy['vs_now'], count=fmt_int(hw1_now['count'], lang)))}</p>"
+    return out + section("vs-hw1", copy["vs_title"], vs)

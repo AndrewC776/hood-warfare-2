@@ -6,9 +6,24 @@
     "name": "日本語",
     "og_locale": "ja_JP",
     "path": "ja",
-    "price_cc": ["jp"],
+    "price_cc": [
+      "jp"
+    ],
     "date_format": "{y}年{mon}月{d}日",
-    "months": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "months": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
     "thousands_sep": ",",
     "percent_format": "{n}%"
   },
@@ -52,7 +67,11 @@
     "footer_report": "誤りを報告する",
     "not_found_title": "ページが見つかりません",
     "not_found_body": "お探しのページは存在しません。上のメニューを使うか、ホームに戻ってください。",
-    "not_found_home": "ホームへ戻る"
+    "not_found_home": "ホームへ戻る",
+    "sources_checked": "情報源（{date}確認）",
+    "status_default": "特に記載がない限り、ステータスは{badge}です。",
+    "price_with_discount": "{regular}（現在{n}%割引で{final}）",
+    "shot_fallback": "ゲームプレイのスクリーンショット"
   },
   "classes": {
     "ar": "アサルトライフル",
@@ -77,23 +96,23 @@
   },
   "pages": {
     "home": {
-      "title": "Hood Warfare 2 攻略: 武器・マップ・価格・同接",
+      "title": "Hood Warfare 2 攻略: 価格・武器・マップ・モード",
       "description": "Hood Warfare 2の非公式攻略ガイド。Steam価格、全武器とキルストリーク、5マップ、6モード、初心者のコツ、パッチノート、同接数。",
       "h1": "Hood Warfare 2",
       "lede": "Trapstar Gamesが手がけるシカゴのギャング抗争シューター。2026年10月8日にSteamで発売されました。購入から上達、勝利まで必要な情報（武器、キルストリーク、マップ、モード、パッチノート、リアルタイムのプレイヤー数）を、Steamストアと開発元の公式ノートで確認してまとめています。",
       "cta_guide": "初心者ガイドを読む",
       "reviews_label": "{total}件のSteamレビューのうち好評",
       "release_label": "Steamで発売",
-      "streaks_title": "キルストリーク",
+      "streaks_title": "Hood Warfare 2のキルストリーク",
       "streaks_note": "キルストリークは4種類。連続3、5、7、9キルで獲得できます。",
       "streak_kills": "{n}キル",
       "what_title": "Hood Warfare 2とは？",
       "what": [
         "Hood Warfare 2は、Windows PC向けの低価格マルチプレイ対戦FPSです。敵対する2つのギャングが、シカゴの街を舞台に6つのモード、5つのマップで戦います。Unreal Engine 5で制作され、舞台がデトロイトだった2023年の前作Hood Warfareの続編にあたります。",
         "Call of Dutyを遊んだことがあれば、すぐに馴染めます。アタッチメント、パーク、装備を選ぶクラス編成、Modern Warfare風のHUD、キルストリークがそろっています。ゲームは暗く下品なユーモアが持ち味です。SnitchキルストリークはUAVのように機能し、Drive Byキルストリークは仲間を乗せた車が音楽を流しながら通りを撃ちまくります。",
-        "発売初週末にバイラルヒットしました。Rainbow Six Siegeのプロ選手Mercが投稿したDrive Byキルストリークのクリップが、10月12日までに500万回再生を超えたためです。同時接続プレイヤー数は、最初の数日の数千人から、10月13日には15,000人を超えました。"
+        "発売初週末にバイラルヒットしました。きっかけは、Rainbow Six Siegeのプロ選手Mercが投稿したキルストリークのクリップです。UAV役のSnitchから音楽を鳴らしながら走るDrive Byまでを映したこの動画は、10月12日までに500万回再生を超えました。同時接続プレイヤー数は、最初の数日の数千人から、10月13日には15,000人を超えました。"
       ],
-      "facts_title": "基本情報",
+      "facts_title": "Hood Warfare 2の基本情報: 価格・発売日・対応機種",
       "facts": {
         "release": "発売日",
         "developer": "開発・販売",
@@ -118,12 +137,12 @@
         "news": "公式パッチノートをすべて要約。発売時の海外メディアの反応も掲載。",
         "charts": "Steamのリアルタイムのプレイヤー数、記録したピーク、レビュー評価。3時間ごとに更新。"
       },
-      "news_title": "最新パッチ",
+      "news_title": "Hood Warfare 2のパッチノート",
       "news_all": "ニュースとパッチノート一覧",
       "media_title": "トレーラーとスクリーンショット",
       "trailer_play": "公式トレーラーを再生",
       "trailer_note": "動画はSteamのサーバーから配信されます。",
-      "faq_title": "よくある質問",
+      "faq_title": "Hood Warfare 2のよくある質問",
       "faq": [
         {
           "q": "Hood Warfare 2は無料ですか？",
@@ -147,23 +166,56 @@
         },
         {
           "q": "Hood Warfare 2のプレイヤー数はどれくらいですか？",
-          "a": "最新のSteamの数値は<a href=\"{charts}\">プレイヤー数ページ</a>で確認できます。これまでに報告された最高値は、2026年10月13日の同時接続15,058人です。"
+          "a": "最新のSteamの数値は<a href=\"{charts}\">Hood Warfare 2のプレイヤー数とSteam Charts</a>のページで確認できます。これまでに報告された最高値は、発売初週の同時接続{peak}人です。"
         },
         {
           "q": "Hood Warfare 2はコントローラーに対応していますか？",
           "a": "はい。Steamではフルコントローラー対応と表示されています。ただしエイムアシストはかなり弱いという報告があり、マウスとキーボードのほうが扱いやすいです。"
         },
         {
+          "q": "Hood Warfare 2は日本語に対応していますか？",
+          "a": "いいえ、英語のみです。メニュー、ボイス、字幕はすべて英語で、Steamにも英語以外の対応言語は記載されていません。2026年10月14日時点で、公式の日本語翻訳もありません。"
+        },
+        {
           "q": "Hood Warfare 2はCall of Dutyのクローンですか？",
           "a": "Call of Dutyからかなり多くを取り入れています。クラス編成、キルストリーク、そしてドミネーション、キルコンファームド、サーチ・アンド・デストロイに相当するモードです。レビューでは価格のわりにガンプレイとユーモアが好評で、不満が多いのはスポーンキルとコンテンツ量の少なさです。"
         }
-      ]
+      ],
+      "charts_card": "プレイヤー数とSteam Charts",
+      "vs_title": "Hood WarfareとHood Warfare 2の違い: 話題になっているのはどっち？",
+      "vs_intro": "同じ名前のゲームが2つあります。2026年10月にバイラルヒットしたのはHood Warfare 2です。初代Hood Warfareは、同じスタジオが2023年に早期アクセスで出した小規模な作品で、「2」を付けずに「Hood Warfare」と検索すると、こちらが表示されることがよくあります。",
+      "vs_cols": {
+        "hw1": "Hood Warfare（2023年）",
+        "hw2": "Hood Warfare 2（2026年）"
+      },
+      "vs_rows": {
+        "release": "発売",
+        "setting": "舞台",
+        "app": "Steamストアページ",
+        "price": "価格",
+        "players": "現在プレイ中",
+        "peak": "最高プレイヤー数"
+      },
+      "vs_values": {
+        "early_access": "早期アクセス",
+        "full_release": "正式リリース",
+        "detroit": "デトロイト",
+        "chicago": "シカゴ",
+        "reported": "報告値"
+      },
+      "vs_note": "このサイトはHood Warfare 2を扱っています。購入前に、開いたSteamページのアプリIDが5155360であることを確認してください。",
+      "glossary_title": "Hood Warfare 2の用語を日本語で",
+      "glossary_intro": "「Hood」はアメリカのスラングで「地元」や「近所」（neighborhood）を指す言葉なので、タイトルはおおよそ「地元の戦争」という意味になります。ゲームは英語のみのため、この表ではゲーム内の名称とその意味を並べています。",
+      "glossary_cols": {
+        "en": "ゲーム内の名称",
+        "local": "意味"
+      }
     },
     "download": {
       "title": "Hood Warfare 2 ダウンロードと価格・必要スペック",
       "description": "Hood Warfare 2をSteamで安全に入手する方法。現在の価格、購入手順、PCの必要スペック、容量、返金ルールを解説。",
       "h1": "Hood Warfare 2のダウンロードと価格",
-      "lede": "Hood Warfare 2はWindows PC向けにSteamでのみ販売されています。このページでは、今日の価格、購入とインストールの手順、お使いのPCで動くかどうかを確認できます。",
+      "lede": "Hood Warfare 2のSteamでの価格は{price}で、購入できるのはSteamだけです。このページでは、現地通貨での本日の価格、購入とインストールの手順、お使いのPCで動くかどうかを確認できます。",
       "price_title": "本日の価格",
       "price_regular": "通常価格",
       "price_now": "現在の価格",
@@ -259,14 +311,16 @@
           "q": "「バージョンが違う」と表示されるのはなぜですか？",
           "a": "Steamが再起動するまで更新を保留することがあります。左上のメニューからSteamを完全に終了し、再起動して更新が終わるのを待ってください。"
         }
-      ]
+      ],
+      "hw1_title": "初代Hood Warfareと間違えて買わないように",
+      "hw1_note": "初代<a href=\"{hw1_url}\" rel=\"noopener\">Hood Warfare</a>（2023年、Steamアプリ2274510、舞台はデトロイト、早期アクセス）は、同じスタジオによる別のゲームです。2026年にバイラルヒットしたのは<a href=\"{steam}\" rel=\"noopener\">Hood Warfare 2</a>（Steamアプリ5155360）です。"
     },
     "weapons": {
       "title": "Hood Warfare 2 武器一覧・キルストリーク・装備",
       "description": "Hood Warfare 2の全武器と解放レベル。Choppa、Uzi、AKM、.308 Sniperほか。アタッチメント、パッシブ、キルストリーク、おすすめ装備。",
       "h1": "Hood Warfare 2の武器、キルストリーク、ロードアウト",
-      "lede": "メイン武器7種、サイドアーム、ブレード、リーサル装備は、すべてレベルアップで解放されます。Trapstar Gamesはダメージや連射速度などのスタッツを公開していないため、以下のアドバイスは数値表ではなく実際のプレイに基づいています。",
-      "primary_title": "メイン武器",
+      "lede": "Hood Warfare 2には、メイン武器7種、サイドアーム、ブレード、リーサル装備があり、すべてレベルアップで解放されます。Trapstar Gamesはダメージや連射速度などのスタッツを公開していないため、以下のアドバイスは数値表ではなく実際のプレイに基づいています。",
+      "primary_title": "Hood Warfare 2のメイン武器と解放レベル",
       "th_weapon": "武器",
       "th_class": "種類",
       "th_unlock": "解放",
@@ -282,11 +336,11 @@
         "アタッチメントは、1つの問題を解決するために選びましょう。見やすい照準、抑えきれない反動、戦闘中の弾切れ、ミニマップに映ってしまうこと、などです。新しいパーツは、よく知っているマップで試してください。"
       ],
       "passives_title": "パッシブ（パーク）",
-      "streaks_title": "キルストリーク",
+      "streaks_title": "Hood Warfare 2のキルストリーク",
       "th_kills": "キル数",
       "th_effect": "効果",
       "streak_counter": "対策",
-      "loadouts_title": "初心者向けロードアウト3種",
+      "loadouts_title": "Hood Warfare 2 初心者におすすめのロードアウト",
       "loadouts_note": "ローンチ版向けの当サイトのおすすめであり、公式のビルドではありません。",
       "loadouts": [
         {
@@ -315,10 +369,10 @@
       "title": "Hood Warfare 2 マップ攻略: 全5マップ解説",
       "description": "Hood Warfare 2の全5マップを解説：Downtown、Suburbs、The Trenches、Chicago Mall、Supermarket。交戦距離とコツ。",
       "h1": "Hood Warfare 2のマップ",
-      "lede": "発売時点で5マップ、すべてシカゴとその周辺が舞台です。4つはSteamストアページに名前が記載されており、Supermarketはパッチ1.0.10で開発元が確認しました。どのマップも6つのモードすべてで使われます。",
+      "lede": "Hood Warfare 2には発売時点で5つのマップがあり、すべてシカゴとその周辺が舞台です。4つはSteamストアページに名前が記載されており、Supermarketはパッチ1.0.10で開発元が確認しました。どのマップも6つのモードすべてで使われます。",
       "best_for": "おすすめ武器",
       "tips": "コツ",
-      "spawn_title": "スポーンとDrive By",
+      "spawn_title": "Hood Warfare 2のマップ攻略: スポーンとDrive By",
       "spawn": [
         "発売初週に、スポーン直後にすぐ倒されるという不満が相次いだため、パッチ1.0.10でスポーン地点が見直され、スポーン保護が追加されました。開発元は、Supermarketのような非常に小さなマップでは、キルまでの時間が短いままになると述べています。",
         "同じパッチで、一部のマップでDrive Byキルストリークのルートが変更されたため、古いクリップとは経路が異なる場合があります。"
@@ -331,7 +385,7 @@
       "title": "Hood Warfare 2 モード解説: 全6モードのルール",
       "description": "Hood Warfare 2の全6モードを解説。Turf WarからChain Snatchまで、ルール、Call of Dutyの対応モード、勝つコツ。",
       "h1": "Hood Warfare 2のゲームモード",
-      "lede": "6つのモードは、Call of Dutyの定番モードの名前を変えたものです。キルだけで勝敗が決まるのはGangBangとChaosだけで、残りの4つでは、キルはオブジェクティブへの入口にすぎません。",
+      "lede": "Hood Warfare 2には6つのモードがあり、どれもCall of Dutyの定番モードの名前を変えたものです。キルだけで勝敗が決まるのはGangBangとChaosだけで、残りの4つでは、キルはオブジェクティブへの入口にすぎません。",
       "th_mode": "モード",
       "th_cod": "Call of Dutyの対応モード",
       "th_lives": "ライフ",
@@ -343,14 +397,15 @@
       "private": [
         "パッチ1.0.1.4でプライベートマッチが追加されました。パスワード付きのロビーを作成し、パスワードを友達に共有します。",
         "どのモード、どのマップでもボット相手に遊べます。ボット戦は、オンライン戦と同じXPやチャレンジ進行が得られない場合があるため、やり込む前に試合後の画面を確認しましょう。"
-      ]
+      ],
+      "table_title": "Hood Warfare 2の全ゲームモード一覧"
     },
     "guide": {
       "title": "Hood Warfare 2 初心者攻略: コツ・操作・不具合対処",
       "description": "Hood Warfare 2初心者向け：最初の1時間の動き方、レベル・チャレンジ・スキンの解放、操作、ボイスチャット、設定、音が出ない問題の対処。",
       "h1": "Hood Warfare 2 初心者ガイド",
-      "lede": "最初の1時間にやること、解放の仕組み、ストレスを減らす設定と不具合の対処法をまとめました。",
-      "first_hour_title": "最初の1時間",
+      "lede": "Hood Warfare 2を始めたばかりですか？最初の1時間にやること、解放の仕組み、ストレスを大きく減らせる設定と不具合の対処法をまとめました。",
+      "first_hour_title": "Hood Warfare 2の最初の1時間",
       "first_hour": [
         {
           "step": "最初から持っているChoppaでGangBangかChaosを遊ぶ。",
@@ -425,23 +480,23 @@
       "description": "Hood Warfare 2の最新パッチノートとニュース：プライベートマッチ、アンチチート、ボイスチャット、スポーン保護、発売時の反応をSteamから自動更新。",
       "h1": "Hood Warfare 2のニュースとパッチノート",
       "lede": "Trapstar Gamesの公式発表をすべて要約し、発売週の海外メディアの反応も下に掲載しています。Steamの新しい投稿は、3時間以内に自動でここに表示されます。",
-      "official_title": "公式パッチノート",
-      "read_original": "Steamで原文を読む",
+      "official_title": "Hood Warfare 2のパッチノート",
+      "read_original": "Steamでパッチノートを読む",
       "untranslated": "要約はまだ作成されていません。公式投稿の冒頭部分：",
       "press_title": "メディアの反応",
       "viral_title": "バイラルヒットの経緯",
       "viral": [
-        "10月11日、Rainbow Six Siegeのプロ選手Mercが、Drive Byキルストリークのクリップを投稿しました。仲間たちが音楽を流しながら、車の窓から撃っています。翌日までに500万回再生を超えました。",
+        "10月11日、Rainbow Six Siegeのプロ選手Mercが、UAV役のSnitchを含むキルストリークのクリップを投稿しました。投稿では、仲間たちが音楽を流しながら車の窓から撃ちまくるDrive Byをネタにしていました。翌日までに500万回再生を超えました。",
         "10月12日にはDexertoとInsider Gamingがこのゲームを取り上げ、どちらもCall of Dutyとの近さを指摘しました。キルストリーク、クラス編成、Modern Warfare風のHUD、名前を変えたモードです。"
       ],
       "roadmap_title": "今後の予定",
       "roadmap": "Trapstar Gamesはロードマップを公開していません。これまでのパッチノートはどれも、さらなるアップデートの約束で締めくくられており、バグ報告は公式Discordで受け付けています。"
     },
     "charts": {
-      "title": "Hood Warfare 2 同接・プレイヤー数【Steam】",
-      "description": "Hood Warfare 2のSteam同時接続数をリアルタイム表示。過去最高（15,058人と報告）、推移、レビュー評価を3時間ごとに更新。",
-      "h1": "Hood Warfare 2のプレイヤー数",
-      "lede": "Steamの同時接続プレイヤー数を、Steam Web APIから3時間ごとに更新して表示します。他のサイトで報告された最高値も併記しています。",
+      "title": "Hood Warfare 2 プレイヤー数・Steam Charts",
+      "description": "Hood Warfare 2のSteam同時接続数をリアルタイム表示。過去最高（{peak}人と報告）、推移、レビュー評価を3時間ごとに更新。",
+      "h1": "Hood Warfare 2の同接・プレイヤー数とSteam Charts",
+      "lede": "Steamの同時接続プレイヤー数を、Steam Web APIから3時間ごとに更新して表示します。他のサイトで報告された最高値と、初代Hood Warfareとの比較も掲載しています。",
       "current": "現在のプレイヤー数",
       "at": "{time} UTC時点",
       "peak_24h": "過去24時間のピーク（記録値）",
@@ -449,7 +504,7 @@
       "peak_tracked": "当サイトの記録での最高値",
       "reviews": "Steamレビュー",
       "reviews_value": "{total}件中{pct}が好評",
-      "chart_title": "プレイヤー数の推移",
+      "chart_title": "Hood Warfare 2のSteam Charts: プレイヤー数の推移",
       "chart_empty": "記録は2026年10月14日に開始しました。3時間ごとに新しい値が追加され、グラフが埋まっていきます。",
       "chart_aria": "SteamにおけるHood Warfare 2の同時接続プレイヤー数の折れ線グラフ",
       "reported_title": "報告されたピーク",
@@ -458,7 +513,8 @@
       "th_source": "情報源",
       "reported_note": {
         "launch_weekend": "発売週末のピーク",
-        "daily_peak": "1日のピーク"
+        "daily_peak": "1日のピーク",
+        "first_week_peak": "発売初週のピーク"
       },
       "daily_title": "記録した日ごとのピーク",
       "method_title": "数値の見方",
@@ -468,7 +524,17 @@
         "参考までに、初代Hood Warfareの報告された過去最高は68人でした。"
       ],
       "more": "分単位の履歴",
-      "more_links": "高解像度の履歴はSteamDBとSteamChartsで確認できます。"
+      "more_links": "分単位の履歴:",
+      "answer_title": "Hood Warfare 2は今何人が遊んでいますか？",
+      "answer": "{time} UTC時点で、SteamでHood Warfare 2を遊んでいたのは{count}人です。これまでに報告された最高プレイヤー数は、2026年10月8日の発売から1週間以内に記録された{peak}人です。人数は米国の夕方にピークを迎え、米国の午前中に落ち込みます。",
+      "dead_title": "Hood Warfare 2は過疎ですか？",
+      "dead": "いいえ。最新の{count}人という値は報告されたピークの{pct}で、バイラルヒットから1週間たった新作としては普通の水準です。Steamレビューも{reviews}が好評です。上のグラフに注目してください。1日のピークが週を追うごとに下がり続けるようなら、そのゲームは危険信号です。",
+      "vs_title": "Hood WarfareのSteam ChartsとHood Warfare 2の違い",
+      "vs": "SteamChartsをはじめとするいくつかのトラッカーには、初代Hood Warfare（2023年、Steamアプリ2274510）しか登録されていません。その過去最高は{hw1_peak}人です。そのため「Hood Warfare プレイヤー数」で検索すると、数十人しかいないグラフが出てくることがありますが、それは旧作のものです。Hood Warfare 2はSteamアプリ5155360です。",
+      "vs_now": "初代Hood Warfareの現在のプレイヤー数: {count}人",
+      "link_steamdb_hw2": "SteamDB（Hood Warfare 2）",
+      "link_steamdb_hw1": "SteamDB（初代Hood Warfare）",
+      "link_steamcharts_hw1": "SteamCharts（初代Hood Warfareのみ）"
     }
   },
   "weapons": {
@@ -606,7 +672,9 @@
     "hw2org": "hoodwarfare2.org ファンガイド",
     "hw2org-steamdb": "hoodwarfare2.org（SteamDB引用）",
     "tpose": "Tpose Gaming",
-    "gamerblurb": "GamerBlurb"
+    "gamerblurb": "GamerBlurb",
+    "itad": "IsThereAnyDeal（Steamから取得）",
+    "steam-hw1": "Steamストアページ: Hood Warfare（2023年）"
   },
   "gloss": {
     "modes": {
@@ -630,5 +698,15 @@
       "bomber": "自爆兵",
       "driveby": "ドライブバイ"
     }
+  },
+  "shots": {
+    "3a2e0482831e516554f61d50ebc8e424f0768aaf": "Hood Warfare 2の一人称視点: 夕暮れの街の通りで赤いピストルを構える",
+    "4452474718a1f14e5a4a90876fd771b3df0bd15a": "ショッピングセンターの駐車場で、青いピックアップトラックの陰に隠れる赤いパーカーのプレイヤー",
+    "7f9821ca3035154413304b45333b080932830164": "木造の家々の間の、草が伸び放題の庭を押し進む青いチーム",
+    "43f0b1837500b5200327ce996e266f6cc4d93ae5": "がらんとした駐車場の向こうをスコープ付きスナイパーライフルで狙う",
+    "8f6b9d8798f23533564e0e88d008d5ec116f40d1": "明るいショッピングモールの吹き抜けで繰り広げられるHood Warfare 2の銃撃戦",
+    "be62732cc673afb6b5b5eac617ac07241cb925bc": "駐車中の車の横で、茂み越しにサプレッサー付きの金色のピストルを構える赤いキャップのプレイヤー",
+    "b6ed7c29d45420bc36ce6695197e2959bb6def96": "スーパーマーケットの中、パレットに積まれた札束の横でピストルを構える一人称視点",
+    "1b52eb437bf8f80816d8e4110efd838548b242ff": "Hood Warfare 2で、モールの上階から下の敵に金色仕上げのライフルを向ける"
   }
 }
