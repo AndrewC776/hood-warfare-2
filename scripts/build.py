@@ -101,6 +101,8 @@ def main() -> int:
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(ROOT / "assets", OUT / "assets")
+    # Files served as-is from the site root (e.g. Search Console verification).
+    shutil.copytree(ROOT / "static", OUT, dirs_exist_ok=True)
     version = asset_version()
 
     count = 0
