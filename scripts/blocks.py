@@ -97,7 +97,7 @@ def common_values(ctx: dict) -> dict:
         "steam": ctx["game"]["steam_url"],
         "version": ctx["game"]["facts"]["latest_version"],
         "today": fmt_date(ctx["today_iso"], lang),
-        "price": regular_price(ctx),
+        "price": esc(regular_price(ctx)),
     }
 
 

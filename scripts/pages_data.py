@@ -123,7 +123,7 @@ def render_charts(ctx: dict, crumbs: str) -> tuple[str, list[str]]:
             esc(f'{fmt_date(top_reported["date"], lang)}, {lang["sources"][top_reported["source"]]}'),
         )
     reviews = steam.get("reviews")
-    if reviews:
+    if reviews and reviews.get("total"):
         pct = fmt_pct(round(100 * reviews["positive"] / reviews["total"]), lang)
         tiles += stat(copy["reviews"], esc(pct), esc(fill(copy["reviews_value"], pct=pct, total=fmt_int(reviews["total"], lang))))
     by_source = {s["id"]: s for s in game["sources"]}

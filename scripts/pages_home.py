@@ -42,7 +42,7 @@ def live_line(ctx: dict) -> str:
             f'{esc(lang["site"]["players_now"])}</li>'
         )
     reviews = steam.get("reviews")
-    if reviews:
+    if reviews and reviews.get("total"):
         pct = round(100 * reviews["positive"] / reviews["total"])
         parts.append(
             f'<li><strong>{fmt_pct(pct, lang)}</strong> '
@@ -57,7 +57,7 @@ def live_line(ctx: dict) -> str:
 def hero(ctx: dict) -> str:
     lang = ctx["lang"]
     copy = lang["pages"]["home"]
-    shots = (ctx["steam"].get("details") or {}).get("screenshots") or []
+    shots = [s for s in (ctx["steam"].get("details") or {}).get("screenshots") or [] if s.get("full")]
     art = (
         f'<img class="hero-art" src="{esc(shots[0]["full"])}" alt="" width="1920" height="1080" fetchpriority="high">'
         if shots
@@ -145,7 +145,7 @@ def media(ctx: dict) -> str:
     details = ctx["steam"].get("details") or {}
     trailer = details.get("trailer")
     player = ""
-    if trailer and trailer.get("hls"):
+    if trailer and trailer.get("hls") and trailer.get("poster"):
         player = (
             f'<div class="trailer" data-hls="{esc(trailer["hls"])}">'
             f'<img src="{esc(trailer["poster"])}" alt="" width="600" height="337" loading="lazy">'
@@ -156,7 +156,7 @@ def media(ctx: dict) -> str:
     shots = "".join(
         f'<li><a href="{esc(s["full"])}" rel="noopener"><img src="{esc(s["thumb"])}" alt="Hood Warfare 2 screenshot {i + 1}" '
         f'width="600" height="338" loading="lazy"></a></li>'
-        for i, s in enumerate((details.get("screenshots") or [])[1:9])
+        for i, s in enumerate([s for s in details.get("screenshots") or [] if s.get("thumb") and s.get("full")][1:9])
     )
     return f'{player}<ul class="shots">{shots}</ul>'
 

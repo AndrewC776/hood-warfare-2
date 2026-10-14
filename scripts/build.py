@@ -90,10 +90,14 @@ def main() -> int:
     steam = load_json(DATA / "steam.json", {})
     history = load_json(DATA / "history.json", [])
     promo = load_json(I18N / "promo.json", {})
-    shots = (steam.get("details") or {}).get("screenshots") or []
-    og_image = shots[0]["full"] if shots else (steam.get("details") or {}).get("header", "")
+    details = steam.get("details") or {}
+    shots = [s for s in details.get("screenshots") or [] if s.get("full")]
+    og_image = shots[0]["full"] if shots else (details.get("header") or "")
     today = datetime.now(timezone.utc).date().isoformat()
 
+    if OUT == ROOT or ROOT not in OUT.parents:
+        print(f"error: refusing to build into {OUT}", file=sys.stderr)
+        return 1
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(ROOT / "assets", OUT / "assets")

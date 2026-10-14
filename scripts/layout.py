@@ -57,7 +57,7 @@ def head(ctx: dict, page: str, extra_ld: list[str]) -> str:
 <meta property="og:title" content="{esc(copy['title'])}">
 <meta property="og:description" content="{esc(copy['description'])}">
 <meta property="og:url" content="{esc(canonical)}">
-<meta property="og:image" content="{esc(image)}">
+{f'<meta property="og:image" content="{esc(image)}">' if image else ""}
 <meta property="og:locale" content="{esc(lang['meta']['og_locale'])}">
 {og_alt}
 <meta name="twitter:card" content="summary_large_image">

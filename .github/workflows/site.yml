@@ -19,6 +19,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -30,6 +31,12 @@ jobs:
         if: github.event_name != 'push'
         run: python3 scripts/fetch_steam.py
 
+      - name: Check translations
+        run: python3 scripts/check_i18n.py
+
+      - name: Build site
+        run: python3 scripts/build.py
+
       - name: Commit refreshed data
         if: github.event_name != 'push'
         run: |
@@ -40,14 +47,9 @@ jobs:
             echo "No data changes"
           else
             git commit -m "chore: refresh Steam data"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
-
-      - name: Check translations
-        run: python3 scripts/check_i18n.py
-
-      - name: Build site
-        run: python3 scripts/build.py
 
       - uses: actions/upload-pages-artifact@v3
         with:

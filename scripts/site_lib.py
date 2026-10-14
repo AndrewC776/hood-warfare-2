@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 I18N = ROOT / "i18n"
-OUT = ROOT / os.environ.get("SITE_OUT", "_site")
+OUT = (ROOT / (os.environ.get("SITE_OUT") or "_site")).resolve()
 ORIGIN = os.environ.get("SITE_ORIGIN", "https://andrewc776.github.io").rstrip("/")
 BASE = os.environ.get("SITE_BASE", "/hood-warfare-2").rstrip("/")
 REPO_URL = "https://github.com/AndrewC776/hood-warfare-2"

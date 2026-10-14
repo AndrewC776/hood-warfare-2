@@ -2,6 +2,8 @@
   "use strict";
 
   var HLS_SRC = "https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.20/hls.light.min.js";
+  var HLS_SRI = "sha384-GMRZjjumhWPywgLYrubnh5qVhHY0BpD+pxIL57uwAenrOEYDLZ/z+8s/rFIjS+yO";
+  var STEAM_URL = "https://store.steampowered.com/app/5155360/Hood_Warfare_2/";
   var DISMISS_KEY = "hw2-lang-dismissed";
 
   function storageGet(key) {
@@ -21,6 +23,14 @@
     if (t.indexOf("pt") === 0) return "pt-br";
     var base = t.split("-")[0];
     return available.indexOf(base) >= 0 ? base : null;
+  }
+
+  // A manual language choice counts as an answer: stop suggesting another one.
+  function rememberManualChoice() {
+    var links = document.querySelectorAll(".lang-menu a, .foot-langs a");
+    Array.prototype.forEach.call(links, function (link) {
+      link.addEventListener("click", function () { storageSet(DISMISS_KEY, "1"); });
+    });
   }
 
   function suggestLanguage() {
@@ -77,10 +87,12 @@
     });
   }
 
-  function loadScript(src) {
+  function loadScript(src, integrity) {
     return new Promise(function (resolve, reject) {
       var s = document.createElement("script");
       s.src = src;
+      s.integrity = integrity;
+      s.crossOrigin = "anonymous";
       s.onload = resolve;
       s.onerror = reject;
       document.head.appendChild(s);
@@ -99,19 +111,23 @@
       video.setAttribute("aria-label", button.textContent.trim());
       box.innerHTML = "";
       box.appendChild(video);
+      video.focus();
       if (video.canPlayType("application/vnd.apple.mpegurl")) {
         video.src = src;
         video.play().catch(function () {});
         return;
       }
-      loadScript(HLS_SRC).then(function () {
+      loadScript(HLS_SRC, HLS_SRI).then(function () {
         if (!window.Hls || !window.Hls.isSupported()) throw new Error("HLS unsupported");
         var hls = new window.Hls();
         hls.loadSource(src);
         hls.attachMedia(video);
         hls.on(window.Hls.Events.MANIFEST_PARSED, function () { video.play().catch(function () {}); });
+        hls.on(window.Hls.Events.ERROR, function (event, data) {
+          if (data && data.fatal) window.location.href = STEAM_URL;
+        });
       }).catch(function () {
-        window.location.href = "https://store.steampowered.com/app/5155360/Hood_Warfare_2/";
+        window.location.href = STEAM_URL;
       });
     });
   }
@@ -131,6 +147,7 @@
     });
   }
 
+  rememberManualChoice();
   suggestLanguage();
   relativeTimes();
   setupTrailer();

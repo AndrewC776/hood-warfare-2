@@ -147,16 +147,25 @@ def fetch_news() -> list | None:
     ]
 
 
+def safe(fetcher):
+    """Run one fetcher; a malformed response must not abort the whole refresh."""
+    try:
+        return fetcher()
+    except (KeyError, TypeError, ValueError, AttributeError) as exc:
+        print(f"warn: {fetcher.__name__} failed: {exc!r}", file=sys.stderr)
+        return None
+
+
 def main() -> int:
     previous = load(DATA / "steam.json", {})
-    players = fetch_players()
+    players = safe(fetch_players)
     snapshot = {
         "fetched_at": now_iso(),
         "players": players or previous.get("players"),
-        "reviews": fetch_reviews() or previous.get("reviews"),
-        "details": fetch_details() or previous.get("details"),
-        "prices": fetch_prices() or previous.get("prices", {}),
-        "news": fetch_news() or previous.get("news", []),
+        "reviews": safe(fetch_reviews) or previous.get("reviews"),
+        "details": safe(fetch_details) or previous.get("details"),
+        "prices": {**previous.get("prices", {}), **(safe(fetch_prices) or {})},
+        "news": safe(fetch_news) or previous.get("news", []),
     }
     (DATA / "steam.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=1) + "\n")
 
