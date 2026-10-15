@@ -1,20 +1,20 @@
 {
- "fetched_at": "2026-10-15T12:41:46+00:00",
+ "fetched_at": "2026-10-15T15:32:18+00:00",
  "players": {
-  "count": 1900,
-  "at": "2026-10-15T12:41:46+00:00"
+  "count": 2967,
+  "at": "2026-10-15T15:32:18+00:00"
  },
  "players_hw1": {
-  "count": 7,
-  "at": "2026-10-15T12:41:47+00:00"
+  "count": 13,
+  "at": "2026-10-15T15:32:18+00:00"
  },
  "reviews": {
-  "total": 2167,
-  "positive": 1733,
-  "negative": 434,
+  "total": 2201,
+  "positive": 1757,
+  "negative": 444,
   "score": 6,
   "desc": "Mostly Positive",
-  "at": "2026-10-15T12:41:47+00:00"
+  "at": "2026-10-15T15:32:18+00:00"
  },
  "details": {
   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/73c77dc5efdbffef90c2d32324d518e68a18fc4b/header.jpg?t=1791686243",
