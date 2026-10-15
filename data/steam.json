@@ -1,20 +1,20 @@
 {
- "fetched_at": "2026-10-15T15:32:18+00:00",
+ "fetched_at": "2026-10-15T18:35:47+00:00",
  "players": {
-  "count": 2967,
-  "at": "2026-10-15T15:32:18+00:00"
+  "count": 4525,
+  "at": "2026-10-15T18:35:47+00:00"
  },
  "players_hw1": {
-  "count": 13,
-  "at": "2026-10-15T15:32:18+00:00"
+  "count": 17,
+  "at": "2026-10-15T18:35:47+00:00"
  },
  "reviews": {
-  "total": 2201,
-  "positive": 1757,
-  "negative": 444,
+  "total": 2244,
+  "positive": 1786,
+  "negative": 458,
   "score": 6,
   "desc": "Mostly Positive",
-  "at": "2026-10-15T15:32:18+00:00"
+  "at": "2026-10-15T18:35:48+00:00"
  },
  "details": {
   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/73c77dc5efdbffef90c2d32324d518e68a18fc4b/header.jpg?t=1791686243",
@@ -75,80 +75,80 @@
   "us": {
    "currency": "USD",
    "initial": "$5.99",
-   "final": "$5.39",
-   "discount": 10
+   "final": "$5.99",
+   "discount": 0
   },
   "gb": {
    "currency": "GBP",
    "initial": "£5.29",
-   "final": "£4.76",
-   "discount": 10
+   "final": "£5.29",
+   "discount": 0
   },
   "cn": {
    "currency": "CNY",
    "initial": "¥ 26.00",
-   "final": "¥ 23.40",
-   "discount": 10
+   "final": "¥ 26.00",
+   "discount": 0
   },
   "tw": {
    "currency": "TWD",
    "initial": "NT$ 136",
-   "final": "NT$ 122",
-   "discount": 10
+   "final": "NT$ 136",
+   "discount": 0
   },
   "hk": {
    "currency": "HKD",
    "initial": "HK$ 36.00",
-   "final": "HK$ 32.40",
-   "discount": 10
+   "final": "HK$ 36.00",
+   "discount": 0
   },
   "jp": {
    "currency": "JPY",
    "initial": "¥ 790",
-   "final": "¥ 711",
-   "discount": 10
+   "final": "¥ 790",
+   "discount": 0
   },
   "kr": {
    "currency": "KRW",
    "initial": "₩ 6,550",
-   "final": "₩ 5,890",
-   "discount": 10
+   "final": "₩ 6,550",
+   "discount": 0
   },
   "es": {
    "currency": "EUR",
    "initial": "6,15€",
-   "final": "5,53€",
-   "discount": 10
+   "final": "6,15€",
+   "discount": 0
   },
   "mx": {
    "currency": "MXN",
    "initial": "Mex$ 87.99",
-   "final": "Mex$ 79.19",
-   "discount": 10
+   "final": "Mex$ 87.99",
+   "discount": 0
   },
   "br": {
    "currency": "BRL",
    "initial": "R$ 23,49",
-   "final": "R$ 21,14",
-   "discount": 10
+   "final": "R$ 23,49",
+   "discount": 0
   },
   "ru": {
    "currency": "RUB",
    "initial": "290 руб.",
-   "final": "261 руб.",
-   "discount": 10
+   "final": "290 руб.",
+   "discount": 0
   },
   "de": {
    "currency": "EUR",
    "initial": "6,15€",
-   "final": "5,53€",
-   "discount": 10
+   "final": "6,15€",
+   "discount": 0
   },
   "fr": {
    "currency": "EUR",
    "initial": "6,15€",
-   "final": "5,53€",
-   "discount": 10
+   "final": "6,15€",
+   "discount": 0
   }
  },
  "news": [
