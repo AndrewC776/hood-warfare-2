@@ -1,20 +1,20 @@
 {
- "fetched_at": "2026-10-17T06:41:17+00:00",
+ "fetched_at": "2026-10-17T09:28:11+00:00",
  "players": {
-  "count": 4168,
-  "at": "2026-10-17T06:41:17+00:00"
+  "count": 1935,
+  "at": "2026-10-17T09:28:11+00:00"
  },
  "players_hw1": {
-  "count": 15,
-  "at": "2026-10-17T06:41:17+00:00"
+  "count": 9,
+  "at": "2026-10-17T09:28:11+00:00"
  },
  "reviews": {
-  "total": 2761,
-  "positive": 2201,
-  "negative": 560,
+  "total": 2780,
+  "positive": 2217,
+  "negative": 563,
   "score": 6,
   "desc": "Mostly Positive",
-  "at": "2026-10-17T06:41:17+00:00"
+  "at": "2026-10-17T09:28:11+00:00"
  },
  "details": {
   "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/73c77dc5efdbffef90c2d32324d518e68a18fc4b/header.jpg?t=1791686243",
@@ -152,6 +152,29 @@
   }
  },
  "news": [
+  {
+   "gid": "1846651706684064",
+   "title": "1.0.1.8 - 2 NEW GUNS - Draco & Arp + Bug Fixes",
+   "date": "2026-10-17T08:18:42+00:00",
+   "url": "https://store.steampowered.com/news/app/5155360/view/1846651706684064",
+   "lines": [
+    "1.0.1.8 - 2 NEW GUNS - Draco + Arp + Many More",
+    "2 New Weapons Added - Draco and the ARP",
+    "All guns spawn with +1 more clip of ammo than they did before",
+    "Fixed exploit with the homies where they can clip through the ceiling of some maps",
+    "Fixed the homies colors to be red on chaos (matching your gang now)",
+    "Adjusted Chain snatch to go to 75 points instead of 100 to account for the change below",
+    "Changed behavior on chain snatch for retrieving own teams chain, it no longer gains a point towards your team so losing teams cant win by collecting own teammates",
+    "Reworked grenade to be much more powerful + redid explosion effects on grenade",
+    "Netcode reworks with microphones fixing crashes and other issues",
+    "Significantly increased the health of drive-by killstreak, much more health by default",
+    "Renamed bomber to “Crashout” killsteak",
+    "Adjusted UI so level up text and killstreaks don’t overlap",
+    "+Many more minor fixes and small text adjustments",
+    "Stay tuned, were listening to yalls feedback and continuing to make the game better. Many more updates to come",
+    "-Trap$tar"
+   ]
+  },
   {
    "gid": "1846651706680341",
    "title": "Patch 1.0.1.7 - Party Invite System + Bug/Crash Fixes + More",
