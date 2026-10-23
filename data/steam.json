@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-10-22T21:27:58+00:00",
+ "fetched_at": "2026-10-23T01:02:07+00:00",
  "players": {
-  "count": 1443,
-  "at": "2026-10-22T21:27:58+00:00"
+  "count": 2003,
+  "at": "2026-10-23T01:02:07+00:00"
  },
  "players_hw1": {
-  "count": 4,
-  "at": "2026-10-22T21:27:58+00:00"
+  "count": 3,
+  "at": "2026-10-23T01:02:07+00:00"
  },
  "reviews": {
   "total": 3663,
@@ -69,7 +69,7 @@
    "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257422345/ab6e710a9a5fdf6eaff3c2cbda229913c631aab6/movie_600x337.jpg?t=1789586064",
    "hls": "https://video.akamai.steamstatic.com/store_trailers/5155360/384733343/bdbb4dc29e132f1bf7b0baea9d620d20db178e98/1789079353/hls_264_master.m3u8?t=1789586064"
   },
-  "release": "Oct 8, 2026"
+  "release": "8 Oct, 2026"
  },
  "prices": {
   "us": {
@@ -152,6 +152,44 @@
   }
  },
  "news": [
+  {
+   "gid": "1847286114034585",
+   "title": "Update 1.0.2.0 - Official Servers, Anti Cheat, Optimizations + Fixes & More",
+   "date": "2026-10-23T00:53:58+00:00",
+   "url": "https://store.steampowered.com/news/app/5155360/view/1847286114034585",
+   "lines": [
+    "Update 1.0.2.0 Patch Notes",
+    "Official Servers: You can now find 40+ official Hood Warfare 2 servers protected by Easy Anti-Cheat (EAC). Players should experience significantly better ping and fewer cheaters.",
+    "TheStrip Map Update: Added new buildings and improved the layout for better balance. Snipers should have a harder time spawn camping, with long sightlines limited to narrower roads.",
+    "FPS Optimizations: Improved performance on lower-end hardware. Players with lower-end systems should see an FPS boost. Especially on some low-performing maps like TheTrenches",
+    "More Customizable Create Game: You can now choose to rotate maps and game modes or stick to a specific map and mode.",
+    "Easy Anti-Cheat Re-enabled: EAC was temporarily disabled in the previous update due to compatibility issues. It is now fully active on official servers. We've also reviewed reports and banned many confirmed cheaters. Please continue reporting suspicious players.",
+    "Fixed gray bar getting stuck on screen when creating a game.",
+    "Added a confirmation UI when quitting the game.",
+    "Fixed weapon pickup UI getting stuck on screen.",
+    "Fixed issues with picking up weapons.",
+    "Blocked firing when aiming directly into a mesh.",
+    "Removed the Chicago Mall door leading outside.",
+    "Claymores are now destroyed when their owner dies.",
+    "Fixed invisible players.",
+    "Quick Play Update: You can now select your preferred game mode!",
+    "Added time limits to rounds.",
+    "Grenades now properly pass through barriers on Suburbs.",
+    "Fixed various issues with the Suburbs map.",
+    "Nerfed shotguns.",
+    "Fixed an issue where shooting or meleeing could completely prevent players from shooting, running, or switching weapons.",
+    "Fixed killstreak UI disappearing.",
+    "Fixed an issue where players could become unable to shoot after recently stopping fire.",
+    "Grenades now properly pass through world borders.",
+    "Fixed an exploit allowing players to despawn the bomb/bag.",
+    "Fixed several exploits (ifykyk).",
+    "Plus many more minor map improvements and fixes!",
+    "Developer Note:",
+    "If you're not seeing a update, make sure you fully restart steam (top left in steam app - exit steam) and your game should show the update pending. The bottom righty corner of your game should say 1.0.2.0 as the version.",
+    "Thanks to everyone who helped test all these fixes in the beta on discord. If you're interested in testing future updates make sure to join the discord testing channel. Expect many more content updates to come, including character customization, prestige, more skins, more maps & more in the following weeks/months.",
+    "-Trap$tar"
+   ]
+  },
   {
    "gid": "1846651706684064",
    "title": "1.0.1.8 - 2 NEW GUNS - Draco & Arp + Bug Fixes",
