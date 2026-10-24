@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-10-24T06:42:25+00:00",
+ "fetched_at": "2026-10-24T09:28:59+00:00",
  "players": {
-  "count": 1387,
-  "at": "2026-10-24T06:42:25+00:00"
+  "count": 627,
+  "at": "2026-10-24T09:28:59+00:00"
  },
  "players_hw1": {
-  "count": 3,
-  "at": "2026-10-24T06:42:26+00:00"
+  "count": 2,
+  "at": "2026-10-24T09:28:59+00:00"
  },
  "reviews": {
   "total": 3663,
@@ -69,7 +69,7 @@
    "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257422345/ab6e710a9a5fdf6eaff3c2cbda229913c631aab6/movie_600x337.jpg?t=1789586064",
    "hls": "https://video.akamai.steamstatic.com/store_trailers/5155360/384733343/bdbb4dc29e132f1bf7b0baea9d620d20db178e98/1789079353/hls_264_master.m3u8?t=1789586064"
   },
-  "release": "8 Oct, 2026"
+  "release": "Oct 8, 2026"
  },
  "prices": {
   "us": {
