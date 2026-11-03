@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-11-03T03:24:30+00:00",
+ "fetched_at": "2026-11-03T06:31:38+00:00",
  "players": {
-  "count": 831,
-  "at": "2026-11-03T03:24:30+00:00"
+  "count": 399,
+  "at": "2026-11-03T06:31:38+00:00"
  },
  "players_hw1": {
-  "count": 2,
-  "at": "2026-11-03T03:24:30+00:00"
+  "count": 1,
+  "at": "2026-11-03T06:31:38+00:00"
  },
  "reviews": {
   "total": 3663,
@@ -152,6 +152,43 @@
   }
  },
  "news": [
+  {
+   "gid": "1847920302250643",
+   "title": "Update 1.0.2.2 : Character Customization, Matchmaking Updates, New UI & More",
+   "date": "2026-11-03T05:06:40+00:00",
+   "url": "https://store.steampowered.com/news/app/5155360/view/1847920302250643",
+   "lines": [
+    "Update 1.0.2.2 : Character Customization, Matchmaking Updates, New UI & More",
+    "Character customization: Customize your character through the in-game player menu. Previously unlocked characters are now “Bundles,” containing their original body and clothing. You keep everything you’ve unlocked and can mix and match clothing from existing bundles. More clothing to unlock is coming soon.",
+    "Matchmaking and parties: Reworked matchmaking and improved the party system. Party members now join the same team.",
+    "Map voting: Added map voting between matches.",
+    "Map and mode previews: Each map/mode combination now has its own preview image showing the mode on that map.",
+    "UI improvements: Redesigned several menus, including a cleaner scoreboard that now displays player levels and a cleaner, scrollable party area on the main menu.",
+    "Killstreak indicators: Enlarged the killstreak display and added a yellow highlight when a killstreak is ready.",
+    "Controller improvements: Improved responsiveness, aim assist, and dead zones. Added Xbox and PS5 button prompts, along with advanced controller settings to fine-tune your preferences.",
+    "Camera restrictions: Added the option to enforce first-person or third-person view when creating a lobby. Official servers allow both views, except Destroy The Block, which is now first-person only.",
+    "Spawn improvements: Reworked the spawn system to place players in better locations. Smaller maps, such as Supermarket, remain challenging, but spawning should feel better overall. More maps are coming soon.",
+    "Destroy The Block spawns: Moved spawn points into a line at the back of the map instead of spreading them out.",
+    "Teammate spectating: Added teammate spectating in Destroy The Block.",
+    "Player statistics: Added statistics, accessible by clicking your name in the top-right corner of the main menu.",
+    "Sticky Fingers: Added an ability that lets you pick up ammo from dead players.",
+    "Weapon wall checks: Reduced the distance at which nearby walls block firing. If a wall interrupts your fire, shooting now resumes as soon as you move clear without requiring another click.",
+    "Shotgun reloads: Added reload canceling.",
+    "Loadout navigation: The ESC key now works in the loadout menu.",
+    "Intro volume: The UI volume slider now controls the startup logo’s audio.",
+    "Chat filter: Reduced the restrictions of the regex-based chat filter.",
+    "Weapon switching: Fixed an exploit that allowed players to switch weapons and fire instantly.",
+    "Sniper shoulder swap: Fixed shoulder swapping with sniper rifles.",
+    "Ammo exploit: Fixed an exploit that granted unlimited ammo by repeatedly picking up your own weapon.",
+    "Grenades: Fixed grenades disappearing after being thrown, becoming invisible, or getting stuck to the player’s hand.",
+    "Suburb windows: Fixed issues with windows on Suburb.",
+    "Mall boundaries: Fixed an exploit that allowed players to leave Mall while using the Drive By killstreak.",
+    "General fixes: Fixed various other bugs and exploits.",
+    "If you're not seeing a update, make sure you fully restart steam (top left in steam app - exit steam) and your game should show the update pending. The bottom righty corner of your game should say 1.0.2.2 as the version.",
+    "Thanks to everyone in the Discord Beta Testing channel who helped us test out the update. In the following updates we plan on adding more maps & content. Stay tuned",
+    "-Trap$tar"
+   ]
+  },
   {
    "gid": "1847286114034585",
    "title": "Update 1.0.2.0 - Official Servers, Anti Cheat, Optimizations + Fixes & More",
