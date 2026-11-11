@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-11-11T18:23:33+00:00",
+ "fetched_at": "2026-11-11T21:23:04+00:00",
  "players": {
-  "count": 196,
-  "at": "2026-11-11T18:23:33+00:00"
+  "count": 343,
+  "at": "2026-11-11T21:23:04+00:00"
  },
  "players_hw1": {
-  "count": 3,
-  "at": "2026-11-11T18:23:33+00:00"
+  "count": 1,
+  "at": "2026-11-11T21:23:04+00:00"
  },
  "reviews": {
   "total": 3663,
@@ -152,6 +152,35 @@
   }
  },
  "news": [
+  {
+   "gid": "1849192144180356",
+   "title": "Update 1.0.2.4 - O-Block Map + Prestige, Chains & More",
+   "date": "2026-11-11T20:34:07+00:00",
+   "url": "https://store.steampowered.com/news/app/5155360/view/1849192144180356",
+   "lines": [
+    "Update 1.0.2.4 - O-Block Map + Prestige, Chains & More",
+    "O Block Map: A brand new map has been added to Hood Warfare 2, O-Block, based on Parkway Gardens in Chicago. We’ve listened to your map design feedback and made this map have a much more balanced map design, with a traditional 3 lane layout and lots of corners to flank.",
+    "Prestige: Players can now prestige their account once reaching level 55, this resets weapon progress, however players keep their weapon skins and cosmetics. Players can prestige up to prestige 10. Each prestige has its own custom emblem and chain",
+    "Chains: You can now unlock chains by prestiging your character. Each prestige has a unique chain you can unlock. 10 Different chains with unique designs have been added.",
+    "Additional Fixes:",
+    "Adjusted spawns: Spawns will now prioritize locations near your teammates rather than randomly selecting a \"safe\" spot somewhere around the map.",
+    "New Killcard UI: Players killcard now displays their steam profile picture, their level, the full name of the weapon, and more. This card also stays on screen until you respawn, whereas the last one disappeared once it started spectating the player who killed you.",
+    "Fixed invincible player spawns: Fresh spawns will no longer have an insane amount of health.",
+    "Made windows more transparent: Specifically on Suburbs, making it much easier to spot people hiding in windows.",
+    "Fixed the camera when joining an already started Destroy The Block game.",
+    "Fixed Grenades causing your weapon to go invisible",
+    "Reduced Rubberbanding",
+    "Removed XP Clamp for Official Servers",
+    "Added Sprint Reloading",
+    "Left-Click now cancels reloading",
+    "Small Map Fixes",
+    "Crash fixes",
+    "Additional minor fixes you probably never noticed",
+    "If you're not seeing an update, make sure you fully restart steam (top left in steam app - exit steam) and your game should show the update pending. The bottom right corner of your game should say 1.0.2.4 as the version.",
+    "Thanks to everyone in the Discord Beta Testing channel who helped us test out the update. In future updates we plan on adding many more clothes to customization, additional challenges for unlocking items, more guns, maps & more.",
+    "-Trap$tar"
+   ]
+  },
   {
    "gid": "1847920302250643",
    "title": "Update 1.0.2.2 : Character Customization, Matchmaking Updates, New UI & More",
