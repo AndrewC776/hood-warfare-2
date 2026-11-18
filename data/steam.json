@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-11-18T00:43:00+00:00",
+ "fetched_at": "2026-11-18T03:25:41+00:00",
  "players": {
-  "count": 311,
-  "at": "2026-11-18T00:43:00+00:00"
+  "count": 372,
+  "at": "2026-11-18T03:25:41+00:00"
  },
  "players_hw1": {
   "count": 2,
-  "at": "2026-11-18T00:43:00+00:00"
+  "at": "2026-11-18T03:25:42+00:00"
  },
  "reviews": {
   "total": 3663,
@@ -152,6 +152,24 @@
   }
  },
  "news": [
+  {
+   "gid": "1849827110422329",
+   "title": "Patch 1.0.2.5 - New Clothing + Challenges. Optimizations & Bug Fixes",
+   "date": "2026-11-18T02:10:04+00:00",
+   "url": "https://store.steampowered.com/news/app/5155360/view/1849827110422329",
+   "lines": [
+    "Patch 1.0.2.5 - New Clothing + Challenges. Optimizations & Bug Fixes",
+    "Added various items of clothing - T-Shirts, tank tops, bandana mask, track pants, including variations of each. These items can be unlocked through the new challenges on the new “Challenges” tab",
+    "New challenges to unlock the new cosmetics in game, found in the “Challenges” tab.",
+    "Crash Fixes - some users have reported crashing since the latest update with the new main menu, this should be fixed",
+    "Stutter Fixes - some users reported frames being stuttered on certain maps, this should be fixed",
+    "Game optimizations - The game should be slightly more optimized on lower end hardware, implemented minor optimizations such as preloading textures and weapons, optimizations to character models",
+    "Muddy texture fix - Fixed the muddy texture on the mall map for some low end hardware",
+    "Other minor bug fixes",
+    "This was a minor patch update but some bigger content updates in the works coming soon. Stay tuned",
+    "-Trap$tar"
+   ]
+  },
   {
    "gid": "1849192144180356",
    "title": "Update 1.0.2.4 - O-Block Map + Prestige, Chains & More",
